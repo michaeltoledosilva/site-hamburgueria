@@ -1,5 +1,7 @@
 # Direção e escopo da revisão
 
+> Plano inicial de criação. Na revisão posterior, o usuário pediu mídias vivas e originais: os gradientes de escurecimento foram removidos, preservando as cores e usando sombra somente nos textos. Consultar LATENCIA.md para a decisão atual e suas medições.
+
 BRASA BURGER é uma marca fictícia para portfólio ZMT. A primeira ação é explorar o cardápio; delivery demonstra a futura conexão com canais reais. Não há preços, avaliações, endereço ou pedidos reais.
 
 Mobile: produto ocupa a área superior; títulos, descrição e CTA ficam na faixa inferior protegida por gradiente, acima dos controles. Cabeçalho compacto e controles inferiores de 44px. Em telas baixas, reduzir título e espaços, mantendo descrição e CTA. Desktop: texto à esquerda e produto central/direita, composição ampla e contraste local.

@@ -1,5 +1,7 @@
 # Publicação preparada — não executada
 
+> Registro histórico dos comandos da primeira entrega. A criação do repositório e o push inicial foram autorizados e executados: https://github.com/michaeltoledosilva/site-hamburgueria, branch `master`, commit inicial `a3081a2`. Não executar `gh repo create` novamente. Atualizações autorizadas usam `git add`, `git commit` e `git push origin master` na mesma raiz Git. A pasta do aplicativo continua sendo `site-hamburgueria`. Não foi configurada hospedagem por este projeto.
+
 A raiz Git é `C:\Users\micha\OneDrive\Documentos\ChatGPT\Hamburgueria`. O aplicativo fica na subpasta `site-hamburgueria`. A branch local já é `master`, sem commits e sem origin. A consulta do conector GitHub retornou HTTP 404 para `michaeltoledosilva/site-hamburgueria`: repositório ausente ou não acessível à conexão. Verificar novamente antes de criar.
 
 Somente após aprovação, executar:

@@ -9,3 +9,9 @@ html,body{background:#100e0c;color:var(--ivory)}body{font-family:Brasa,Arial,san
 footer p{display:block;max-width:330px}footer p a{text-decoration:underline;text-underline-offset:4px}
 @media(max-width:1023px),(max-aspect-ratio:1/1){.static-mode .site-header{left:7%;right:7%;gap:12px}.static-mode .site-header .brand{font-size:19px;white-space:nowrap}.static-mode .site-header .brand span{font-size:6px;letter-spacing:1px}.static-mode .header-book-long{display:none}.static-mode .header-book-short{display:inline}.static-mode .header-book{font-size:12px;min-height:44px;padding:8px 0;border:0;gap:8px}.static-mode .scene-copy{max-width:100%;overflow-wrap:break-word}}
 @media(max-width:360px){.static-mode .site-header .brand{font-size:16px}}
+/* Original exposure and colors: no dark veil over the supplied media. */
+.experience .scene-shade,.experience:not(.static-mode) .scene-shade{background:none}
+.final-scene:after{background:none}
+.scene-copy h1,.scene-copy h2,.scene-copy p,.scene-copy .eyebrow,.scene-note,
+.final-scene h2,.final-scene .eyebrow,.final-scene p{ text-shadow:0 2px 4px #000,1px 0 2px #000 }
+.site-header,.cinema-bottom,.skip-animation,.experience-toggle{ text-shadow:0 1px 5px #000 }

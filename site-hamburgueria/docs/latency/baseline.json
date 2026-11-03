@@ -1,0 +1,11 @@
+{
+  "commit": "a3081a274ae3fce9a314d54a7284008eea5342a3",
+  "build": "2fi22UapUYlG7lJ82C9TY",
+  "hashes": {
+    "src/components/cinematic/Experience.tsx": "e6fe578998f6605ea7a8698732f577803fbd48bad44b8c7103cbb2e673d5bd5c",
+    "src/components/cinematic/frameLoader.ts": "a8de863d9e9591e11cb3ed478b9811e5dc4ba914e62b4146518f2d83ea454ca8",
+    "src/components/cinematic/viewportGeometry.ts": "4c24fca646696537c51ed0093663fdd482831943f9d0dc49a735b0d5ead2e156",
+    "src/data/scenes.ts": "c1b69f016f0fcd38b281cf4aa24d8a21ebfe913d96040bfea076a8913a82392b"
+  },
+  "protocol": "benchmark-mobile.mjs: 390x844 DPR2, CPU4, three runs full+150ms delay, tolerance 2frames; same gestures/waits before/after; fresh contexts; loopback; no concurrent build."
+}

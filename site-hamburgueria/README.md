@@ -33,4 +33,6 @@ As suítes de navegador usam o Playwright já disponível neste computador e Edg
 
 `docs/media-map.json` registra todos os nomes reais, dimensões, duração e derivados. `scripts/prepare-media.mjs <pasta-dos-originais>` regenera os arquivos otimizados sem alterar originais. O site entregue usa derivados locais, sem depender da pasta de origem.
 
-Consulte ENTREGA.md e PUBLICACAO.md. Prévia noindex; domínio/canonical/sitemap e canais comerciais pendentes. Nenhum commit, push, repositório remoto ou deploy foi realizado. Não publicar automaticamente.
+Consulte LATENCIA.md para a revisão atual, e ENTREGA.md/PUBLICACAO.md para o histórico inicial. Fonte no GitHub em `michaeltoledosilva/site-hamburgueria`, branch `master`. Prévia noindex; domínio/canonical/sitemap e canais comerciais pendentes. Nenhuma hospedagem é criada automaticamente.
+
+`npm run build` também gera e verifica os pacotes binários a partir dos WebPs existentes. Os arquivos individuais continuam disponíveis como fallback. As cores das mídias são preservadas: o gradiente de escurecimento foi removido; há sombra somente nos textos.

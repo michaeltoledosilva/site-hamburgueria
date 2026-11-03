@@ -10,7 +10,7 @@ function harness(){
  const code=ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2020}}).outputText;
  const exports={};
  vm.runInNewContext(code,{exports,require:()=>({scenes:Array.from({length:5},(_,i)=>({id:String(i)})),framesPerScene:80}),performance:{now:()=>time},AbortController,setTimeout,clearTimeout,URL,fetch:(url,{signal})=>new Promise((resolve,reject)=>{const job={url,resolve:()=>resolve({ok:true,blob:async()=>({size:100})})};pending.push(job);signal.addEventListener('abort',()=>reject(new DOMException('Aborted','AbortError')),{once:true});}),createImageBitmap:async()=>({width:864,height:1080,close:()=>closed++})});
- const loader=new exports.FrameLoader(true,()=>notified++,3,'',true,'bitmap',true);
+ const loader=new exports.FrameLoader(true,()=>notified++,3,'',true,'bitmap',true,false);
  return {loader,pending,advance:ms=>time+=ms,closed:()=>closed,notified:()=>notified};
 }
 const flush=async()=>{for(let i=0;i<12;i++)await Promise.resolve();};

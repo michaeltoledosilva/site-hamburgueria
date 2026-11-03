@@ -6,7 +6,7 @@
     "url": "http://127.0.0.1:3002/",
     "engine": "Edge headless / Chromium",
     "browserVersion": "156.0.4314.58",
-    "buildId": "2fi22UapUYlG7lJ82C9TY",
+    "buildId": "ExDoU3WQ6g0fUyh5RAxKC",
     "deviceCoverage": "emulated"
   },
   "scope": {
@@ -164,7 +164,7 @@
   "dependencies": [
     {
       "path": "src/app/brasa.css",
-      "sha256": "e19be49ecaa484a70940cf22e5e551c842b4d49fd98ff36be54e4e57f8fd3a6e"
+      "sha256": "a94671ae20ed7985d560ee2b89070e4114d073132180987442908b1d6c627573"
     },
     {
       "path": "src/app/cinematic-mobile-composition.css",
@@ -196,11 +196,15 @@
     },
     {
       "path": "src/components/cinematic/Experience.tsx",
-      "sha256": "e6fe578998f6605ea7a8698732f577803fbd48bad44b8c7103cbb2e673d5bd5c"
+      "sha256": "9d89e7c1875bfe07af1e43f4df62c7e867a0b6919fec714ce0d8f477e42c316a"
     },
     {
       "path": "src/components/cinematic/frameLoader.ts",
-      "sha256": "a8de863d9e9591e11cb3ed478b9811e5dc4ba914e62b4146518f2d83ea454ca8"
+      "sha256": "260dad5d9c473a34dfa46849ba5ad729399ee8fc7f4c32e603f41f15afd6d9b6"
+    },
+    {
+      "path": "src/components/cinematic/framePacks.ts",
+      "sha256": "a4336a5795b39a9bffc83d7f730a7db54c89722dd0805749d411f489cfdc9b37"
     },
     {
       "path": "src/components/cinematic/MotionPreferenceLink.tsx",
@@ -212,7 +216,7 @@
     },
     {
       "path": "src/components/cinematic/renderScheduler.ts",
-      "sha256": "c30eaac34b08166e448200a093b85c771e09bb438fcedfc073d746658387586b"
+      "sha256": "907a8c8b63324d83f148090e5df0313d060c2f1b5b05f4a1dd5f043e3334fa06"
     },
     {
       "path": "src/components/cinematic/viewportGeometry.ts",
@@ -583,6 +587,26 @@
       "sha256": "95572ca2141c684b2feeeaeb90b7586c74146b4d2d929f3473b893e6e8544cc1"
     },
     {
+      "path": "public/media/brasa/desktop-native/packs/000.bin",
+      "sha256": "c85675a8ce92a603d2a884428e6d66b4b02d8bd81a9bf4e5a8b0da18a0b59901"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/packs/001.bin",
+      "sha256": "c5ae2176526bed6f340d20fa48338891d2dcfa5dca08a3062e742542d59a7443"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/packs/002.bin",
+      "sha256": "baed3f7cf0deafe0d0246a1b30df680fad0173e742877cc5354c42d2dd0f4d86"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/packs/003.bin",
+      "sha256": "c529b648e3b6dc042e17cbada8799fda6c509ab207f43a484a3a02c35f39bb34"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/packs/004.bin",
+      "sha256": "fbaa5b8aa61be855c57223cbd104b39d1d4ce1eaf0a1228b340700ea7a0fcac3"
+    },
+    {
       "path": "public/media/brasa/mobile-native/001.webp",
       "sha256": "8b101d95f06e33505795ee3cbac7c4d9f3f6ccd6e77f7f781daad0980b583565"
     },
@@ -901,6 +925,26 @@
     {
       "path": "public/media/brasa/mobile-native/080.webp",
       "sha256": "9e0dd5e6cb1b5e25db92197b0b75f693eba5dd1f030da2fb199351f1f8a9634a"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/packs/000.bin",
+      "sha256": "931f7792538f8c4c22752cecba1b6fc5915a102a4fc4c72c10162857825da247"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/packs/001.bin",
+      "sha256": "08ce5556f91553be12d9800acad1f4d6ac63b186e45c31097830220633d0e354"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/packs/002.bin",
+      "sha256": "cae33812b5c0afc07742d5f8183426529070bd38c8c251b8ec19b7ec9bb7f3f0"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/packs/003.bin",
+      "sha256": "a1443fd66f3d118d7e4eede1b6dd6b9121fb9efcf9ba2c72c7bc1ddc6ae59219"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/packs/004.bin",
+      "sha256": "cccf2fbe620730fefd35e538cad9f860583af03521ca4e905d30bf02c105625f"
     },
     {
       "path": "public/media/camadas/desktop-native/001.webp",
@@ -1223,6 +1267,26 @@
       "sha256": "92121f450e11b8c067df057223ce26932d5d0a64878317249ad747986ee57b28"
     },
     {
+      "path": "public/media/camadas/desktop-native/packs/000.bin",
+      "sha256": "70ed533e5f77f171fe2050b9d17cd4db7753c39c72f7d5cc90cc16460819dc50"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/packs/001.bin",
+      "sha256": "43adcf4491a609bd8967970e7ff1a9bba872c9969cae865bb27934f93ebe20cf"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/packs/002.bin",
+      "sha256": "31cce2cde2a19237386ba1f082348037532ae10109e1d3db0bf62134153179d5"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/packs/003.bin",
+      "sha256": "c44beb508143fd12b61264263667229b77416d58754267db80aed72bde9918b2"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/packs/004.bin",
+      "sha256": "a31b4fa6e18f12435c68393ad5617ef8c4333adeba92fe832b9dcc9876a73634"
+    },
+    {
       "path": "public/media/camadas/mobile-native/001.webp",
       "sha256": "3db496b39f19f857852fbe3e367178d8b863898e21701746fecb6c279082b4b4"
     },
@@ -1541,6 +1605,26 @@
     {
       "path": "public/media/camadas/mobile-native/080.webp",
       "sha256": "72b174994fc7cbfe9dca808fdf97c508ec6202e37aa88e04ced92c0c1c39894e"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/packs/000.bin",
+      "sha256": "d6c7ed98b91407c8754c4c00c3be7f586ebb38bef660d5aff1d3dfc1cc26986d"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/packs/001.bin",
+      "sha256": "86d55256ab97d7bd6908864e580d4bc5db7b2e55ec02ea5055038538bf033e38"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/packs/002.bin",
+      "sha256": "df76260c7a24c2220026f2174139d4a6f031b81e24157d698c6e76e71b70418a"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/packs/003.bin",
+      "sha256": "1aac97fe0892fb9d5f8255fc8ed6d6c164ca239c57514d5b450f980bba11457e"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/packs/004.bin",
+      "sha256": "335b370cb7b7e936b82282c6514407cdb806659a1dea39912466a3b6d7ce5267"
     },
     {
       "path": "public/media/chapa/desktop-native/001.webp",
@@ -1863,6 +1947,26 @@
       "sha256": "356c189bc449c336d8641e2c80d0813ec691b3aee9fdf17b78ece4a26962f5b3"
     },
     {
+      "path": "public/media/chapa/desktop-native/packs/000.bin",
+      "sha256": "1bc2d5d9b5f2fa4ab38f9a07cdd69e17bdad7e9d980046274e1d39307b04e4c3"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/packs/001.bin",
+      "sha256": "c63a30b099be6bcfee4b22d1e9b0bb927aa1ba5c531c9509e0e832a50ed55060"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/packs/002.bin",
+      "sha256": "5c443a9223354245a07db4934240f208b640b2ff5ec28b60ee4ccb901623f01a"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/packs/003.bin",
+      "sha256": "d8a8758aaa5dd50e86089dde3decc709cbb1967284adb84bd942f497168a3cdc"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/packs/004.bin",
+      "sha256": "252ff5c03eca8bad2857bbfe1350ee4029e24d3f602e34da2c27c597a4d61819"
+    },
+    {
       "path": "public/media/chapa/mobile-native/001.webp",
       "sha256": "b1e6080977b85d00b6abd8e0731ab3679037545dabff1319a7d50ebf44af0cdc"
     },
@@ -2183,12 +2287,32 @@
       "sha256": "e6e8a6f7e167bdccf4b5219d6a62fa86077764af9b70c9c914e80775dde3d637"
     },
     {
+      "path": "public/media/chapa/mobile-native/packs/000.bin",
+      "sha256": "0ad811c0d123a41998ed9a67c20007cabf9fcf4f13bc00ae8f62ada758aab821"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/packs/001.bin",
+      "sha256": "e6874ae3972b38dacdd49ff2c4a1815410f05048238ad8839b317cbeb8fecf43"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/packs/002.bin",
+      "sha256": "acdf9cf240d600db93df53d01cbad37efa34cf6b2704a0b2d398f40d7fbee27b"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/packs/003.bin",
+      "sha256": "d01fed57bfabfd17300d3e440524aacc75beee3eb04b599fd59391e28dcd3129"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/packs/004.bin",
+      "sha256": "0a7d10220f6867597c3a0ca37c9dc42c05c0e31668241c63ae94b5a5a1fe0aaa"
+    },
+    {
       "path": "public/robots.txt",
       "sha256": "d857707b8a16ff71def52f17c4da91ced550ca5fcc9614ed6025feb1244df421"
     },
     {
       "path": "package.json",
-      "sha256": "ed556df1e87f60c0f014a2ee32662ac6f0782db889a961709245252adc37968a"
+      "sha256": "2148dd0f83f3621b5ad87b40849c1919c6e1e0eab2eb8e72ec048db4e85f5134"
     },
     {
       "path": "package-lock.json",
@@ -2207,7 +2331,7 @@
     {
       "id": "1440-closing",
       "path": "review/1440-closing.png",
-      "sha256": "96395c1e08ef98fb94bae9abd43fafda888bc5c9e9bf63252a1348f81acea981",
+      "sha256": "a50132519ed0f5c5d65eef0ac3ee49d3c82764d18190110a48974f8f5aa43168",
       "profile": "desktop",
       "state": "closing",
       "viewport": {
@@ -2216,12 +2340,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Retomada gastronômica com CTA de retorno ao cardápio. Cena 2, frame 79. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Retomada gastronômica com CTA de retorno ao cardápio. Cena 2, frame 79. Fonte desktop-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "1440-delivery",
       "path": "review/1440-delivery.png",
-      "sha256": "a03eeb218638c7bd9728eacccad0f3ae6d5e59fd502d972a1da5d968148b0ab6",
+      "sha256": "3a7884b0414316c4eed8413229fb05a907de52ebfea4018874b6517f6bae2e96",
       "profile": "desktop",
       "state": "delivery",
       "viewport": {
@@ -2230,12 +2354,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Aviso demonstrativo e botões com feedback local; nenhum pedido enviado. Cena 2, frame 79. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Aviso demonstrativo e botões com feedback local; nenhum pedido enviado. Cena 2, frame 79. Fonte desktop-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "1440-entry",
       "path": "review/1440-entry.png",
-      "sha256": "de7530d34478ab1b99cb2f86f3a6f7f15ce4f6163f7815aaf8f72b33668bbc7d",
+      "sha256": "2d930b5318293bda306c6a2ea82ddc8cec3521eec311b11ee2591cf6ff428b0d",
       "profile": "desktop",
       "state": "entry",
       "viewport": {
@@ -2244,12 +2368,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Identidade, título e CTA legíveis; produto focal na área superior/direita; controles separados. Cena 0, frame 0. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Identidade, título e CTA legíveis; produto focal na área superior/direita; controles separados. Cena 0, frame 0. Fonte desktop-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "1440-exit",
       "path": "review/1440-exit.png",
-      "sha256": "baacd8b426400bb9e851b92e2460dce814a0a58194be13f9d70a83134f4da216",
+      "sha256": "253addc3fd481667e28ed4fc44e1241644e2994a8a1fc821732537ced0a4860a",
       "profile": "desktop",
       "state": "exit",
       "viewport": {
@@ -2258,7 +2382,7 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Crédito demonstrativo e retorno ao início visíveis; sem contatos de hamburgueria inventados. Cena 2, frame 79. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Crédito demonstrativo e retorno ao início visíveis; sem contatos de hamburgueria inventados. Cena 2, frame 79. Fonte desktop-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "1440-menu",
@@ -2272,12 +2396,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Cards ilustrativos coerentes com as imagens fornecidas, sem preços ou promoções. Cena 2, frame 79. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Cards ilustrativos coerentes com as imagens fornecidas, sem preços ou promoções. Cena 2, frame 79. Fonte desktop-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "1440-mid-0",
       "path": "review/1440-mid-0.png",
-      "sha256": "6c334950337c9a1f9be2e89e3d2b772fc4643a2e2ce5ef0aabeacc8627b5b72c",
+      "sha256": "c5faf68f84031c3859cb497eacbf8b306ef32a7b57f390f4d63c60d09d07117f",
       "profile": "desktop",
       "state": "mid-0",
       "viewport": {
@@ -2286,12 +2410,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 0, frame 45. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 0, frame 45. Fonte desktop-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "1440-mid-1",
       "path": "review/1440-mid-1.png",
-      "sha256": "c762372a188a0ea7218a11075c1432a0e3687def673fe38ff32742ba2f6093a1",
+      "sha256": "210998fc506d577c7c8f31bb3b5b42d65429e28c2b147dac69622b2231e74e80",
       "profile": "desktop",
       "state": "mid-1",
       "viewport": {
@@ -2300,12 +2424,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 1, frame 45. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 1, frame 45. Fonte desktop-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "1440-mid-2",
       "path": "review/1440-mid-2.png",
-      "sha256": "160ba7b5127b73b7781488f21388ac88a8c12e99c5210aa57417aea27e18dfd1",
+      "sha256": "029e69d7c2912ba04d4facdc1666c6bd9b51818bca73b7ec56d9381e0881299e",
       "profile": "desktop",
       "state": "mid-2",
       "viewport": {
@@ -2314,12 +2438,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 2, frame 45. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 2, frame 45. Fonte desktop-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "1440-reduced",
       "path": "review/1440-reduced.png",
-      "sha256": "5b543f6c9b41c975039f4c44f94c2120e5c52106cc859a0bb8bc906b769de06d",
+      "sha256": "150df1724df6db1404339a29c4ea794b71511cc85ed4c29fb3f748b4c4a985a2",
       "profile": "desktop",
       "state": "reduced",
       "viewport": {
@@ -2328,12 +2452,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Cabeçalho compacto e conteúdo estático sem overflow; poster proporcional. Cena estática, frame NA. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Cabeçalho compacto e conteúdo estático sem overflow; poster proporcional. Cena estática, frame NA. Fonte desktop-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "1440-scene-0",
       "path": "review/1440-scene-0.png",
-      "sha256": "5e869f47dac8dd7b1755859fddbba765d80c0971bd394b375cd751e76c89dca7",
+      "sha256": "52f0bf761cb834b9c33b92cd566e690190684e1da32fb792a95255aaec727959",
       "profile": "desktop",
       "state": "scene-0",
       "viewport": {
@@ -2342,12 +2466,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 0, frame 2. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 0, frame 2. Fonte desktop-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "1440-scene-1",
       "path": "review/1440-scene-1.png",
-      "sha256": "a1deea99d4ee5d5fd5d2d4913e235081afc93bdd6aeeaaf9ab96e2748953960f",
+      "sha256": "077c93fcdaade9db50b69bcac5aebc2602bbf634d4c0ed304dc8df0289884b97",
       "profile": "desktop",
       "state": "scene-1",
       "viewport": {
@@ -2356,12 +2480,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 1, frame 2. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 1, frame 2. Fonte desktop-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "1440-scene-2",
       "path": "review/1440-scene-2.png",
-      "sha256": "57206ab3d69af10eb24f2dcabe7b998bd8de99d6d8e5afd4b487cec41f025ed3",
+      "sha256": "082f87867e2bbd1132b9b795ae7f6fb9335234a2951b7f95721024fe7bd840ad",
       "profile": "desktop",
       "state": "scene-2",
       "viewport": {
@@ -2370,12 +2494,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 2, frame 2. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 2, frame 2. Fonte desktop-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "1440-signature",
       "path": "review/1440-signature.png",
-      "sha256": "baacd8b426400bb9e851b92e2460dce814a0a58194be13f9d70a83134f4da216",
+      "sha256": "253addc3fd481667e28ed4fc44e1241644e2994a8a1fc821732537ced0a4860a",
       "profile": "desktop",
       "state": "signature",
       "viewport": {
@@ -2384,12 +2508,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Assinatura central ZMT com contato da agência separado do cliente. Cena 2, frame 79. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Assinatura central ZMT com contato da agência separado do cliente. Cena 2, frame 79. Fonte desktop-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "1440-transition-0.31",
       "path": "review/1440-transition-0.31.png",
-      "sha256": "cd3148914daa38d1808603477ac492a5c7ce9080ef2ba0fe5a3f0175f820c22e",
+      "sha256": "872b79cc7e68e470c057449add9fd8951691f5c0d03e61749c95a67a77b73cf7",
       "profile": "desktop",
       "state": "transition-0.31",
       "viewport": {
@@ -2398,12 +2522,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 0, frame 73. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 0, frame 73. Fonte desktop-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "1440-transition-0.325",
       "path": "review/1440-transition-0.325.png",
-      "sha256": "2a659fb68b71517218bcd79f63ef58ac817911675444d712b40bebdf3589baf5",
+      "sha256": "90bf52dd2df193d0e2b809cdec0db08f60f3abcabb440d69bb7aeede5a014434",
       "profile": "desktop",
       "state": "transition-0.325",
       "viewport": {
@@ -2412,12 +2536,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 0, frame 77. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 0, frame 77. Fonte desktop-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "1440-transition-0.33",
       "path": "review/1440-transition-0.33.png",
-      "sha256": "1a654fe3c3b0cb48fa44ee6b1ca070c8dd67596a55bbc9e1436518b33299ea1f",
+      "sha256": "1cc4cf6a70718df91b0cd75064d2401082492171310182bb4f875df4b9680575",
       "profile": "desktop",
       "state": "transition-0.33",
       "viewport": {
@@ -2426,12 +2550,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 0, frame 78. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 0, frame 78. Fonte desktop-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "1440-transition-0.34",
       "path": "review/1440-transition-0.34.png",
-      "sha256": "14436f0d353fe004059da0bb7b627b2c48eba1450c406c10c097dafdb8055ccf",
+      "sha256": "a0dea688162ac96fe223e9f3455264d3c7cff937058a8c9f0c97e5646909abd6",
       "profile": "desktop",
       "state": "transition-0.34",
       "viewport": {
@@ -2440,12 +2564,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 1, frame 2. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 1, frame 2. Fonte desktop-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "1440-transition-0.64",
       "path": "review/1440-transition-0.64.png",
-      "sha256": "ea572f3b41ab1349f9cda5cb26e67c36d298e357a597587ca8ef6dd0c2272502",
+      "sha256": "1c33134a6c977e79d7f43c71b0dff46df9ddd96e1ecda79b298217f57d57a712",
       "profile": "desktop",
       "state": "transition-0.64",
       "viewport": {
@@ -2454,12 +2578,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 1, frame 73. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 1, frame 73. Fonte desktop-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "1440-transition-0.655",
       "path": "review/1440-transition-0.655.png",
-      "sha256": "7abdf53fb103d28ced6d51ba0950c07098924d20518aadeeb668b7369b5adc32",
+      "sha256": "13f844ac680d28d6fef9d6eef06923675ad30f21f360f841cc07a4d69d7894ab",
       "profile": "desktop",
       "state": "transition-0.655",
       "viewport": {
@@ -2468,12 +2592,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 1, frame 76. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 1, frame 76. Fonte desktop-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "1440-transition-0.665",
       "path": "review/1440-transition-0.665.png",
-      "sha256": "3e434295b99daaba6d14ad17b23826f4d646808f498e0f8985752a5adbfb63cf",
+      "sha256": "79ee486c708d9eadd40c7ab5ffd2b1eeb56896fe9da9bb1fae30742a6ea852db",
       "profile": "desktop",
       "state": "transition-0.665",
       "viewport": {
@@ -2482,12 +2606,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 1, frame 79. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 1, frame 79. Fonte desktop-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "1440-transition-0.68",
       "path": "review/1440-transition-0.68.png",
-      "sha256": "eddd16e57ca9ff33ccf8ba91e106a92e8ccb05813f8ffcc89ce31ddbf5896314",
+      "sha256": "21321375ae5dc413ba0a6a653c704b22e946fa1f2f342fc493884779f870ee9f",
       "profile": "desktop",
       "state": "transition-0.68",
       "viewport": {
@@ -2496,12 +2620,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 2, frame 3. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 2, frame 3. Fonte desktop-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "320-closing",
       "path": "review/320-closing.png",
-      "sha256": "1dac70c63ebd1b095e1fd1d89cfecd3fe860e46616f27fcda344bf875d4459a4",
+      "sha256": "a1ec3c6a79570083b6fa07fc28b55697cab9a4b90b50e22680c3394a7227f7c5",
       "profile": "mobile",
       "state": "closing",
       "viewport": {
@@ -2510,7 +2634,7 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Retomada gastronômica com CTA de retorno ao cardápio. Cena 2, frame 79. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Retomada gastronômica com CTA de retorno ao cardápio. Cena 2, frame 79. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "320-delivery",
@@ -2524,12 +2648,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Aviso demonstrativo e botões com feedback local; nenhum pedido enviado. Cena 2, frame 79. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Aviso demonstrativo e botões com feedback local; nenhum pedido enviado. Cena 2, frame 79. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "320-entry",
       "path": "review/320-entry.png",
-      "sha256": "9a7dba82a05a7209dc0900d71a2912cc59d5ba5196a689fbe4ba2730faed013d",
+      "sha256": "f3fa28505b21cea6442796ccb4c39bf668afebe535b062a185472ee4b3c9314b",
       "profile": "mobile",
       "state": "entry",
       "viewport": {
@@ -2538,12 +2662,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Identidade, título e CTA legíveis; produto focal na área superior/direita; controles separados. Cena 0, frame 0. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Identidade, título e CTA legíveis; produto focal na área superior/direita; controles separados. Cena 0, frame 0. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "320-exit",
       "path": "review/320-exit.png",
-      "sha256": "5f3fde0345783bb20516a535ee7d7f1d1956218bc7e73aa4cc456973b1bceda4",
+      "sha256": "a724d44d47229f73824ab573bdbea7478eaee30e3002812578a1473467a90186",
       "profile": "mobile",
       "state": "exit",
       "viewport": {
@@ -2552,12 +2676,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Crédito demonstrativo e retorno ao início visíveis; sem contatos de hamburgueria inventados. Cena 2, frame 79. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Crédito demonstrativo e retorno ao início visíveis; sem contatos de hamburgueria inventados. Cena 2, frame 79. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "320-menu",
       "path": "review/320-menu.png",
-      "sha256": "6feb64b22aace2c5dca3dc892269b1769d25ab8b82f9eed2dbd1d758dfb2737b",
+      "sha256": "14fac199b2ea0ad0f5eefc8b4de8ec0755c93e78e06659319ffcd5916b9d3523",
       "profile": "mobile",
       "state": "menu",
       "viewport": {
@@ -2566,12 +2690,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Cards ilustrativos coerentes com as imagens fornecidas, sem preços ou promoções. Cena 2, frame 79. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Cards ilustrativos coerentes com as imagens fornecidas, sem preços ou promoções. Cena 2, frame 79. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "320-mid-0",
       "path": "review/320-mid-0.png",
-      "sha256": "1f2d35255342b27e06e033686c96a1367aa4b373362eee94a678f384c990be2b",
+      "sha256": "4823e8d0feed23531f685673789689ed6f716b885f73de6f3ac8d7856b0df46d",
       "profile": "mobile",
       "state": "mid-0",
       "viewport": {
@@ -2580,12 +2704,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 0, frame 45. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 0, frame 45. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "320-mid-1",
       "path": "review/320-mid-1.png",
-      "sha256": "7adb301c9a9d59693232debb0c4afb5c608a2a48380b721331450896a48bf80d",
+      "sha256": "ebcf8a16f380fef3d60bf554f3d3a634abdc09f5f0dbb6aed09be067a03c93c8",
       "profile": "mobile",
       "state": "mid-1",
       "viewport": {
@@ -2594,12 +2718,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 1, frame 45. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 1, frame 45. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "320-mid-2",
       "path": "review/320-mid-2.png",
-      "sha256": "247bb44f73d843b36e9f255bc793dc543209f0dbff1fbd7e68d5c7cdec437a3f",
+      "sha256": "2d70d6aee61419c898d8d4293ddc02fca0dda3af880f82c31c7b3959f59efd0b",
       "profile": "mobile",
       "state": "mid-2",
       "viewport": {
@@ -2608,12 +2732,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 2, frame 45. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 2, frame 45. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "320-reduced",
       "path": "review/320-reduced.png",
-      "sha256": "8aa5dc0af0d6bef79df95f4be38a432e1338f0294937df3f0a72bf96e5dfd0a1",
+      "sha256": "d4dc68df8c37cf858b0c5217328197551805a86fe1631f716901bf721d421429",
       "profile": "mobile",
       "state": "reduced",
       "viewport": {
@@ -2622,12 +2746,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Cabeçalho compacto e conteúdo estático sem overflow; poster proporcional. Cena estática, frame NA. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Cabeçalho compacto e conteúdo estático sem overflow; poster proporcional. Cena estática, frame NA. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "320-scene-0",
       "path": "review/320-scene-0.png",
-      "sha256": "8332a684454dbe986ca065e4f5b1bb9193189c0dccd54d8e357a2481e0213cf3",
+      "sha256": "240be9bfb4e581a17adc82236d2d2576b6bd5c35bc2fc243dd5e9d91df895f40",
       "profile": "mobile",
       "state": "scene-0",
       "viewport": {
@@ -2636,12 +2760,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 0, frame 2. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 0, frame 2. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "320-scene-1",
       "path": "review/320-scene-1.png",
-      "sha256": "d1a2b98341115ede8749a26c951804cf1e7cf8fde70189531e1e99eff03ce7b7",
+      "sha256": "e73f339bd7ca2655cf714579d2dd1b6811665a941e6e2edc0e578a53ede76d6c",
       "profile": "mobile",
       "state": "scene-1",
       "viewport": {
@@ -2650,12 +2774,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 1, frame 2. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 1, frame 2. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "320-scene-2",
       "path": "review/320-scene-2.png",
-      "sha256": "922ce74282bc2fd95f6500f7b5ca0bf77d1b1864c1d1f68f07a7a6b3735b87a6",
+      "sha256": "0c08eeecff7fb6d51b724667681b7e9355d55aa2f11983c9b1b6f4916c92fe68",
       "profile": "mobile",
       "state": "scene-2",
       "viewport": {
@@ -2664,7 +2788,7 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 2, frame 2. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 2, frame 2. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "320-signature",
@@ -2678,12 +2802,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Assinatura central ZMT com contato da agência separado do cliente. Cena 2, frame 79. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Assinatura central ZMT com contato da agência separado do cliente. Cena 2, frame 79. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "320-transition-0.31",
       "path": "review/320-transition-0.31.png",
-      "sha256": "326a9a823055e132ddd4bd72c515a0421b889157df6d21eca233c068e27e171e",
+      "sha256": "593e42a6b9382bd00284f5d78a50f651fb5f6eaf78697775f8122c7697e3fc13",
       "profile": "mobile",
       "state": "transition-0.31",
       "viewport": {
@@ -2692,12 +2816,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 0, frame 73. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 0, frame 73. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "320-transition-0.325",
       "path": "review/320-transition-0.325.png",
-      "sha256": "edc3fa7b900b28fd34d09e46d3ea663aaf1911c8fdc3366bf081475f0b64d018",
+      "sha256": "d6b99104cd6f8d151fbaf9e78fe0086716198b2efc008dfc33cbe92ac0e0890c",
       "profile": "mobile",
       "state": "transition-0.325",
       "viewport": {
@@ -2706,12 +2830,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 0, frame 77. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 0, frame 77. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "320-transition-0.33",
       "path": "review/320-transition-0.33.png",
-      "sha256": "f00df9fe89e89b4440294f05b301d5ae2730a612af870e71b0dbd4dbe2d41da8",
+      "sha256": "d71afa49173e560fb083462cb8403e7b1f58fcac51f2ba881b5cc47c09a79c66",
       "profile": "mobile",
       "state": "transition-0.33",
       "viewport": {
@@ -2720,12 +2844,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 0, frame 78. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 0, frame 78. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "320-transition-0.34",
       "path": "review/320-transition-0.34.png",
-      "sha256": "bfa7f58f17366e2f77f71a74d5fc48d571f70ee04b9e7aeef1cd6b2fe7212988",
+      "sha256": "9315dcc1ecad6b79087031d551063678ce594257214e288e6eff03c905df39c3",
       "profile": "mobile",
       "state": "transition-0.34",
       "viewport": {
@@ -2734,12 +2858,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 1, frame 2. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 1, frame 2. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "320-transition-0.64",
       "path": "review/320-transition-0.64.png",
-      "sha256": "3cec47935c3722ade43aa6bae34dd36a73e6ca27607a294e3d4314eb0ed540fd",
+      "sha256": "cd7c8bfe059457f5c2e4535bc56d4bd3fcb85cfd1fef6fd654d69884055a7b86",
       "profile": "mobile",
       "state": "transition-0.64",
       "viewport": {
@@ -2748,12 +2872,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 1, frame 73. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 1, frame 73. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "320-transition-0.655",
       "path": "review/320-transition-0.655.png",
-      "sha256": "c07e7cea1d718544b92480609e556ad7d7deedc4be6876acae3fdfedd6d933cf",
+      "sha256": "fb0bef128f1560e24a25819da1f32afbbdc52a1d578cc5b70a0dda423dccdbfa",
       "profile": "mobile",
       "state": "transition-0.655",
       "viewport": {
@@ -2762,12 +2886,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 1, frame 76. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 1, frame 76. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "320-transition-0.665",
       "path": "review/320-transition-0.665.png",
-      "sha256": "809081cbfde3466213da2436c14c6b0b05aa1b21a1f9d00e8249071640e81032",
+      "sha256": "cd14c5da377936186669e971257b3f83259b24d380409c000130ab267e96e3e8",
       "profile": "mobile",
       "state": "transition-0.665",
       "viewport": {
@@ -2776,12 +2900,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 1, frame 79. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 1, frame 79. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "320-transition-0.68",
       "path": "review/320-transition-0.68.png",
-      "sha256": "d9e0c0ba411bf3618f635e8a7d023ba4961ea1841f88159f842c2ec40aad0d02",
+      "sha256": "03c77e0863b25acfc4967fb297d6e0f139e5b4537d6d51efcd09dc1bab08050d",
       "profile": "mobile",
       "state": "transition-0.68",
       "viewport": {
@@ -2790,12 +2914,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 2, frame 3. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 2, frame 3. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "390-closing",
       "path": "review/390-closing.png",
-      "sha256": "9ee26f88db9bf12720436de8c501080b453c8a1a66fcc4e1de36cec46aa9d8cd",
+      "sha256": "3e435fc4bdc1d8d71cf11e79015845bdafb8f2269228e02821a768e64457d62a",
       "profile": "mobile",
       "state": "closing",
       "viewport": {
@@ -2804,7 +2928,7 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Retomada gastronômica com CTA de retorno ao cardápio. Cena 2, frame 79. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Retomada gastronômica com CTA de retorno ao cardápio. Cena 2, frame 79. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "390-delivery",
@@ -2818,12 +2942,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Aviso demonstrativo e botões com feedback local; nenhum pedido enviado. Cena 2, frame 79. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Aviso demonstrativo e botões com feedback local; nenhum pedido enviado. Cena 2, frame 79. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "390-entry",
       "path": "review/390-entry.png",
-      "sha256": "8feb65d9c6d9832360ccbcea8ecd2016ce5467b75e86f5f1efd1f9806dc3ad54",
+      "sha256": "e18ad3954a529912730d132b73ab507e4eef3da0b7da692edb1849596685c7fa",
       "profile": "mobile",
       "state": "entry",
       "viewport": {
@@ -2832,12 +2956,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Identidade, título e CTA legíveis; produto focal na área superior/direita; controles separados. Cena 0, frame 0. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Identidade, título e CTA legíveis; produto focal na área superior/direita; controles separados. Cena 0, frame 0. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "390-exit",
       "path": "review/390-exit.png",
-      "sha256": "ded8ea9bbf7200460edeafb593d81ffbc4f27caba792a3b45ebce12e99811c28",
+      "sha256": "dbcdbf396ebdd37e25903eab60606999d6a5e90f37f0679ae30fae11cffd0ebe",
       "profile": "mobile",
       "state": "exit",
       "viewport": {
@@ -2846,12 +2970,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Crédito demonstrativo e retorno ao início visíveis; sem contatos de hamburgueria inventados. Cena 2, frame 79. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Crédito demonstrativo e retorno ao início visíveis; sem contatos de hamburgueria inventados. Cena 2, frame 79. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "390-menu",
       "path": "review/390-menu.png",
-      "sha256": "bd8b8b9bd7807d2525b47b02690de777cb7fe13431ef854e047d7253f2e9fd70",
+      "sha256": "318d4164a1d503e8471030670ec8fb6d88b2b4bda64d7bb0570b0114f7e9a9e5",
       "profile": "mobile",
       "state": "menu",
       "viewport": {
@@ -2860,12 +2984,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Cards ilustrativos coerentes com as imagens fornecidas, sem preços ou promoções. Cena 2, frame 79. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Cards ilustrativos coerentes com as imagens fornecidas, sem preços ou promoções. Cena 2, frame 79. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "390-mid-0",
       "path": "review/390-mid-0.png",
-      "sha256": "df30813edf8c245e1e3aa45d97440157e0e25660a3c06fe5844021e9601a5101",
+      "sha256": "cfab2e4ca4e9c227ea520281d9573999f12ac0048a61a0fa768ce3804879427a",
       "profile": "mobile",
       "state": "mid-0",
       "viewport": {
@@ -2874,12 +2998,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 0, frame 45. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 0, frame 45. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "390-mid-1",
       "path": "review/390-mid-1.png",
-      "sha256": "79b036af979c38caa69439a0e95bd8276047eb528a9c56baf5e7670c9cc4e4a4",
+      "sha256": "d62dcb939ffb1a1255627d26826bc4e3019f6c22495ad93a236d5ca4ca2699e5",
       "profile": "mobile",
       "state": "mid-1",
       "viewport": {
@@ -2888,12 +3012,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 1, frame 45. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 1, frame 45. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "390-mid-2",
       "path": "review/390-mid-2.png",
-      "sha256": "8a944fe80a68e0e1c6bb31dc3aad1a99a997e9b8fcad11bc56d3c7b0738b0d6e",
+      "sha256": "ebc4d36dd41a544330b16be1bd7192faf2f3d06edfa610069ce5b12d68c5cc83",
       "profile": "mobile",
       "state": "mid-2",
       "viewport": {
@@ -2902,12 +3026,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 2, frame 45. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 2, frame 45. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "390-reduced",
       "path": "review/390-reduced.png",
-      "sha256": "73d27902c7b624073c6d9bebfe39ba8d46e4988cc20c52262203d7981c57c69a",
+      "sha256": "1371f69f9ebcb7a860d924cd02b018c99a8311c02723bc66ae5c1e069dc50726",
       "profile": "mobile",
       "state": "reduced",
       "viewport": {
@@ -2916,12 +3040,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Cabeçalho compacto e conteúdo estático sem overflow; poster proporcional. Cena estática, frame NA. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Cabeçalho compacto e conteúdo estático sem overflow; poster proporcional. Cena estática, frame NA. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "390-scene-0",
       "path": "review/390-scene-0.png",
-      "sha256": "48641d49919880867f73814375bbde0164be8479fd722e16ebaf5176b225c883",
+      "sha256": "f991b288ad561a1aa2c378eb2473ad50f855a5244d7c1f586b2fc49e363e4fcc",
       "profile": "mobile",
       "state": "scene-0",
       "viewport": {
@@ -2930,12 +3054,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 0, frame 2. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 0, frame 2. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "390-scene-1",
       "path": "review/390-scene-1.png",
-      "sha256": "64d30adc77e2f72189097a265ae6ef1ec99a11ce4b58ed9e1f29b4d840b0f929",
+      "sha256": "11a7123ff25bc759fcb8b58072452c9a630c278c298be6370a13413dfc4f4f9b",
       "profile": "mobile",
       "state": "scene-1",
       "viewport": {
@@ -2944,12 +3068,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 1, frame 2. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 1, frame 2. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "390-scene-2",
       "path": "review/390-scene-2.png",
-      "sha256": "f3697c4909795f2fc460390359de8474bb51a849985cfcdbdfd4394c96d2b88b",
+      "sha256": "49c9810477243e493e39b521a476ce65cdae02746643d5ea7d8bb48862cf7f47",
       "profile": "mobile",
       "state": "scene-2",
       "viewport": {
@@ -2958,12 +3082,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 2, frame 2. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 2, frame 2. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "390-signature",
       "path": "review/390-signature.png",
-      "sha256": "c7196e8b94fd1f395309dae74262158ec2e9b8ed6f0140d8d91d08336659f04a",
+      "sha256": "30c94fa38f2534d22ad1eed5c685da11921da634b98b7410f57dae66f63f3be2",
       "profile": "mobile",
       "state": "signature",
       "viewport": {
@@ -2972,12 +3096,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Assinatura central ZMT com contato da agência separado do cliente. Cena 2, frame 79. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Assinatura central ZMT com contato da agência separado do cliente. Cena 2, frame 79. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "390-transition-0.31",
       "path": "review/390-transition-0.31.png",
-      "sha256": "c06f9e90d0f4d1fca00cd0361c8f236d97e9901dd9d72e56138069171febbe88",
+      "sha256": "1e9029230c80157f623aa6312cee245bc49b7fe9fcdd19e2f3c5bc92536a02ec",
       "profile": "mobile",
       "state": "transition-0.31",
       "viewport": {
@@ -2986,12 +3110,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 0, frame 73. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 0, frame 73. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "390-transition-0.325",
       "path": "review/390-transition-0.325.png",
-      "sha256": "e07c6597527be64f97afa816523c8b1ea9c7bd52982e28c028ae2f5ccffa4457",
+      "sha256": "8a0c824d85d769b28bc039e9de3204fbfdae5eab7a5e02fd2897b1ff5eb1b839",
       "profile": "mobile",
       "state": "transition-0.325",
       "viewport": {
@@ -3000,12 +3124,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 0, frame 77. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 0, frame 77. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "390-transition-0.33",
       "path": "review/390-transition-0.33.png",
-      "sha256": "6e6671c35bf28066ecc12bf69c5945643e3a8d1fc79afc96d2bc71fcf3495c2c",
+      "sha256": "a6dd686c901d66e06646a06a5611895c3f7fec0740e0f633dc013e9b658b860f",
       "profile": "mobile",
       "state": "transition-0.33",
       "viewport": {
@@ -3014,12 +3138,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 0, frame 78. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 0, frame 78. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "390-transition-0.34",
       "path": "review/390-transition-0.34.png",
-      "sha256": "b22c399463c2135be972215ce289ccbf29e602dd8265f6a3a1b14e1e16dfe3b3",
+      "sha256": "bb62dccef3a32cec33d8073d2a72e4839db77311536eb007a35d21f65dd248cb",
       "profile": "mobile",
       "state": "transition-0.34",
       "viewport": {
@@ -3028,12 +3152,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 1, frame 2. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 1, frame 2. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "390-transition-0.64",
       "path": "review/390-transition-0.64.png",
-      "sha256": "720282706c04e73b09d42a9d747aed95174b1503e77c4b238fbc8ea08193d0dd",
+      "sha256": "3b0d80c609ae8d37931e96b65b74c1e25310661435db2b89c86cc023c1b85b25",
       "profile": "mobile",
       "state": "transition-0.64",
       "viewport": {
@@ -3042,12 +3166,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 1, frame 73. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 1, frame 73. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "390-transition-0.655",
       "path": "review/390-transition-0.655.png",
-      "sha256": "ebf3b4ed0738dc17e84728cd8b2ccc15c3775149040e182566e6394576d49ac1",
+      "sha256": "14e2a342bf209f2fa4bdc1d48200364d8625c79aeb11d32ec5cfff84e5c03ec8",
       "profile": "mobile",
       "state": "transition-0.655",
       "viewport": {
@@ -3056,12 +3180,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 1, frame 76. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 1, frame 76. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "390-transition-0.665",
       "path": "review/390-transition-0.665.png",
-      "sha256": "13e3a89428961ac030aa45731cbaf69c432a66d8f7763e086c53d6d0e5d2498b",
+      "sha256": "5385a00474417cff39ba19121849ae48a9ff14871a3ad0d37e0cdf9dcf150771",
       "profile": "mobile",
       "state": "transition-0.665",
       "viewport": {
@@ -3070,12 +3194,12 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 1, frame 79. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 1, frame 79. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     },
     {
       "id": "390-transition-0.68",
       "path": "review/390-transition-0.68.png",
-      "sha256": "9e357864602b17a793955a304c4461cb0691180344680a795950325c459fa62e",
+      "sha256": "ec6d53a4f4272e1d61cfab57887a9763095373a352705bf71623a51a895e0caf",
       "profile": "mobile",
       "state": "transition-0.68",
       "viewport": {
@@ -3084,7 +3208,7 @@
         "dpr": 1
       },
       "inspected": true,
-      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 2, frame 3. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 2, frame 3. Fonte mobile-native. Capturas recapturadas após a revisão de latência e a remoção do gradiente de escurecimento."
     }
   ],
   "checks": [
@@ -3339,7 +3463,7 @@
       "notes": "Scroll nativo, retorno e convergência; invariantes de altura/orientação e canvas passaram. Medições sob CPU4 têm atraso e não certificam apresentação física.",
       "dynamicEvidence": {
         "path": "browser-regression/browser-report.json",
-        "sha256": "7ef2a3a8c6fb78aae1733bcce537f9ce4d2d34e2a5a3571faabb10ae989a5d90"
+        "sha256": "32e34045f978f078555f10b0dd9b8588111ac53bdae8726bf79c9d797b1cd9c6"
       }
     },
     {
@@ -3638,7 +3762,7 @@
       "notes": "Scroll nativo, retorno e convergência; invariantes de altura/orientação e canvas passaram. Medições sob CPU4 têm atraso e não certificam apresentação física.",
       "dynamicEvidence": {
         "path": "browser-regression/browser-report.json",
-        "sha256": "7ef2a3a8c6fb78aae1733bcce537f9ce4d2d34e2a5a3571faabb10ae989a5d90"
+        "sha256": "32e34045f978f078555f10b0dd9b8588111ac53bdae8726bf79c9d797b1cd9c6"
       }
     },
     {
@@ -3743,7 +3867,7 @@
     {
       "criterion": "slow-network-stress",
       "status": "UNVERIFIED",
-      "reason": "Injeção artificial de 150ms por quadro produziu atraso elevado; não há garantia de fluidez nesse cenário."
+      "reason": "Ainda há atraso no ensaio com 150ms por requisição e na banda limitada a 1,6Mbps; ver comparação atual em LATENCIA.md."
     }
   ]
 }

@@ -1,5 +1,7 @@
 # BRASA BURGER — entrega local
 
+> Relatório histórico da criação inicial, anterior ao envio do commit `a3081a2`. O repositório público já foi criado em `master`. A revisão posterior de latência e das cores está documentada em **LATENCIA.md**; os números abaixo preservam a medição inicial.
+
 **APROVADO COM RESSALVAS para revisão local.** Três ciclos: implementação, composição/viewport e auditoria técnica com correções de semântica/posters. Não publicado. Não é certificação de fluidez em aparelhos físicos.
 
 - Aplicativo: `C:\Users\micha\OneDrive\Documentos\ChatGPT\Hamburgueria\site-hamburgueria`.

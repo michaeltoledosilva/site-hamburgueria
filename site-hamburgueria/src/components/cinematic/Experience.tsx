@@ -36,7 +36,7 @@ export default function Experience(){
    const scheduler=createRenderScheduler(()=>{if(disposed)return;if(needsMeasure){needsMeasure=false;measure();}if(needsProgress){needsProgress=false;update(gsap.utils.clamp(0,1,(scrollY-start)/distance),false);}draw();});
    const requestDraw=()=>scheduler.request();
    const testQuery=params.has('perf')&&params.has('trial')?new URLSearchParams({trial:params.get('trial')!,qaDelay:params.get('delay')||'0',profile:params.get('profile')||'native'}).toString():'';
-   const loader=new FrameLoader(mobile&&matchMedia('(max-aspect-ratio: 1/1)').matches,requestDraw,params.has('perf')&&['2','3','4'].includes(params.get('loads')||'')?Number(params.get('loads')):3,testQuery,mobile,params.has('perf')&&params.get('decode')==='html'?'html':'bitmap',params.has('perf'));
+   const loader=new FrameLoader(mobile&&matchMedia('(max-aspect-ratio: 1/1)').matches,requestDraw,params.has('perf')&&['2','3','4'].includes(params.get('loads')||'')?Number(params.get('loads')):3,testQuery,mobile,params.has('perf')&&params.get('decode')==='html'?'html':'bitmap',params.has('perf'),!(params.has('perf')&&params.get('transport')==='files'));
    function paint(frame:Frame,scene:number,alpha:number){const w=surface.width,h=surface.height,scale=Math.max(w/frame.width,h/frame.height),dw=frame.width*scale,dh=frame.height*scale;ctx!.globalAlpha=alpha;ctx!.drawImage(frame.image,(w-dw)*.5,(h-dh)*(mobile?.2:.5),dw,dh);}
    function draw(){
     if(disposed||simple)return;
@@ -92,7 +92,7 @@ export default function Experience(){
    const posterHandlers=posters.map((img,i)=>{const decode=()=>{void img.decode().then(()=>{if(!disposed){ready.add(i);requestDraw();}}).catch(()=>{});};if(!simple){img.addEventListener('load',decode);decode();}return ()=>img.removeEventListener('load',decode);});
    if(simple){cards.forEach(c=>{c.inert=false;c.removeAttribute('aria-hidden');});}
    else if(mobile){measure();window.addEventListener('scroll',onScroll,{passive:true});onScroll();}
-   else{measure();trigger=ScrollTrigger.create({trigger:element,start:'top top',end:()=>`+=${innerHeight*scrollPerScene*scenes.length}`,pin:true,anticipatePin:1,invalidateOnRefresh:true,onUpdate:self=>update(self.progress)});update(trigger.progress);}
+   else{measure();trigger=ScrollTrigger.create({trigger:element,start:'top top',end:()=>`+=${innerHeight*scrollPerScene*scenes.length}`,pin:true,anticipatePin:1,invalidateOnRefresh:true,onUpdate:self=>{needsProgress=false;update(self.progress,false);scheduler.flush();}});update(trigger.progress);}
    const resize=()=>{if(disposed||simple)return;
     // Height-only events are handled by CSS dvh. No layout reads, refreshes, rebuilds or scrollTo.
     if(Math.abs(element.clientWidth-measuredWidth)<1&&(mobile||Math.abs(surface.clientHeight-measuredHeight)<1))return;

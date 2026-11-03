@@ -1,0 +1,634 @@
+{
+  "buildId": "ExDoU3WQ6g0fUyh5RAxKC",
+  "baseline": {
+    "commit": "a3081a274ae3fce9a314d54a7284008eea5342a3",
+    "build": "2fi22UapUYlG7lJ82C9TY",
+    "hashes": {
+      "src/components/cinematic/Experience.tsx": "e6fe578998f6605ea7a8698732f577803fbd48bad44b8c7103cbb2e673d5bd5c",
+      "src/components/cinematic/frameLoader.ts": "a8de863d9e9591e11cb3ed478b9811e5dc4ba914e62b4146518f2d83ea454ca8",
+      "src/components/cinematic/viewportGeometry.ts": "4c24fca646696537c51ed0093663fdd482831943f9d0dc49a735b0d5ead2e156",
+      "src/data/scenes.ts": "c1b69f016f0fcd38b281cf4aa24d8a21ebfe913d96040bfea076a8913a82392b"
+    },
+    "protocol": "benchmark-mobile.mjs: 390x844 DPR2, CPU4, three runs full+150ms delay, tolerance 2frames; same gestures/waits before/after; fresh contexts; loopback; no concurrent build."
+  },
+  "protocol": {
+    "mobile": "Edge headless Chromium, 390x844 DPR2, CPU x4, HTTP loopback; fresh browser contexts and unique frame query URLs; transport default; not Android hardware; RAF fps is not physical presentation fps",
+    "desktopBefore": "Edge headless Chromium, 1440x900 DPR1, CPU x1, HTTP loopback; fresh browser contexts and unique frame query URLs; transport files; not Android hardware; RAF fps is not physical presentation fps",
+    "desktopAfter": "Edge headless Chromium, 1440x900 DPR1, CPU x1, HTTP loopback; fresh browser contexts and unique frame query URLs; transport packs; not Android hardware; RAF fps is not physical presentation fps",
+    "tolerance": "More than two frames behind the current target; unchanged density and sample window. RAF is not physical frame presentation; exact-draw latency only describes observed exact draws, not all input events.",
+    "bandwidth": "Edge desktop emulation 390x844 DPR2 CPU4; CDP 1.6Mbps download, 750kbps upload, 80ms latency. Three fresh contexts per transport, alternating order. Same candidate; files diagnostic disables packs only. Tolerance 2 frames. Cold/warm journeys share the context. Laboratory, not physical network.",
+    "bandwidthCaveat": "Repeated journey uses the same context; this does not mean every frame is cached. Observed completed/chunked resource bytes do not account for all aborted/in-flight buffering or physical wire traffic. Mobile path unchanged by the final desktop-only scheduler patch; bandwidth evidence reused for that path."
+  },
+  "mobile": {
+    "full": {
+      "before": {
+        "lateRatio": {
+          "median": 0.1388888888888889,
+          "min": 0.1323529411764706,
+          "max": 0.14,
+          "samples": 3
+        },
+        "targetToExactDrawP95Ms": {
+          "median": 86.4,
+          "min": 53,
+          "max": 114.8,
+          "samples": 3
+        },
+        "rafFps": {
+          "median": 48.52628307795282,
+          "min": 37.42923241860552,
+          "max": 50.98773922735788,
+          "samples": 3
+        },
+        "rafIntervalP95Ms": {
+          "median": 33.400000000000546,
+          "min": 33.40000000000009,
+          "max": 66.69999999999982,
+          "samples": 3
+        },
+        "completedMediaBytes": {
+          "median": 11808822,
+          "min": 11002758,
+          "max": 12399622,
+          "samples": 3
+        },
+        "completedMediaRequests": {
+          "median": 176,
+          "min": 165,
+          "max": 184,
+          "samples": 3
+        },
+        "compressedRetainedBytes": {
+          "median": 11531094,
+          "min": 10728330,
+          "max": 12119494,
+          "samples": 3
+        },
+        "decodedRetainedBytes": {
+          "median": 47923200,
+          "min": 47923200,
+          "max": 47923200,
+          "samples": 3
+        },
+        "errors": [
+          0,
+          0,
+          0
+        ],
+        "packs": [
+          null,
+          null,
+          null
+        ]
+      },
+      "after": {
+        "lateRatio": {
+          "median": 0.014354066985645933,
+          "min": 0.009433962264150943,
+          "max": 0.019138755980861243,
+          "samples": 3
+        },
+        "targetToExactDrawP95Ms": {
+          "median": 49.8,
+          "min": 49.7,
+          "max": 58.5,
+          "samples": 3
+        },
+        "rafFps": {
+          "median": 57.2466560246601,
+          "min": 54.02737733447621,
+          "max": 57.54336205956146,
+          "samples": 3
+        },
+        "rafIntervalP95Ms": {
+          "median": 16.800000000000182,
+          "min": 16.800000000000182,
+          "max": 33.30000000000018,
+          "samples": 3
+        },
+        "completedMediaBytes": {
+          "median": 16856756,
+          "min": 16856756,
+          "max": 16856756,
+          "samples": 3
+        },
+        "completedMediaRequests": {
+          "median": 25,
+          "min": 25,
+          "max": 25,
+          "samples": 3
+        },
+        "compressedRetainedBytes": {
+          "median": 16624328,
+          "min": 16624328,
+          "max": 16624328,
+          "samples": 3
+        },
+        "decodedRetainedBytes": {
+          "median": 47923200,
+          "min": 47923200,
+          "max": 47923200,
+          "samples": 3
+        },
+        "errors": [
+          0,
+          0,
+          0
+        ],
+        "packs": [
+          {
+            "requests": 15,
+            "transferredBytes": 16100474,
+            "retainedBytes": 16100474,
+            "budget": 20971520,
+            "blocks": 15,
+            "pending": 0,
+            "errors": 0
+          },
+          {
+            "requests": 15,
+            "transferredBytes": 16100474,
+            "retainedBytes": 16100474,
+            "budget": 20971520,
+            "blocks": 15,
+            "pending": 0,
+            "errors": 0
+          },
+          {
+            "requests": 15,
+            "transferredBytes": 16100474,
+            "retainedBytes": 16100474,
+            "budget": 20971520,
+            "blocks": 15,
+            "pending": 0,
+            "errors": 0
+          }
+        ]
+      },
+      "lateSampleReductionPercent": 89.66507177033492
+    },
+    "delayed": {
+      "before": {
+        "lateRatio": {
+          "median": 0.8186274509803921,
+          "min": 0.8173076923076923,
+          "max": 0.8341463414634146,
+          "samples": 3
+        },
+        "targetToExactDrawP95Ms": {
+          "median": 3.3,
+          "min": 1.7,
+          "max": 31.9,
+          "samples": 3
+        },
+        "rafFps": {
+          "median": 59.1304347826087,
+          "min": 56.712328767123296,
+          "max": 59.704126349225035,
+          "samples": 3
+        },
+        "rafIntervalP95Ms": {
+          "median": 16.800000000000182,
+          "min": 16.799999999999727,
+          "max": 16.899999999999636,
+          "samples": 3
+        },
+        "completedMediaBytes": {
+          "median": 1633358,
+          "min": 1544868,
+          "max": 1997256,
+          "samples": 3
+        },
+        "completedMediaRequests": {
+          "median": 77,
+          "min": 76,
+          "max": 77,
+          "samples": 3
+        },
+        "compressedRetainedBytes": {
+          "median": 1193332,
+          "min": 1120944,
+          "max": 1714060,
+          "samples": 3
+        },
+        "decodedRetainedBytes": {
+          "median": 29491200,
+          "min": 25804800,
+          "max": 40550400,
+          "samples": 3
+        },
+        "errors": [
+          0,
+          0,
+          0
+        ],
+        "packs": [
+          null,
+          null,
+          null
+        ]
+      },
+      "after": {
+        "lateRatio": {
+          "median": 0.18226600985221675,
+          "min": 0.16744186046511628,
+          "max": 0.23076923076923078,
+          "samples": 3
+        },
+        "targetToExactDrawP95Ms": {
+          "median": 48.6,
+          "min": 46.7,
+          "max": 49.8,
+          "samples": 3
+        },
+        "rafFps": {
+          "median": 56.5037572085979,
+          "min": 56.371044259641685,
+          "max": 58.89800187152529,
+          "samples": 3
+        },
+        "rafIntervalP95Ms": {
+          "median": 16.800000000000182,
+          "min": 16.800000000000182,
+          "max": 33.19999999999982,
+          "samples": 3
+        },
+        "completedMediaBytes": {
+          "median": 16763210,
+          "min": 16763210,
+          "max": 16856756,
+          "samples": 3
+        },
+        "completedMediaRequests": {
+          "median": 29,
+          "min": 27,
+          "max": 29,
+          "samples": 3
+        },
+        "compressedRetainedBytes": {
+          "median": 16531082,
+          "min": 16531082,
+          "max": 16624328,
+          "samples": 3
+        },
+        "decodedRetainedBytes": {
+          "median": 47923200,
+          "min": 47923200,
+          "max": 47923200,
+          "samples": 3
+        },
+        "errors": [
+          0,
+          0,
+          0
+        ],
+        "packs": [
+          {
+            "requests": 15,
+            "transferredBytes": 16100474,
+            "retainedBytes": 16100474,
+            "budget": 20971520,
+            "blocks": 15,
+            "pending": 0,
+            "errors": 0
+          },
+          {
+            "requests": 15,
+            "transferredBytes": 16100474,
+            "retainedBytes": 16100474,
+            "budget": 20971520,
+            "blocks": 15,
+            "pending": 0,
+            "errors": 0
+          },
+          {
+            "requests": 15,
+            "transferredBytes": 16100474,
+            "retainedBytes": 16100474,
+            "budget": 20971520,
+            "blocks": 15,
+            "pending": 0,
+            "errors": 0
+          }
+        ]
+      },
+      "lateSampleReductionPercent": 77.73517005398071
+    }
+  },
+  "desktop": {
+    "before": {
+      "lateRatio": {
+        "median": 0.4264705882352941,
+        "min": 0.405,
+        "max": 0.42857142857142855,
+        "samples": 3
+      },
+      "targetToExactDrawP95Ms": {
+        "median": 24.8,
+        "min": 21,
+        "max": 50.2,
+        "samples": 3
+      },
+      "rafFps": {
+        "median": 58.87323943661972,
+        "min": 58.838874235529396,
+        "max": 59.40298507462687,
+        "samples": 3
+      },
+      "rafIntervalP95Ms": {
+        "median": 16.800000000000182,
+        "min": 16.800000000000182,
+        "max": 16.800000000000182,
+        "samples": 3
+      },
+      "completedMediaBytes": {
+        "median": 13686608,
+        "min": 13289596,
+        "max": 13809544,
+        "samples": 3
+      },
+      "completedMediaRequests": {
+        "median": 141,
+        "min": 137,
+        "max": 146,
+        "samples": 3
+      },
+      "compressedRetainedBytes": {
+        "median": 12554194,
+        "min": 12513750,
+        "max": 12576922,
+        "samples": 3
+      },
+      "decodedRetainedBytes": {
+        "median": 99532800,
+        "min": 99532800,
+        "max": 99532800,
+        "samples": 3
+      },
+      "errors": [
+        0,
+        0,
+        0
+      ],
+      "packs": [
+        null,
+        null,
+        null
+      ]
+    },
+    "after": {
+      "lateRatio": {
+        "median": 0.010101010101010102,
+        "min": 0,
+        "max": 0.030303030303030304,
+        "samples": 3
+      },
+      "targetToExactDrawP95Ms": {
+        "median": 2.4,
+        "min": 2.3,
+        "max": 2.6,
+        "samples": 3
+      },
+      "rafFps": {
+        "median": 60.00187505859557,
+        "min": 59.99695446931628,
+        "max": 60.002436647173475,
+        "samples": 3
+      },
+      "rafIntervalP95Ms": {
+        "median": 16.800000000000182,
+        "min": 16.800000000000182,
+        "max": 16.800000000000182,
+        "samples": 3
+      },
+      "completedMediaBytes": {
+        "median": 18639018,
+        "min": 18639018,
+        "max": 18639018,
+        "samples": 3
+      },
+      "completedMediaRequests": {
+        "median": 21,
+        "min": 21,
+        "max": 21,
+        "samples": 3
+      },
+      "compressedRetainedBytes": {
+        "median": 18292850,
+        "min": 18292850,
+        "max": 18292850,
+        "samples": 3
+      },
+      "decodedRetainedBytes": {
+        "median": 99532800,
+        "min": 99532800,
+        "max": 99532800,
+        "samples": 3
+      },
+      "errors": [
+        0,
+        0,
+        0
+      ],
+      "packs": [
+        {
+          "requests": 11,
+          "transferredBytes": 17507902,
+          "retainedBytes": 17507902,
+          "budget": 20971520,
+          "blocks": 11,
+          "pending": 0,
+          "errors": 0
+        },
+        {
+          "requests": 11,
+          "transferredBytes": 17507902,
+          "retainedBytes": 17507902,
+          "budget": 20971520,
+          "blocks": 11,
+          "pending": 0,
+          "errors": 0
+        },
+        {
+          "requests": 11,
+          "transferredBytes": 17507902,
+          "retainedBytes": 17507902,
+          "budget": 20971520,
+          "blocks": 11,
+          "pending": 0,
+          "errors": 0
+        }
+      ]
+    },
+    "lateSampleReductionPercent": 97.6314872866597,
+    "comparison": "Before = individual transport in the same page and media, pre synchronous desktop rendering; after = packets + synchronous desktop rendering. 1440x900 DPR1 CPU1. Three fresh contexts each."
+  },
+  "bandwidth": {
+    "files": {
+      "firstFrameMs": {
+        "median": 4488.400000095367,
+        "min": 4350.799999952316,
+        "max": 4875.299999952316,
+        "samples": 3
+      },
+      "coldLateRatio": {
+        "median": 0.7008547008547008,
+        "min": 0.7008547008547008,
+        "max": 0.7017543859649122,
+        "samples": 3
+      },
+      "repeatLateRatio": {
+        "median": 0.7017543859649122,
+        "min": 0.7008547008547008,
+        "max": 0.7033898305084746,
+        "samples": 3
+      },
+      "completedBodyBytes": {
+        "median": 923283,
+        "min": 923283,
+        "max": 923283,
+        "samples": 3
+      },
+      "completedMediaBodyBytes": {
+        "median": 224928,
+        "min": 224928,
+        "max": 224928,
+        "samples": 3
+      },
+      "errors": [
+        [],
+        [],
+        []
+      ]
+    },
+    "packs": {
+      "firstFrameMs": {
+        "median": 4809.700000047684,
+        "min": 4632.200000047684,
+        "max": 4974.799999952316,
+        "samples": 3
+      },
+      "coldLateRatio": {
+        "median": 0.6956521739130435,
+        "min": 0.6869565217391305,
+        "max": 0.7232142857142857,
+        "samples": 3
+      },
+      "repeatLateRatio": {
+        "median": 0.7068965517241379,
+        "min": 0.6982758620689655,
+        "max": 0.7131147540983607,
+        "samples": 3
+      },
+      "completedBodyBytes": {
+        "median": 923283,
+        "min": 923283,
+        "max": 923283,
+        "samples": 3
+      },
+      "completedMediaBodyBytes": {
+        "median": 224928,
+        "min": 224928,
+        "max": 224928,
+        "samples": 3
+      },
+      "errors": [
+        [],
+        [],
+        []
+      ]
+    }
+  },
+  "lighthouse": {
+    "mobile": {
+      "fetchTime": "2026-11-03T23:43:55.466Z",
+      "version": "13.6.0",
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "metrics": {
+        "largest-contentful-paint": 1207.6389,
+        "cumulative-layout-shift": 0.06593617632642335,
+        "total-blocking-time": 126.5,
+        "total-byte-weight": 2353579
+      },
+      "requests": 24
+    },
+    "desktop": {
+      "fetchTime": "2026-11-03T23:44:13.723Z",
+      "version": "13.6.0",
+      "scores": {
+        "performance": 96,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "metrics": {
+        "largest-contentful-paint": 1451.2697623871147,
+        "cumulative-layout-shift": 0.002568882172893494,
+        "total-blocking-time": 0,
+        "total-byte-weight": 3714745
+      },
+      "requests": 27
+    }
+  },
+  "artifacts": [
+    {
+      "path": "docs/mobile-repair/latency-before-performance.json",
+      "sha256": "2bceeb13dcd5f50360a8fe0190c76c69fd647920454161718b3f5f541c05102c"
+    },
+    {
+      "path": "docs/mobile-repair/latency-complete-performance.json",
+      "sha256": "32e0d620e34a2b4f791f9d1a6d451becbca7a133430da8d9fbd402ad3e05daef"
+    },
+    {
+      "path": "docs/mobile-repair/latency-desktop-native-files-performance.json",
+      "sha256": "e97cf398406f8a47d37b4a7f76483382c58685d30deeb73c1f8b77a015da3694"
+    },
+    {
+      "path": "docs/mobile-repair/latency-desktop-complete-performance.json",
+      "sha256": "425d63c65f3426480f6896336a7e0cf592e99809545886088036721a17f8e739"
+    },
+    {
+      "path": "docs/latency/bandwidth.json",
+      "sha256": "b96949fab0f500df12c6daead4620002148d6052fe6abfe80ee0c5808edf7e68"
+    }
+  ],
+  "sources": [
+    {
+      "path": "src/components/cinematic/Experience.tsx",
+      "sha256": "9d89e7c1875bfe07af1e43f4df62c7e867a0b6919fec714ce0d8f477e42c316a"
+    },
+    {
+      "path": "src/components/cinematic/frameLoader.ts",
+      "sha256": "260dad5d9c473a34dfa46849ba5ad729399ee8fc7f4c32e603f41f15afd6d9b6"
+    },
+    {
+      "path": "src/components/cinematic/framePacks.ts",
+      "sha256": "a4336a5795b39a9bffc83d7f730a7db54c89722dd0805749d411f489cfdc9b37"
+    },
+    {
+      "path": "src/components/cinematic/renderScheduler.ts",
+      "sha256": "907a8c8b63324d83f148090e5df0313d060c2f1b5b05f4a1dd5f043e3334fa06"
+    },
+    {
+      "path": "src/components/cinematic/viewportGeometry.ts",
+      "sha256": "4c24fca646696537c51ed0093663fdd482831943f9d0dc49a735b0d5ead2e156"
+    },
+    {
+      "path": "src/app/brasa.css",
+      "sha256": "a94671ae20ed7985d560ee2b89070e4114d073132180987442908b1d6c627573"
+    },
+    {
+      "path": "src/data/scenes.ts",
+      "sha256": "c1b69f016f0fcd38b281cf4aa24d8a21ebfe913d96040bfea076a8913a82392b"
+    },
+    {
+      "path": "scripts/benchmark-mobile.mjs",
+      "sha256": "06835deff584e0404d99f9b26101d9dacc3834dc9a106ea39e3dfc175f4e0d29"
+    }
+  ]
+}

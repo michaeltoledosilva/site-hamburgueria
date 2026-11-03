@@ -8,12 +8,14 @@
     "start": "node scripts/serve.mjs",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
-    "test": "node --test scripts/test-frame-loader.mjs scripts/test-viewport-geometry.mjs",
+    "test": "node --test scripts/test-frame-loader.mjs scripts/test-viewport-geometry.mjs scripts/test-frame-packs.mjs",
     "qa:mobile": "node scripts/qa-mobile-regression.mjs",
     "qa:perf": "node scripts/benchmark-mobile.mjs",
     "qa:composition": "node scripts/qa-mobile-composition.mjs",
     "qa:chrome": "node scripts/qa-mobile-chrome.mjs",
-    "qa:defaults": "node scripts/qa-template-defaults.mjs"
+    "qa:defaults": "node scripts/qa-template-defaults.mjs",
+    "prebuild": "node scripts/prepare-frame-packs.mjs",
+    "pretest": "node scripts/prepare-frame-packs.mjs"
   },
   "dependencies": {
     "next": "latest",

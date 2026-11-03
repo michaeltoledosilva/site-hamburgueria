@@ -16,3 +16,6 @@ docs/source-*.png
 docs/contact.png
 docs/endpoints.png
 docs/browser-regression/
+docs/latency/*.png
+docs/latency/lighthouse-*.json
+public/media/**/packs/
