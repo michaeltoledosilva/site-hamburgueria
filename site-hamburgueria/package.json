@@ -1,0 +1,35 @@
+{
+  "name": "site-hamburgueria",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1",
+    "build": "next build --webpack",
+    "start": "node scripts/serve.mjs",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test scripts/test-frame-loader.mjs scripts/test-viewport-geometry.mjs",
+    "qa:mobile": "node scripts/qa-mobile-regression.mjs",
+    "qa:perf": "node scripts/benchmark-mobile.mjs",
+    "qa:composition": "node scripts/qa-mobile-composition.mjs",
+    "qa:chrome": "node scripts/qa-mobile-chrome.mjs",
+    "qa:defaults": "node scripts/qa-template-defaults.mjs"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "gsap": "^3.14.2",
+    "@gsap/react": "^2.1.2"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "latest",
+    "tailwindcss": "^4",
+    "@tailwindcss/postcss": "^4"
+  }
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "file": "Composição_publicitária_gastronômica_cinematográfica_em_9e392441_1080p.mp4",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "24/1",
+    "duration": "7.930000",
+    "scene": "camadas",
+    "profile": "desktop-native",
+    "derivative": "public/media/camadas/desktop-native/%03d.webp"
+  },
+  {
+    "file": "Double_burger_ingredients_assemb…_bd064d6e_1080p.mp4",
+    "width": 1080,
+    "height": 1920,
+    "r_frame_rate": "24/1",
+    "duration": "7.930000",
+    "scene": "camadas",
+    "profile": "mobile-native",
+    "derivative": "public/media/camadas/mobile-native/%03d.webp"
+  },
+  {
+    "file": "Double_burger_on_wooden_counter_1c4710e6_1080p.mp4",
+    "width": 1080,
+    "height": 1920,
+    "r_frame_rate": "24/1",
+    "duration": "7.930000",
+    "scene": "brasa",
+    "profile": "mobile-native",
+    "derivative": "public/media/brasa/mobile-native/%03d.webp"
+  },
+  {
+    "file": "Double_cheeseburger_on_wooden_co…_5702425a_1080p.mp4",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "24/1",
+    "duration": "7.930000",
+    "scene": "brasa",
+    "profile": "desktop-native",
+    "derivative": "public/media/brasa/desktop-native/%03d.webp"
+  },
+  {
+    "file": "Imagem do ChatGPT 3 de nov. de 2026, 19_09_23-1.png",
+    "width": 1672,
+    "height": 941,
+    "r_frame_rate": "25/1",
+    "duration": null,
+    "usage": "Referência visual e cardápio"
+  },
+  {
+    "file": "Imagem do ChatGPT 3 de nov. de 2026, 19_09_23-2.png",
+    "width": 1672,
+    "height": 941,
+    "r_frame_rate": "25/1",
+    "duration": null,
+    "usage": "Referência visual e cardápio"
+  },
+  {
+    "file": "Imagem do ChatGPT 3 de nov. de 2026, 19_09_24-3.png",
+    "width": 1672,
+    "height": 941,
+    "r_frame_rate": "25/1",
+    "duration": null,
+    "usage": "Referência visual e cardápio"
+  },
+  {
+    "file": "Smash_burgers_cooking_on_griddle_88a2d445_1080p.mp4",
+    "width": 1080,
+    "height": 1920,
+    "r_frame_rate": "24/1",
+    "duration": "7.930000",
+    "scene": "chapa",
+    "profile": "mobile-native",
+    "derivative": "public/media/chapa/mobile-native/%03d.webp"
+  },
+  {
+    "file": "Smash_burgers_frying_on_griddle_4322cb97_1080p.mp4",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "24/1",
+    "duration": "7.930000",
+    "scene": "chapa",
+    "profile": "desktop-native",
+    "derivative": "public/media/chapa/desktop-native/%03d.webp"
+  }
+]

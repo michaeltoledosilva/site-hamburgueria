@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+# Prévia demonstrativa protegida por meta robots noindex.
+# Canonical e sitemap dependem de domínio aprovado.

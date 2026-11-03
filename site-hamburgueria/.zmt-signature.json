@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "version": "1.0.0",
+  "patternHash": "464a19de8f290c6e0bdf4b0e5bd2da72b3b544eb5594dad6cdc546dd4bc3e5c8",
+  "siteHash": "8702e74873228a8b82a76ce40560d363992cc813cd3b65a78cade8f7e325fd5f",
+  "repository": "site-hamburgueria",
+  "siteName": "site.name",
+  "palette": {
+    "background": "var(--olive, #0B0D10)",
+    "text": "var(--ivory, #F3EEE4)",
+    "accent": "var(--sand, #C6A86A)",
+    "buttonText": "var(--olive, #0B0D10)",
+    "muted": "var(--ivory, #F3EEE4)"
+  },
+  "entry": "src/app/page.tsx",
+  "siteNameExpression": "site.name",
+  "files": {
+    "src/components/zmt-signature/ZmtSignature.tsx": "e62b101ac180f6cc057339645a8bef2b7e6c6ef9ad4d30dbd69f1e337af221b1",
+    "src/components/zmt-signature/signature.module.css": "5ec9448fd732e8482ee6fd857352ca57e5712db25f757653bb1dcb787440bb84",
+    "src/components/zmt-signature/content.json": "08c2d4441f09e985d7eb6ecdc4b3fb79f0a79149e5c764243c5c35df5ed858a6",
+    "public/fonts/zmt-manrope-latin-600.woff2": "4b52f2bf3d110469312cbedd409316b145c19be8cb792a17fa6ba91a91ebb23e",
+    "public/fonts/zmt-manrope-OFL.txt": "18aabf190848725e2576eefb5c29ba06aac1029d02132252a7f312eac2e50cf3"
+  },
+  "validation": "passed-local",
+  "validationEvidence": "docs/template-validation/defaults.json"
+}

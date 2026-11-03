@@ -1,0 +1,3 @@
+'use client';
+import {useState} from 'react';
+export default function DeliveryDemo(){const [channel,setChannel]=useState('');return <div className="delivery-actions"><button className="button order-button" onClick={()=>setChannel('iFood')}>Pedir pelo iFood <span>↗</span></button><button className="button outline-button" onClick={()=>setChannel('WhatsApp')}>Conversar no WhatsApp <span>↗</span></button><p className="demo-feedback" role="status">{channel?`${channel}: este é um projeto demonstrativo. O canal real da hamburgueria será conectado aqui.`:'Demonstração de canais. Nenhum pedido será enviado.'}</p></div>}

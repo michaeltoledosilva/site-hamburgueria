@@ -1,0 +1,3749 @@
+{
+  "version": 1,
+  "root": "C:\\Users\\micha\\OneDrive\\Documentos\\ChatGPT\\Hamburgueria\\site-hamburgueria",
+  "evidenceRoot": "C:\\Users\\micha\\OneDrive\\Documentos\\ChatGPT\\Hamburgueria\\site-hamburgueria\\docs",
+  "environment": {
+    "url": "http://127.0.0.1:3002/",
+    "engine": "Edge headless / Chromium",
+    "browserVersion": "156.0.4314.58",
+    "buildId": "2fi22UapUYlG7lJ82C9TY",
+    "deviceCoverage": "emulated"
+  },
+  "scope": {
+    "cinematic": true,
+    "requiredStates": [
+      {
+        "id": "closing",
+        "profiles": [
+          "mobile",
+          "desktop"
+        ]
+      },
+      {
+        "id": "delivery",
+        "profiles": [
+          "mobile",
+          "desktop"
+        ]
+      },
+      {
+        "id": "entry",
+        "profiles": [
+          "mobile",
+          "desktop"
+        ]
+      },
+      {
+        "id": "exit",
+        "profiles": [
+          "mobile",
+          "desktop"
+        ]
+      },
+      {
+        "id": "menu",
+        "profiles": [
+          "mobile",
+          "desktop"
+        ]
+      },
+      {
+        "id": "mid-0",
+        "profiles": [
+          "mobile",
+          "desktop"
+        ]
+      },
+      {
+        "id": "mid-1",
+        "profiles": [
+          "mobile",
+          "desktop"
+        ]
+      },
+      {
+        "id": "mid-2",
+        "profiles": [
+          "mobile",
+          "desktop"
+        ]
+      },
+      {
+        "id": "reduced",
+        "profiles": [
+          "mobile",
+          "desktop"
+        ]
+      },
+      {
+        "id": "scene-0",
+        "profiles": [
+          "mobile",
+          "desktop"
+        ]
+      },
+      {
+        "id": "scene-1",
+        "profiles": [
+          "mobile",
+          "desktop"
+        ]
+      },
+      {
+        "id": "scene-2",
+        "profiles": [
+          "mobile",
+          "desktop"
+        ]
+      },
+      {
+        "id": "signature",
+        "profiles": [
+          "mobile",
+          "desktop"
+        ]
+      },
+      {
+        "id": "transition-0.31",
+        "profiles": [
+          "mobile",
+          "desktop"
+        ]
+      },
+      {
+        "id": "transition-0.325",
+        "profiles": [
+          "mobile",
+          "desktop"
+        ]
+      },
+      {
+        "id": "transition-0.33",
+        "profiles": [
+          "mobile",
+          "desktop"
+        ]
+      },
+      {
+        "id": "transition-0.34",
+        "profiles": [
+          "mobile",
+          "desktop"
+        ]
+      },
+      {
+        "id": "transition-0.64",
+        "profiles": [
+          "mobile",
+          "desktop"
+        ]
+      },
+      {
+        "id": "transition-0.655",
+        "profiles": [
+          "mobile",
+          "desktop"
+        ]
+      },
+      {
+        "id": "transition-0.665",
+        "profiles": [
+          "mobile",
+          "desktop"
+        ]
+      },
+      {
+        "id": "transition-0.68",
+        "profiles": [
+          "mobile",
+          "desktop"
+        ]
+      }
+    ]
+  },
+  "dependencies": [
+    {
+      "path": "src/app/brasa.css",
+      "sha256": "e19be49ecaa484a70940cf22e5e551c842b4d49fd98ff36be54e4e57f8fd3a6e"
+    },
+    {
+      "path": "src/app/cinematic-mobile-composition.css",
+      "sha256": "30c6877325216e0333dcb4f9793d6b23d9bbecf63fb947f0ff99eb129b101678"
+    },
+    {
+      "path": "src/app/cinematic-mobile-controls.css",
+      "sha256": "b6de5693df7c244c48e6d08b63f5376b6316d73e86e10100847973ce9410b539"
+    },
+    {
+      "path": "src/app/cinematic-viewport.css",
+      "sha256": "d8bca2d2057a46b4e45aeeb9d872041c8d7d17bd9f0c73adfce1d893069f65c0"
+    },
+    {
+      "path": "src/app/globals.css",
+      "sha256": "1f9ead4af11980991faa8ffc85d00415a34790e1a8610057cd0c745545773eb4"
+    },
+    {
+      "path": "src/app/icon.svg",
+      "sha256": "d66d197fc582eb8e054d9c00eef66427e2566234ada7aa63d24d8da4d251dd1c"
+    },
+    {
+      "path": "src/app/layout.tsx",
+      "sha256": "f4c54780782a55238a7953755357d8127124b39e74f2a7b9b76b405897dde735"
+    },
+    {
+      "path": "src/app/page.tsx",
+      "sha256": "b46073a77ad95e8f1b1f7d4035762dfe616d863351d65ae6df3ec356e31f8883"
+    },
+    {
+      "path": "src/components/cinematic/Experience.tsx",
+      "sha256": "e6fe578998f6605ea7a8698732f577803fbd48bad44b8c7103cbb2e673d5bd5c"
+    },
+    {
+      "path": "src/components/cinematic/frameLoader.ts",
+      "sha256": "a8de863d9e9591e11cb3ed478b9811e5dc4ba914e62b4146518f2d83ea454ca8"
+    },
+    {
+      "path": "src/components/cinematic/MotionPreferenceLink.tsx",
+      "sha256": "ccaf830ae28e2093028828db88ae24af9e690651e3ec97ae7ebbcb9b6a119c8b"
+    },
+    {
+      "path": "src/components/cinematic/PerformanceProbe.tsx",
+      "sha256": "28d4bdb6e6a62bb0a076c5622c4f0f64b8ad10616d1a208a72bd3b0dc3ca210e"
+    },
+    {
+      "path": "src/components/cinematic/renderScheduler.ts",
+      "sha256": "c30eaac34b08166e448200a093b85c771e09bb438fcedfc073d746658387586b"
+    },
+    {
+      "path": "src/components/cinematic/viewportGeometry.ts",
+      "sha256": "4c24fca646696537c51ed0093663fdd482831943f9d0dc49a735b0d5ead2e156"
+    },
+    {
+      "path": "src/components/DeliveryDemo.tsx",
+      "sha256": "70c641d04411faceecb84d66e10ab4461f18d3911284f1ab232391264be9d0bd"
+    },
+    {
+      "path": "src/components/zmt-signature/content.json",
+      "sha256": "08c2d4441f09e985d7eb6ecdc4b3fb79f0a79149e5c764243c5c35df5ed858a6"
+    },
+    {
+      "path": "src/components/zmt-signature/signature.module.css",
+      "sha256": "5ec9448fd732e8482ee6fd857352ca57e5712db25f757653bb1dcb787440bb84"
+    },
+    {
+      "path": "src/components/zmt-signature/ZmtSignature.tsx",
+      "sha256": "e62b101ac180f6cc057339645a8bef2b7e6c6ef9ad4d30dbd69f1e337af221b1"
+    },
+    {
+      "path": "src/config/site.ts",
+      "sha256": "e2bfd92e71d26cd7a5cc1fc8b1d1a61110598b72801bf0db768333a7cdf82c82"
+    },
+    {
+      "path": "src/data/scenes.ts",
+      "sha256": "c1b69f016f0fcd38b281cf4aa24d8a21ebfe913d96040bfea076a8913a82392b"
+    },
+    {
+      "path": "public/fonts/zmt-manrope-latin-600.woff2",
+      "sha256": "4b52f2bf3d110469312cbedd409316b145c19be8cb792a17fa6ba91a91ebb23e"
+    },
+    {
+      "path": "public/fonts/zmt-manrope-OFL.txt",
+      "sha256": "18aabf190848725e2576eefb5c29ba06aac1029d02132252a7f312eac2e50cf3"
+    },
+    {
+      "path": "public/images/burger.webp",
+      "sha256": "69d580215427b1e3545b8ef46d3490b3cd1259d90f89cd1d8f23c0d445965e7b"
+    },
+    {
+      "path": "public/images/griddle.webp",
+      "sha256": "d97248af7c35e959d8a52ba8daceca4f0907b16e12b0a923525aee30ebfa2e4e"
+    },
+    {
+      "path": "public/images/layers.webp",
+      "sha256": "b01670a00c4713c41da90fe7063c4f2d306571fbb52e2357642270edf4aafeb7"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/001.webp",
+      "sha256": "7d7715e92c6f68bd3b81990647abc99e65fd613e755ff6de68fbd516d6ad04a8"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/002.webp",
+      "sha256": "8c85417d6deaef8e3580edae798f8cd2f5ae0addcfc46490650de34120485b5b"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/003.webp",
+      "sha256": "15adbb073cdbbc14ad6d299992d57a41b72357ded451477e936e2b1081bea735"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/004.webp",
+      "sha256": "2ba71a2f9f201c3bfdc69442a46c7a517596becc469a8d90f44904c338565b34"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/005.webp",
+      "sha256": "f27d2d2ec26251132a2249af5cb9e565708949748da3f6ab22290d9e60d9d200"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/006.webp",
+      "sha256": "217232c24bd40cbe6c7cba61d27c39e9945d6287991d39f6636faff51f082b27"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/007.webp",
+      "sha256": "b4ec15fd48a181d274ede0a843e3a95963c79e36e6e6bc7c782be6612a8feabb"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/008.webp",
+      "sha256": "c55c6a394fa307724307287305ed68637e6cb28627474cd8efc051f2818a3623"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/009.webp",
+      "sha256": "e396f11f8071da14567597611d57147d93e03b3dba3358444fa7d966d04a2544"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/010.webp",
+      "sha256": "48abcf68d15d139a52906cfeca6cea8913e89a3c155981f08d680e7d20933e3f"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/011.webp",
+      "sha256": "d7f041a3ec1aa9807b448c375b9f835616e84f7006157bc1de69e7930ca9e6e2"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/012.webp",
+      "sha256": "2ce07402ae502bc768150e5485f7f608400e82ecbc111ca45b0b90a19ac2a6b1"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/013.webp",
+      "sha256": "2e6569a1ea1c492a295c4a7126ca73d1fcbc5d34ad2340bc311e814c5e66f88d"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/014.webp",
+      "sha256": "bfb4451875e871d8cfd64f474afffa3e0b884323ce64dc303ebb9fafe0b76d65"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/015.webp",
+      "sha256": "888fa864bf62d02b414ce38516aa0c2ef14b36e29515b615624d003acb3f3cee"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/016.webp",
+      "sha256": "15bf3d75cb32695d26332d79154747287f8039186b10c3819fc658050957dfeb"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/017.webp",
+      "sha256": "fe79f05603b7ca4bc6ba3af23c7346b762c0eb93a4767e24b74de0eed3a59ef5"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/018.webp",
+      "sha256": "2dd05563e63f234b36b7ecd31e6ec07665e5621c8713c27d89faba7b353a3c03"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/019.webp",
+      "sha256": "ffb7d263977a7a92cbfa535fd5d12454a8745af000c6231e03c5dbd0c3fab57b"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/020.webp",
+      "sha256": "debd32865a6e58a44ec7cfa391094dd82f8c50eb3bd99818cfec3f5331283711"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/021.webp",
+      "sha256": "8ed02668ca90298bc0233ff9030015e940b10fe442073d7b06d2428cf7c74bc7"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/022.webp",
+      "sha256": "8ebc5b13f8e59e2676b1b322c70699512e6cca44481f5cae91f28af7f694a743"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/023.webp",
+      "sha256": "90774f6103506d4c0c0193c7ea97a2364b13c7fecd8abdf5d1c5cf33be6021b1"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/024.webp",
+      "sha256": "3668ff6b4f70284b858581099f70cb788e976479449d0b3d93de60ae8d83bbac"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/025.webp",
+      "sha256": "b83f1f9e77f3e075019092ccfe960ee932159f8e606b652fde6fccf0a8f135fc"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/026.webp",
+      "sha256": "f829bed3b918658314359bdde0aa22f4df1e3003cd4ad53cd4b4b719f5dd14e7"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/027.webp",
+      "sha256": "77be04e1787db541781760cb47801fa1331834d89aaa75e8c1c530fa9c37dea7"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/028.webp",
+      "sha256": "0469c4daf16dbf6de5c879d4b636149588507938b36a66034d5aba22a4ec642a"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/029.webp",
+      "sha256": "4b0026d24350c3d4daf4f6ea65ffb1eee1d8c536454602921b258607fcdfc396"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/030.webp",
+      "sha256": "b0d676e5bf24579f2dca839234647911be4aee5421d20bb5a809dc804228a752"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/031.webp",
+      "sha256": "d1924d0eefb92373026b844fb20c87ec2bc8749b198ff5d9d7b64e246e403302"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/032.webp",
+      "sha256": "3587ca449f9ea22450747b31857583d39272f7263008496622661e10c2d7b762"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/033.webp",
+      "sha256": "2348989fef58e6184dee8c8f7803af5e6fed11a868fcf6a7cafc3f902651ff0a"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/034.webp",
+      "sha256": "8de95197368768853da344368321059200a93c342bd6c30335f99ceb094091e0"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/035.webp",
+      "sha256": "c231c4d2872e780dc950f089d8c638f078e9375d6ba60446557f3cfa7e60fc63"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/036.webp",
+      "sha256": "d5f2fa375336e0ee5a018823f6e6234e891285dadc198d5ff65a799564a85dc1"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/037.webp",
+      "sha256": "ace7cee667dd6d70dd229cd14d9465803df69f9b9f43e76a81a66f67704d770b"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/038.webp",
+      "sha256": "25f5845939b182a5a7717af8db1ccfe4ca4c33736cd18f4ccdc3c50b8c93586e"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/039.webp",
+      "sha256": "d18b59467c37033c8c0f446a4cfaaa53213b146d0b05cdfc3f722080f0f665aa"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/040.webp",
+      "sha256": "e77c00e95be5c57825e5f8ef25663f58474ab992b80e10244ca43a2d5e560ad4"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/041.webp",
+      "sha256": "85bc7c3d6d1b96b83cd71d40baab4a7af3705b7cd32b292312dbdb90c899ed2a"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/042.webp",
+      "sha256": "17434aecb13234415f08dcbc22177f8287774f3b7a983356770685ae629104f6"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/043.webp",
+      "sha256": "62e604906136aaccf9ca4c874f8fb3710e622b7e8161898727ec181fe81d9c24"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/044.webp",
+      "sha256": "65cc1c6d4d927840efc8743724677092d48c543624dc853269d6a2528dcf0694"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/045.webp",
+      "sha256": "e770e2816101aa5be898d5744b6e83de100ba36bdee6f23f4c0a250428998d76"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/046.webp",
+      "sha256": "0873f8fc1dc6e0588acee17705c66394d11cc878b66e9cb7e3296540d6aca1a5"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/047.webp",
+      "sha256": "c1659da9854b9e6625ea87703dd83df4363c4bf4f86436400a59a2c639f32fc9"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/048.webp",
+      "sha256": "7a98c11feb3f1b7b8efc3a0e31d8f48d13cbd6af4fcb636d88849656f8275e8e"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/049.webp",
+      "sha256": "2ca22bba494b68bfffb328ce39a4d67585d1a0e38070fa4446dbbe0e8918de91"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/050.webp",
+      "sha256": "cc3df92c9a20ee60f298102787f8468242115296e08258a1542d1fc1a70575af"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/051.webp",
+      "sha256": "5b3ae9bda25182f45dfd0beabed4dc56d89491ac2cc7d36e51db1d8565be8262"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/052.webp",
+      "sha256": "18d86896330c019b94815afb5b9339cd701c52058c1ad9fd5030b0e662dda179"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/053.webp",
+      "sha256": "b50b63bc3088d61daea65f5c7e4a8d810596909f4e8b059ce5d9650859f982e3"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/054.webp",
+      "sha256": "e97c3dd22a83d9403a4b14b9f8b83b06cb7563e5e17614f65dd67c7ad6090b71"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/055.webp",
+      "sha256": "1385f1dd5e9f2a10383e8e8a4f80136a0bfcb6147bcbf2166f211731f0856ed3"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/056.webp",
+      "sha256": "125469f66d049a02cfc082874ba152b7b1a85996e947e4fe5c772f40e39812f2"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/057.webp",
+      "sha256": "6bd2de180e96b44237dbb1f00fdae2e6855640d78a1e8fae0b83d820dbd3fc99"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/058.webp",
+      "sha256": "cceac741c291c6faaf6fddb0d6f4ab4cd6de8c64f257b6909fca11fd45ef9eae"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/059.webp",
+      "sha256": "c42c0ed2dea2c94136d3d2d7280072b5283166baadb80f5bd3beca6f1d0bc1ac"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/060.webp",
+      "sha256": "aa27298335a83a68a4d3c38b3c8268b045b6cd83edf26295b0b447a04df1b772"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/061.webp",
+      "sha256": "5b434999f5cef37200a02bc15a901cbf34bf1a96c98e81b1d6dc85c0beda0022"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/062.webp",
+      "sha256": "d3de089aeb54373e0d00fc5ece53ff6938e331132a5eb8e2187b8759dcdf87cc"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/063.webp",
+      "sha256": "59a9b849a36655eb21e3aa0bb7a44cc90c0db02a64b1ddc0b4741c179181ebc3"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/064.webp",
+      "sha256": "bcf052329bbfeb07e1663f6d79b94f609b7a234b639abaa2acfbc5735b6b2964"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/065.webp",
+      "sha256": "218872d5841e94fcb3322d75a3fa77bd1ff153ba4edabee2c86feac49df410a8"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/066.webp",
+      "sha256": "bd9e16e2cf226462378f4a2cf2447f3ab884c0b5854936fb2aca8126164bf218"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/067.webp",
+      "sha256": "f53a39f85ee0b1aa7ef64455e6580b52254500f6b67d0b373cf8b0ab256719c8"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/068.webp",
+      "sha256": "125a0bacdc76187ef3e51c6c5dd8cb9d932596476bc1fd367596ab0379ad0951"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/069.webp",
+      "sha256": "0b8bfcd74a8eb0eeea94a0c1332265008e669e09153e698b7e657f7950b090f9"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/070.webp",
+      "sha256": "18ab5e8772f6d8353428a0919db6422f8cd5b3ba4a62ddc6983c8ed6d2e06c5d"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/071.webp",
+      "sha256": "45afee44581e765c68d2110319b9cb1edbc539c7545fce9aa8b5f7daf6292255"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/072.webp",
+      "sha256": "1b45930a2a01187ee469e8f381cb891de3e67fdd2655162573dd43a88225ccdf"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/073.webp",
+      "sha256": "9c99399aeedcf3b12c927385dd5454204dbff4cb5b5feb45125773b57dc1ab82"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/074.webp",
+      "sha256": "4a27383a89fe01520e73eafd94b83cb99202e58b07a321ca2721ad263a3fc998"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/075.webp",
+      "sha256": "b16459a1141be07f1e084827aa2e22ec11f1d298b172636b74b7f877cbd771dd"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/076.webp",
+      "sha256": "d850eb2cc8b44d97d41fdd0a9119a8a886ddd9d4a3ced951400fb5b49ae23161"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/077.webp",
+      "sha256": "a29b6e9a6188dabb108dbb5783e965b94952bd1305c8587f3e5f69d4e819886e"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/078.webp",
+      "sha256": "570b8a5ef75c4b027fdb72d5dc9f462100ff7dfa9ae3a954412e61b17712e56c"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/079.webp",
+      "sha256": "904310df5ce9534d64344ef0df309fbdfd7495742b57a2fac062e887aa495dba"
+    },
+    {
+      "path": "public/media/brasa/desktop-native/080.webp",
+      "sha256": "95572ca2141c684b2feeeaeb90b7586c74146b4d2d929f3473b893e6e8544cc1"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/001.webp",
+      "sha256": "8b101d95f06e33505795ee3cbac7c4d9f3f6ccd6e77f7f781daad0980b583565"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/002.webp",
+      "sha256": "ddc580c87c3c75a646ccd6f6f8a6b4d5f7251d6718b603ea72be8165d624b07b"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/003.webp",
+      "sha256": "1bdd17a09d6625ba981ce682d9ea2477c3a417e3bcf49baa282909a1c81a921d"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/004.webp",
+      "sha256": "d1f4dc20e1a9c38ff128d4c51b4da4bd0064303085919d8962aeddbccc28d6f5"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/005.webp",
+      "sha256": "c2226dd825e096d987f00daba3de3f8133faa63b351674363dc5cbee19e0679b"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/006.webp",
+      "sha256": "0e0fcd8a933befa9431bb7115a270ae9ae8205ce65ebe54af7211b843fd8b4d4"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/007.webp",
+      "sha256": "8688956b26185a8f15f38d287a8ce6b47fb5f9fabe89a2a18ed4571986b7d8dd"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/008.webp",
+      "sha256": "e472e624d5c510949694f9b247009c80914a5d9bc61f144eca0f85abf7b53b44"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/009.webp",
+      "sha256": "b734a792414579771840d2ea7dd4c5077abba1882614ad9e085f0649e801f84b"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/010.webp",
+      "sha256": "aa4cd88f542e1d820294c71d1b146258758ff970046924accf8155ced4158642"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/011.webp",
+      "sha256": "db4994166147b01bf59b69ebbfd01f6748632d0bce346afd40d9029670663e5b"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/012.webp",
+      "sha256": "0a7227e7f24054fe1ef24b90e9e42a7eea0d210f5bfd7fbec1540df52e21ae40"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/013.webp",
+      "sha256": "96ebcfadab473b1cd82ef776852347cfa38fb54600b4713d38390071cda06b9a"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/014.webp",
+      "sha256": "1d584f9d38f8bbd6ee15a5f0a2358a203456d27a4b741c0f517881b154725eef"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/015.webp",
+      "sha256": "bd3debb56c3c0f49108f4df7b64879478d8475ceea234844de518feecb724025"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/016.webp",
+      "sha256": "14e82fd4de2b5f01a0fdfc4372a8531c2e831c59de1f5c08d76e9742faeffe4b"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/017.webp",
+      "sha256": "b3f1d55e751845ad8e88d32ca0dcf0cde690527743387492f9dffaf62995aa80"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/018.webp",
+      "sha256": "e88b006afda1770673552e624123a7657de3e515351297149430ddc66ca4837f"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/019.webp",
+      "sha256": "efbd87c193c16320be3b562f2ef211e3914a1a978c93b27cd7b824c0038b09f3"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/020.webp",
+      "sha256": "1a59dbe43add9eb72b043340f0bd36b00ab67b3d45c65d40631000c7ecdd7106"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/021.webp",
+      "sha256": "20d7a403be60a3e6af08bd0234cc31919d7672050961c5ba8ef81ea0fd5f6520"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/022.webp",
+      "sha256": "baa0226a18274ea60c20e5673942e63439739002e4d54602118b86a70050adac"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/023.webp",
+      "sha256": "9b50efa2ae33655e021f27adf54a66114ecd53554bedd1308bbd1fec55058682"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/024.webp",
+      "sha256": "3bc8089114151b0350dfe339029e191d15eea834c23bf5b2346ea21259853a66"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/025.webp",
+      "sha256": "c9d35fa8b507a03334eee456895dfd1964d2f4e35f53034b8af8e1c52ee72f9a"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/026.webp",
+      "sha256": "a7be633f837b4a58ebb7a8781bf591fc29a1ad501f64f3258191cbdb6bba8e68"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/027.webp",
+      "sha256": "b5692900993e06db82a37bf338672a14c3e1d0739cab024f3f86c83715188480"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/028.webp",
+      "sha256": "17b43b8c71d9aaac96fa75ec1139ab9a29d2c45d25ba601dffe7c01931ed8032"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/029.webp",
+      "sha256": "bee8ef3159a2bc7629bb76ab4f14385ee6cfb9bd8d5392dc85b4095cc4d17172"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/030.webp",
+      "sha256": "7d654606a75b3f2c4c549e9a4f93685cadf8f10453a8e20edb7c053f735b249e"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/031.webp",
+      "sha256": "de36930e4908f4a64f410659c1ad8f58d3d2ed3348ce924db7a50e206582003d"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/032.webp",
+      "sha256": "32bba81b8bd2e853ed8fe3e7baab6e93ecf9023c2973ba3cb12bd3d1162a0148"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/033.webp",
+      "sha256": "e1b3c2e6ea967d19b05f4fd15ae184e601a64b9a62e00b225b30e55def8879f3"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/034.webp",
+      "sha256": "e3002f676b4cd3f3ff3ce9bb52906c34ce56e931b64275a8984fe0a90096943b"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/035.webp",
+      "sha256": "b01d524a402ad46315ee4b550c4f8fbe2847db08d5a3042fc49ebb3397acd9ff"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/036.webp",
+      "sha256": "44b216f5c6f7a252e02b6ea6a3b442ccf48939064e30531b36e8e888ee8f8bc9"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/037.webp",
+      "sha256": "5c81fa69703840c83f7c21b91b4663e55266291fc80041c911181a387ae897cb"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/038.webp",
+      "sha256": "0c04a745b96db981f41b9f9cc82c2766dd2e3d55d0fa39a3230fe2e79ef863bb"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/039.webp",
+      "sha256": "df7efa642207022ecfbeca316312effa53cee066ee7787a31168d5fbc9c52639"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/040.webp",
+      "sha256": "c9675e9411bd3a465e98996ef8816c3cc2c8569f7fa55e128d2bb85712cfbf6c"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/041.webp",
+      "sha256": "fbcc9c35cda7cdc450789384897b14711efc15f91faafa0a8e341d5e631a5cce"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/042.webp",
+      "sha256": "27229a8cbc9d38cf0b2e2fa60842d4986cd48bdb9eb4930899328860aad8003b"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/043.webp",
+      "sha256": "c64a0d26e6697eb500a82008b19efae4d89a9598e7d388a84bd6dd39481bf0cb"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/044.webp",
+      "sha256": "8aa406f182bd392f48b4b3954172b8b135f4e42d5226a7da4997d10c9af4ec58"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/045.webp",
+      "sha256": "fd91bc5e8323c19d80e82ba60445945534f7655ceaa3d06c5339b3d22416ded8"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/046.webp",
+      "sha256": "ff342e29d72372e1da8787464d51498b1064a41768e664bc128cefc2b5ecdff7"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/047.webp",
+      "sha256": "78cc2063e6483be1361e61136e952d7e12c35e57a4223313c434eacb299ce577"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/048.webp",
+      "sha256": "aec1fe478bc8d83f56ba6d5443f5c35661f02b8dce06577270d204dc6d468e88"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/049.webp",
+      "sha256": "ad8b63be6f59732110725d4f8a729079ff42071d45ae6a0d1bc339490e729776"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/050.webp",
+      "sha256": "8e8f164044d48e774936a79cd57530389ccf0e92add214e0b9fde8860c477300"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/051.webp",
+      "sha256": "6d4e5bfb80ba95a43fbd333034725d4ee36ca2e45dea971679a0562a0ff9e1f4"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/052.webp",
+      "sha256": "4caa8e8578af1998ab276b8e20911e4133fd8773c2a92f4556f8e0bd8945fcf2"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/053.webp",
+      "sha256": "037af828e3bf23fdb1655e7b1f2cb56660f13a770e56ac74aee6a32bce6e94e8"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/054.webp",
+      "sha256": "1c68022dc3863e980506618de491c052a96768a97e97f91312b89e93882d7b9a"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/055.webp",
+      "sha256": "213fa1ba5eea9026f3b16e151ccdd5b0c65969b4ac3eb831d5bdc94ea682a8fb"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/056.webp",
+      "sha256": "fc764350a89145c5cb92f70ded2ecab629444526473e1d9d17f4017c14dbeeb7"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/057.webp",
+      "sha256": "a182bfdc9fada51d64a8d160668bd322fa0a9eddc21ad99a9d553f65faf9a163"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/058.webp",
+      "sha256": "5537d652dc660a1e59dd74fec9003cb14ae08a91ef199991d2059fc0b10e4c03"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/059.webp",
+      "sha256": "5e898818d028a3c1f26dcc927eef0b6d3d94f4e99dd617677297851ad266484a"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/060.webp",
+      "sha256": "b44f10a909fb867b610d936748e8c1cfdb115812144a2024ab79e3afa09e32f6"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/061.webp",
+      "sha256": "a18564f39f743e0cca4d12f90417ff957435f23bcb2c3f666292a22b6a479ea0"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/062.webp",
+      "sha256": "dea1cf7bcc6f9de9034a8b17c33896a0334c85baf4413aabc615b3af89ff8a6d"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/063.webp",
+      "sha256": "37957d37801ca05616cc2fd5bd627e02dfbfd048805270fb28c91e996cd91e08"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/064.webp",
+      "sha256": "cc25215fb7ccf4cd1588ed378856b7d4e081ed4fc85dee43bfe5f220d31e4443"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/065.webp",
+      "sha256": "02cbe1536e3b5aba157e1c1366b8b7516af1ac3b2e60532a36506382afa27c33"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/066.webp",
+      "sha256": "22c912f305506715df8e1b89ba17c45dddfc0719b1e5858437a88951983ccb8f"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/067.webp",
+      "sha256": "962947cea415b82d22904b61da14a93e4e11ee576a88ae4e349214e207d7e1d7"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/068.webp",
+      "sha256": "da7ea94527bfe46eebee5b80a193c17dbad4242ac89af41fe1c2d41b145a3403"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/069.webp",
+      "sha256": "2de77e7675aa6b9a7a71d80cff8245fff5ccf0bb5d546ecce21ef36df439f4ba"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/070.webp",
+      "sha256": "53011e690802aa5661070b9cf188cf3d9ac6b9229d85f7dfe239007f0fdc12ba"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/071.webp",
+      "sha256": "1140b4b4d2257e469af643df5fb4a615565589ef5c7afaf34edb0815ecfcf3c5"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/072.webp",
+      "sha256": "d4b66276fbe06c00615d4667d1fe1d55f80572e2606bff6bf2e3df8b4f1877af"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/073.webp",
+      "sha256": "287dbf3656fd026f4066a8db94b2674f6ebcaadbdfeffe1ee189da51de08689a"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/074.webp",
+      "sha256": "a69370aeff5294b71e451ca6c8e2b4273defb8e691f0c6ef1f7c4efc42df4cd6"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/075.webp",
+      "sha256": "365f8d692c24e9361503ba7503ed75237cadd8a977dd95ad603172e4390e99c9"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/076.webp",
+      "sha256": "ec6fe61529c39de708eaff89bec2e0cb13a9078cc6ca6442d2e3eb9020888814"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/077.webp",
+      "sha256": "98b3fa529ab80a4376f676211aa23e96c7b571eec8a18b6c3773d90ae95c3835"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/078.webp",
+      "sha256": "f1928940c02cd693b2966ff1ce75406289fa944d0f22c0ba581ed492d38cea59"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/079.webp",
+      "sha256": "838f7c5fbc7e32fea17a8062799d6c6b764fae7c4a0dcad8c3e40a9f169b0181"
+    },
+    {
+      "path": "public/media/brasa/mobile-native/080.webp",
+      "sha256": "9e0dd5e6cb1b5e25db92197b0b75f693eba5dd1f030da2fb199351f1f8a9634a"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/001.webp",
+      "sha256": "323af5408139da1198033f725ab31c4fb0ffcc7c76f9ac22d49e62f0fc28c8ce"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/002.webp",
+      "sha256": "25fcff8563e28b4360c60a467159044a8dd44a7a1884bdfd929b53457ed20efe"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/003.webp",
+      "sha256": "b1848fc86ce699cf9d4d030a30e73e8a664a6e560a69b9d5f199e8f2aedd7f64"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/004.webp",
+      "sha256": "7b84561b2f14a64dff8eb55468b82ea72ad45353dc46a4d81ece3f09ec762643"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/005.webp",
+      "sha256": "27e06133672075bc35b74d77b8579dead4dc3f8df7f4a6b2d67fd34b8e85eb69"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/006.webp",
+      "sha256": "e1a7cf4c26f48de5c57047269cf550e349074b198ceb17add0a3c75b4ac3c086"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/007.webp",
+      "sha256": "f95d0d5127d1af27a337f4e86e3712150aab4c29c035f03977ff04d63022d6df"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/008.webp",
+      "sha256": "5b6de699ef11977a4631e813816b49376b1cd51e1340dc2b8c4c0042a8326ee6"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/009.webp",
+      "sha256": "00036a8d82a17c74ecb2b34056a999802e853e80a806b2378322af2d90b57814"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/010.webp",
+      "sha256": "8b0727350c59cb486cc52215e1509854e730a0af3be8e84dd2a8989de04734d2"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/011.webp",
+      "sha256": "075fcf979dcfb7398e6fafeda2d7ea47589caf3f5b820894a4ba5406b2048b45"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/012.webp",
+      "sha256": "0838bc0d8b939aea9238d2ce82ee743d84f583b71fccc3d1db26773df2978d44"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/013.webp",
+      "sha256": "68de4e432e3c7718566c667a2dfee5d6a1d784c92eb2022d2553900ace9ef1bc"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/014.webp",
+      "sha256": "2d084d3e9010eb15c4043165e97740de2cfc89659a1f5637d45465166badf6fe"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/015.webp",
+      "sha256": "c94a7780ec2a626655ac1e09e5592ed36e8b51028c57c347fe9ddc425cbfad9a"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/016.webp",
+      "sha256": "8ef3f15b04ee5b1aa8b5e51982678088c9ed04147efbcd5302dcb08f7e1d5ef4"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/017.webp",
+      "sha256": "bb638e052a04b11142c135254854d4c27c6ce47fb139f1a730dd1c9d5134710e"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/018.webp",
+      "sha256": "0288de136412c41829e7b652457f1fdf6cb95108d1cbd74af20f5b20be4d6dfb"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/019.webp",
+      "sha256": "9c5b77683a6615b605419dc661f9773bbd350253a8d7b73aba28c1f6ab61a3b0"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/020.webp",
+      "sha256": "53c4b96fadab9bfb990212a55c9ec860ea93be6189c42e079941baf17e8455d1"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/021.webp",
+      "sha256": "0537ed1aeee3becfe53bf4549a7fc46d534c6ccf31e19fac46a06b651c973bd5"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/022.webp",
+      "sha256": "1418ef72f61d9ed73709b77d798b5febca7c5775613089d8073e2065e466f35e"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/023.webp",
+      "sha256": "4b63b7b54acdb5f53413aa20806c92a1e657ad7b5228a2e7cd493e840429b4f1"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/024.webp",
+      "sha256": "1d212b9e802929aebf2ef3b6932311d35ab038cec2d6f16ba4191671ee21faf1"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/025.webp",
+      "sha256": "6cda06df9da85f9e8f91220a163e99f00645bbeb9d1e89303a7d714495bf597e"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/026.webp",
+      "sha256": "50f2bb6e85b1b069c3dd3d2f5a608e7252fe478408f8cb8d8c5c827bf9a4ffa1"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/027.webp",
+      "sha256": "41d79b78ec4d964720016ccedfb717ed8a6a0b7aea7250c485beb2e1e1c8470f"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/028.webp",
+      "sha256": "2118fab54d9227bbc4274ce2049832f57b942e1a25ceb68bf0093588886bb20d"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/029.webp",
+      "sha256": "c7892d8ac7e031a19ada2cb6949b21f646254f553982a3114009951fcc9cfc5a"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/030.webp",
+      "sha256": "cfeef412fe0d0642c143a488e75161fa02c99c448eefafb4d128ec94bb2269a1"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/031.webp",
+      "sha256": "86590b0339552930e42ce87403d5cfec6c704f6a585405a90c2f9c3773143fc5"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/032.webp",
+      "sha256": "cc2d7a7d9c83944aa743fe459aa7870f96a105edcb5f87523ef86238306cefad"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/033.webp",
+      "sha256": "3e3c951fe27e635798192b546c2abc43fea20e3baf35c3e249ce7017064de204"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/034.webp",
+      "sha256": "860720f1b081ff5c5c80abe14b2eb5a4bbdb1fd95f845c5b139bdcde9dc86c34"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/035.webp",
+      "sha256": "f1139de144226862c6c89b81727d59e91102438ea6b62fd744c34e8cfc2457a7"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/036.webp",
+      "sha256": "69174f77bb5b2614aa386a580967ce1e491f2878528110c946e8b7c928d4e362"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/037.webp",
+      "sha256": "ca9d0d7b49b797ea6b0efe36a721b75bc82a54c4d43b1baedda1c7716e774e7d"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/038.webp",
+      "sha256": "3273f1e510d5cc9b6ee2e87aaa82d9260682f8c8dbd38074213b787337d45649"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/039.webp",
+      "sha256": "02a6aef9e5e82bdbb5d0ecfb3569bcd4e9b4afb5de1ee6f1528249b271ca148c"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/040.webp",
+      "sha256": "3e9dad4b9919656467b28401b056e6d7a9a8c6a2b135c5f0d9c7bf5e8da18bfd"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/041.webp",
+      "sha256": "841c7923512f8e29580cee0751a92b5fb0a1b79d5ca0f0db50b076b3afba9483"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/042.webp",
+      "sha256": "d22709f28ab005935a766e4ca0709cf9062e2dbf6aac1f5f134e014a9b224ce4"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/043.webp",
+      "sha256": "14f3ae494c73365a8d9657f2d05eb5b4bd9990703615913ca5622402aacdf4ab"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/044.webp",
+      "sha256": "8d0a1695e6a1b7826d86581d68a2eae2f7f641c726bf30302dd7f756566f0610"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/045.webp",
+      "sha256": "a11ec92729523957536860a90f951d5ea35f96e005359d41c8a1af57ef4713bc"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/046.webp",
+      "sha256": "480a67b5f2d143f69ef093951c51f975c9d5fe69088f168555730ec44dc09571"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/047.webp",
+      "sha256": "7d35aa3526d03f961543ad947b187a95546c30ff81f672065ed0368fdf13b381"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/048.webp",
+      "sha256": "2b430568b46a127ddd72433424caf49f650c36245215b406ec915530914132e2"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/049.webp",
+      "sha256": "4a2bf9c00dedad3f763820b85ae040173f75efaea5323ca5beb894dbe7e4100d"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/050.webp",
+      "sha256": "ccdcdb0cd69c72e7272272d982ebcca257614843926692503d2c4cfc832d7423"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/051.webp",
+      "sha256": "dafaadbedad2aa5c60479bcb35f7389c24a17f3918ef4d66ee0265135388154b"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/052.webp",
+      "sha256": "c7aca9d8d96a089a909321ae0572f50f67304f64ef61cc8a38170cdd4ef9463c"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/053.webp",
+      "sha256": "e3b6e3eb651fb2628510dcf725428521af0c95aa78f45660093da19beafa936d"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/054.webp",
+      "sha256": "498f96338eae79b995e030f9d6cfa71b3d9dbd96e07c172d9cabdd57c908518b"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/055.webp",
+      "sha256": "695ec5d2990a1be6681c9a7a9fb8b247c74fa86721009b9ae8f1b59a1191a46c"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/056.webp",
+      "sha256": "3bd094ef4d06b837681d106e1b22c43e4f27f6591dd84570198c2e5bf826fbfe"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/057.webp",
+      "sha256": "07b84fc669099517777cd1129a00623393d50df783e3dc6c129e31425db93758"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/058.webp",
+      "sha256": "c64bd9761dfe09ddd803d4f7e4c274469dd7f061ce37d29a4f3682abeb3f3333"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/059.webp",
+      "sha256": "a3e44b46c11f833aa56d2c990678d2ca017897828406eb808f552f9f534b5171"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/060.webp",
+      "sha256": "deda83e7e67c650eaa0057ec8c8ff7775cae2a286d5a340b3af6acc1ffbaaa10"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/061.webp",
+      "sha256": "89e87eedc5940b0dd79f2a6c013e48a114de68da533daa6cf9197e3284eb35db"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/062.webp",
+      "sha256": "742a4269626375a3d275b2063f8dcedbf564daff0121f7b65d7bed0dec240476"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/063.webp",
+      "sha256": "ce1efacb67b4ad9a9d260c4f2f2a664047b4ffed3f449e295c27f2190fb5b0de"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/064.webp",
+      "sha256": "f3eaad81f9e26343025bb35b2c71ebff8082741173e148eb677c34a3e26c288c"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/065.webp",
+      "sha256": "a9181521b3e84d7a2c16312ffd4c595e08d992045293de927d8c311591763020"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/066.webp",
+      "sha256": "3c5d674f4b1b946dd1788a6402760d75861d9efc05838e7318f5269631071b3d"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/067.webp",
+      "sha256": "263c06598d38034e06854b01a351373a68483c47871d80e8415616096d577c39"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/068.webp",
+      "sha256": "c216cdb54d255d29877460d227326f500ff0e367a9a5c12da26b00654e112b0c"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/069.webp",
+      "sha256": "7a2ad0076b6c2cf78d85351c8c4c525a12634802c31485d52a825b1fae5dd121"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/070.webp",
+      "sha256": "243caf6032f97e2bcd259144acad6dcdd1bb6cefe3f3b2f97444bc2e0fc4583b"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/071.webp",
+      "sha256": "57af459c94a368de7ebfba6db933c355b28cb8cce28598bd90adcc3934a7c17a"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/072.webp",
+      "sha256": "5a5281f67f1077a4c2f061b191a89dad9b06110a86b3fcfa5188b4f388fa024e"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/073.webp",
+      "sha256": "7ab1402f16e18a66a9560ca4b09e7d10a03cd0832c6c22fd8d517b2d7471b1c6"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/074.webp",
+      "sha256": "fa06f45558c21919dec0987a86b308fcaab730cadd06e5d105ba8a8188c81577"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/075.webp",
+      "sha256": "9bf32c78f6cf5586eb4c3437499ca584b8ab0c03bea356422b74eaef9e5b89ab"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/076.webp",
+      "sha256": "06076d9fdfb11ae6fa303243c59d4c1d873f6654063df3e689e408225163fcd9"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/077.webp",
+      "sha256": "d260b0619fb1487647e4c36861b1542de1dbae25cbf8b059798427ba24f86bc3"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/078.webp",
+      "sha256": "dd0b31f532ab58131bee6fb9383fe7dc73fe6c91534bd2e8babcc0815bc3ce2c"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/079.webp",
+      "sha256": "25ed697634f84b6d89df454ee7b31e30b66d0cc9d7a252183e5b48219ef7665b"
+    },
+    {
+      "path": "public/media/camadas/desktop-native/080.webp",
+      "sha256": "92121f450e11b8c067df057223ce26932d5d0a64878317249ad747986ee57b28"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/001.webp",
+      "sha256": "3db496b39f19f857852fbe3e367178d8b863898e21701746fecb6c279082b4b4"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/002.webp",
+      "sha256": "13cf253f38c5555bb7bb9bd42aaedd82643fd1ca7057a5bd168381812f6df57c"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/003.webp",
+      "sha256": "e374b03fc2d0048da2ad1e363e86a6637dff0d5f8740bfe9b5a0e3ba0fdb98d9"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/004.webp",
+      "sha256": "a9d16b16b711f47d229776e73f399a684e0ec484cde08df6f5cf1041f4bf329d"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/005.webp",
+      "sha256": "b370db6c0ea7ba40d3271914f547624368baccbf5e48ea491e23ea86f0f9a05a"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/006.webp",
+      "sha256": "54181ade94832d0766e1bc4e02223d77b555aa94b11e4e6f4dc1c6ccec6cab5b"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/007.webp",
+      "sha256": "8091b1a71c518844dd1455f1e55fde51b46ce71a482900d678894e750ed6c2f3"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/008.webp",
+      "sha256": "0dcfe55ffeb1acc680b9fc9d6668ffabd88928f9407f78cf4ed55a1fc0633c2b"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/009.webp",
+      "sha256": "3748d698e3d840201a3cf8d852708bb263969894cfb5e67bba64b04605ee0dcf"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/010.webp",
+      "sha256": "d0a24d85330981c4876f8b7f605500755893d9808ad0019fa68fd2d9878afc55"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/011.webp",
+      "sha256": "5114cf4ce9d6f3c6529578fabd7df9c4097ca5df1633724cecd47d21f06cb1fd"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/012.webp",
+      "sha256": "512301e44ff096b6f59f5639663a0402d460c1ab199377f8ec6cda52eda3cc95"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/013.webp",
+      "sha256": "d22ae908d4c6e9de18714615c3aefdf366b2ca5743b220d3075c1a6c1dc29a7f"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/014.webp",
+      "sha256": "c11ff3fb6dd813471cc934449edc2d37f55e293a6ea1808bdb798be060a728c8"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/015.webp",
+      "sha256": "dddead8038688ffba598b0175f548aad8986ea8c1e0b24570937c586a7479da1"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/016.webp",
+      "sha256": "60b778a1fae19f26b897cb0d75e6cb8848682f92273246a711eb267807b5035a"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/017.webp",
+      "sha256": "24d4417fe847eb5278c188b4f52b66651967d76e4d2ed9b637369d1cd804e7dd"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/018.webp",
+      "sha256": "dc6858a55759b09dcc80f15a23f83b03709cc0106aa583304f965402a0461a00"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/019.webp",
+      "sha256": "c9d69cf1353d183b9087503a9992f39554b44a798dd1283ed23946870cdd1cee"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/020.webp",
+      "sha256": "4fee1ea2f19a0a62417aeb20ac9e4b12fbd4626e5b1cfd5096a39df20c72c548"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/021.webp",
+      "sha256": "4b30ddce5be39ec05ae9f8f6c46231460ba20389d6238422b56e3f00564c101e"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/022.webp",
+      "sha256": "65e13070c3819b8f40db97b81b27b44a718f762083e3c2366058dbe4d38f4172"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/023.webp",
+      "sha256": "dc7175aa45117394fcda74ac0af9997047a5633f44b29305c8494daa476b36bf"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/024.webp",
+      "sha256": "a235c70905202161b83d58fb8fc498fbd8fff9990f667922928d3907aeed13a3"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/025.webp",
+      "sha256": "ad2762041cb6990d64e4a5516a214bb64fe7fd26e1769327fd8d9624d8a628a0"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/026.webp",
+      "sha256": "dad0ddfe084bc160230304f76fd38389612f63329088a9bb59a0181ff973c162"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/027.webp",
+      "sha256": "2054d73e78c8d1a39f74fd9c59ffe7401f24848e61db0bdaf5fff77639ab5eff"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/028.webp",
+      "sha256": "ec4d27de3fd062215141ac615cc17b8f3d5acf59b3dc4090f87d3bc20c420702"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/029.webp",
+      "sha256": "7871cfde3b22b28e8d59fa2bd0de17d9e4be484ed967c8122b993f4a5d11f9f5"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/030.webp",
+      "sha256": "cd64f858b401cbd5984adf67ce5b77f0c89a8910d4705766aadb72ae10d6dd87"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/031.webp",
+      "sha256": "483af532f112e2718fd882a72d6ea84c38145159e6115ddd7166ef1144fc363d"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/032.webp",
+      "sha256": "ee12ffa9bbadaef931e19c7862e96e8a6eb8401465f05e19b2793ed092a45d02"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/033.webp",
+      "sha256": "cfd6395cc2d80db3fc32faf688bf46180f53a146734658b299842ac6b74b0a5a"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/034.webp",
+      "sha256": "8423d0262574d7de77ec91e51ffd2c1049bb7c9ba508613ba89e66102002b08e"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/035.webp",
+      "sha256": "c3a7d3c79791a1e272785a37c61fe42307b7f9823f90f65ced5eaeec62a6e480"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/036.webp",
+      "sha256": "977c62c408c22e57eb8aca8677a41ed2c2d5530a93ba6d11e2f22dd9a5a95772"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/037.webp",
+      "sha256": "cb07e1aa168d14ade4aba344c67dfcbc8383017af62e40d4e3eebcea5a6490d8"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/038.webp",
+      "sha256": "d14593901154304f9de6a2dd7d234ef70d55e8d247ae22793a354a063111c8c4"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/039.webp",
+      "sha256": "9912c1b1922744eba426bc0149272b49c6265d4dbaac67c7fd1d7c7e4534a9cd"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/040.webp",
+      "sha256": "6310630ac8dae06ea3a07c877251042b8ab5acb0b60056eece43a7d7970afda6"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/041.webp",
+      "sha256": "9027c861ef972585a339b5364bee1c07e189a8a65db0a98deff1b1ea0a01fd64"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/042.webp",
+      "sha256": "401285ab0f43aa984fd22899fee2a9d55bfe1c639c17b73c826e3ad8c06ca117"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/043.webp",
+      "sha256": "bac246963c965e6aa31494cdf58f5fe0038a31325ce40333e8e8a83a80ccd60a"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/044.webp",
+      "sha256": "4c4d32dfd3c2ca61878a437e58b5f0ab0b8dadd9632da4bad86dce463c774c4d"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/045.webp",
+      "sha256": "ef33a2a2074c2494055e8addfc5f4b4dda54e89116183f321936804b1bb7fcac"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/046.webp",
+      "sha256": "75a0a11b55878a8513c14743ec0674b5141b10528330a3d7685ad4e94cfda1d3"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/047.webp",
+      "sha256": "b2cc8a85d5b75640cc4ef242b432ce032b0e5628d0da91783e8b9c1e2a46c006"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/048.webp",
+      "sha256": "f4d9b0d754954634f56575311dc25e3b9b973ba190469dba8d957861e47ed274"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/049.webp",
+      "sha256": "772f0f6d0288adb455b679ccf08edc6762d9b7dc4f335189698a10293101d62e"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/050.webp",
+      "sha256": "36e387172522d23c0934cdcd1a175b8d3f7afc5a019e5114abb97e1e2f57844d"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/051.webp",
+      "sha256": "4eeff0ab8ca533121f21742abe40c8f381be0fa66cea804f686d164c7919b9bb"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/052.webp",
+      "sha256": "b7a950660bf5b14f2f5a445ee80a8a3b80776c4f246683600242fee8399418a7"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/053.webp",
+      "sha256": "8264914a654d27a7ff7203fca10cea77a241632dc6d0f518ddddf0f979e2cf8c"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/054.webp",
+      "sha256": "ef8d4e6b292e53b6c2bb38ec8bf972b680ce53af862092f191760a9017ced0d0"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/055.webp",
+      "sha256": "6b06d4bc42f7081493fe5970d9f61e80589ec9edcbd69f0cc67beff0e95f286b"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/056.webp",
+      "sha256": "f7cfd89d993dadea1100eda824894a7764d06e9c5c61c25cb3cfe09c27b5a510"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/057.webp",
+      "sha256": "e43590637fdbf97c428ba2e65b7826af8290369c8f12a07879ba022489b3582b"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/058.webp",
+      "sha256": "8343d17542b5e2ad58829163332c38998c0e1f5095e07a87cabc9030047c44a1"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/059.webp",
+      "sha256": "1801e6d4ef0e92d3ccf2f833ae2433d5d8dbffcaac8934cf0034ebf86230121e"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/060.webp",
+      "sha256": "292df7207d6323ee7ef70afdc721ff930c3ec3bca6a0438ece34ad45cb986408"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/061.webp",
+      "sha256": "b42ce0785d9919e0f260bf8bd8ece00214145af608789cb89a012615c432665a"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/062.webp",
+      "sha256": "9195e6e8f4f18eec139b9cb055a439205a204a9d57e1ca639196c2496eed3557"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/063.webp",
+      "sha256": "4438e446a3ad51ba64a78f5cc7ec6025afbef6e8d2137826b3b737ba35410641"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/064.webp",
+      "sha256": "85fb725e1cfa9fe13b51e8b41563d7619489d564c5fb1c3421157c861f5e457e"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/065.webp",
+      "sha256": "da1e0ce4a1e2977752e70af0fd3aaed250a369f2ab1c149305db4e3f13b5e258"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/066.webp",
+      "sha256": "ffd1a6f939ec53e557730dce3e316adce52c6efde3186bb346180299c78210ef"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/067.webp",
+      "sha256": "3043ec475068ea1f71c9a7c2b46ecaeb1deb21adef9bef9b4cb79153eb88ccd6"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/068.webp",
+      "sha256": "30c815fa3e21435ce6240727fd89836eff9eaf693a2c476923e85865c65d3de4"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/069.webp",
+      "sha256": "5ce2e120ac936940daba7693dcc85fc18f98bd8b3767ce23b989dcc772240a07"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/070.webp",
+      "sha256": "15a5e9bc6904f25d778239fd70b636d3e7d8fd8c99782224e30cd9e81ab187ac"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/071.webp",
+      "sha256": "3255a41c94f34e4f28f76243c3388ea61257c8864346dd7185b274aa7928fc22"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/072.webp",
+      "sha256": "9e91656852801acdb4f0549119073b7649cffeb2660ca327e7c221fd2ee9249c"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/073.webp",
+      "sha256": "b8b1420d1f47c9583914af5d6632fbbc2deffbf6ae2ca62ae90d45bb3809b486"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/074.webp",
+      "sha256": "0d16474143ccb617fe3f5a46db19b26bbfc38176becec1df48d43970a0bdd2bc"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/075.webp",
+      "sha256": "60d98f9d34198fcb0d8224f09ea2825e1bc9393ca770e256e1084ebcc2305676"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/076.webp",
+      "sha256": "37e370905f5813eba6009c468a796966f1dafbe8078a6304d1dbbee2550bbdaf"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/077.webp",
+      "sha256": "ab9a809a05f560fc901e7e3bd447229bdbde0b5a661108974cf2f1d4ddd822fe"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/078.webp",
+      "sha256": "268417c5e572d926c168a72206a2235b083113ad7e75206806e36a2b9cc96482"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/079.webp",
+      "sha256": "9e485df3acaa7eb3995f6b0ee981916fd3f5f70bbd9efb90c269b5d19aa642b2"
+    },
+    {
+      "path": "public/media/camadas/mobile-native/080.webp",
+      "sha256": "72b174994fc7cbfe9dca808fdf97c508ec6202e37aa88e04ced92c0c1c39894e"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/001.webp",
+      "sha256": "f9583494ce6cb8e63724a7b10ece2d2a94cac513a48055bf0f473c008e8c962a"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/002.webp",
+      "sha256": "8365c234d895f0fe9bba876e98dec61c3d32d94e04bda67a1af728956a5d9083"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/003.webp",
+      "sha256": "b804476590252e9b54ab659f632d2d2cbcaac1544d816c8d8764d56af217c484"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/004.webp",
+      "sha256": "c86da14837d4c2b8da8dc854b8eaf22e48fb24ec84ecdfbf80044ff1bf55e43b"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/005.webp",
+      "sha256": "315cf7147dc6b1700053a3c452622020c1e5d14ad937272c4292f329849fa958"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/006.webp",
+      "sha256": "fb64486146ad6957a97b2828d09070006d9efb5473eb10f5ad774cdc7a88606a"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/007.webp",
+      "sha256": "427b5af4a1da8eacbc04242e516fde26aa17be1a0d00020f7fcbfe8edaf50675"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/008.webp",
+      "sha256": "5f0534ded57bb4255727b382a037a0d077240151a73452a3ed9c3dc6308dff48"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/009.webp",
+      "sha256": "fb36b668ebc5e65a34168bbf6fcbf0b66cf5db532df337e5d0ef2f6f329dc086"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/010.webp",
+      "sha256": "70d9a9111675193dff9e2ba35d1a77a9deb0793d4866ae909d51556843ca2415"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/011.webp",
+      "sha256": "8e6dbc69abe876135e1a0809db49e61962c444e2390cda19f182cbf3b166c59e"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/012.webp",
+      "sha256": "15a01a00971356bfe36f8892abf4d06a3a0f3f44fccd26c73849d0882e5ae4c0"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/013.webp",
+      "sha256": "2fcdb6397870e2cdb3f35a562d4a547ee844fcc7ea90ae062af0c98435f6bff0"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/014.webp",
+      "sha256": "5249f714565782ae6fbdea15f358320ab32ba3c9e0092ae02be07afd66aea4c2"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/015.webp",
+      "sha256": "996aa2b5ab1798641e3f8569c8f09e0d0551af2f2f8b4dc8b65a8cd1c7590c7b"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/016.webp",
+      "sha256": "47bb1e1592d58584dde19179a09066fc4b17d3492c9641f773d67eed04fcabb0"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/017.webp",
+      "sha256": "e3bf69f8ddd68465ece4c39c5fa3b906eea48479cb402c0fd5abb01d8f92c775"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/018.webp",
+      "sha256": "08cbfe9c9b4d6b334ae98c541923a0dda4312ba75ec2beb5911e212a0474b7e0"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/019.webp",
+      "sha256": "be70cea03775e145fa1d76ab43c29dac0dfc90852281edbf511332bba8b7b761"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/020.webp",
+      "sha256": "47b0e47847a7d7828b1e77dda103662a16f16d6f680c3b3ad3af6ecc4acd79e2"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/021.webp",
+      "sha256": "c574aac3b8a31a44f8d5b95601eea11332ca408c41c48067a1e6fcd933067646"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/022.webp",
+      "sha256": "5d6a5e9028d8c4482cc3f14d51cff8b3644d3e504ef0e7a8e702d162a3a28b4d"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/023.webp",
+      "sha256": "fadda85a4690f7a8b90addc262a6517088f93f6e415a2206def780811a4467ad"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/024.webp",
+      "sha256": "8055e747dc16a778ed78846355823229dbe8c2b2b968a604f76ac78e82f4001b"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/025.webp",
+      "sha256": "299212ebb79e8cd76793fba58e704c2502d6cc8d7302095afb2d3121b741c8cb"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/026.webp",
+      "sha256": "5a5c85ac9a0eadb106205287c623ccdfc5a1b1fc4ccaa1f5329276e9d67fab94"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/027.webp",
+      "sha256": "3d316a644532d8ed676207f96e76b1ce16346d3c2f9ae807211253d8500dcb42"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/028.webp",
+      "sha256": "51ddffb365a9e4bcaf9a7799c8094a8207ecd400f7b3776de730911b51e27628"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/029.webp",
+      "sha256": "3377084b7369e0ec362f7df97e5cab954dd0515a25fcd4cd14ae3963c9d08060"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/030.webp",
+      "sha256": "76299e00734dbbe7c5657d0db0284810ba1424d7bf9e64429ffa97f13bbea656"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/031.webp",
+      "sha256": "7c8d375d63476a2f3bc52712192bee885c04ec6d2692ec2606355e0b75f60ba1"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/032.webp",
+      "sha256": "b65f62f0e2e1ce7478eb151c540cb0fecd2d496591ee796dc89eda99ca2866a5"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/033.webp",
+      "sha256": "11765b8fb63bef431862bcbce948d25cbd63f93a734fec199b92b5620f3a73e6"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/034.webp",
+      "sha256": "2dc879efeaeba1fea375b3ab2cb1fdaa0009b337e71cd3b55667ffe5ae67c8e3"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/035.webp",
+      "sha256": "a2c121bc2583322fa7199e6ba07bce49e9adbd80b4a06067a31576779b8c93d0"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/036.webp",
+      "sha256": "4c1af8b5e27f2fe24240d41c808ae72eb9428ee7d7b6580c456ce4cdaa9738f4"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/037.webp",
+      "sha256": "561682264620a4eb9f707516c7c3b65ccc0acb6d17ffd2b2d52537c5acbdfa32"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/038.webp",
+      "sha256": "ea093ca322097843189f02ea735a8ee9bdab409da1d8f8d6ca0a053e24d34f72"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/039.webp",
+      "sha256": "cee6557d46fd799ab2cf1d7859de717753b66f4621ec480e080e2d7bbee7ee41"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/040.webp",
+      "sha256": "abf816471d7fc797da693b4b4eb077790a5534435ce0d2b763881d30567b1d4d"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/041.webp",
+      "sha256": "35d3ffc39c84d4c449294df8aa7ff74784e6023525a2d8c1816b0d52c0a1073e"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/042.webp",
+      "sha256": "afee9d0f14acddf98119f642b7129076202adedec8b73816c9d9e302490d0342"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/043.webp",
+      "sha256": "7ab7efc6ce525307eaac78cec47e518dd5f861083e57ff5b6556b4d175f1b02e"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/044.webp",
+      "sha256": "8208d9ebfcbb427fae6dff295ee91bfa866b22f888e613a47d49a69273eb8b58"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/045.webp",
+      "sha256": "7b1c045234e220a7dbc67979940ddf981cdf467dd7b2af3c8a36e0f7e48721a1"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/046.webp",
+      "sha256": "a9c335dc1637c5cf3c3d746b2e550cf03ad1563656f6a2f30e1050a8db21bb7f"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/047.webp",
+      "sha256": "d82c0b0ac474c3df83ff7b4aa57d94b0b4f926d5177c65cdfd52c6971940c9cd"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/048.webp",
+      "sha256": "0dc97daeed842d566386bab8087c1ea93e12370824ecb3c2ff16507bfde92b3b"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/049.webp",
+      "sha256": "f2ebff428ce503ecd46ae888fbba9c3fe76425704f19ab801dcdf951210ccbb7"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/050.webp",
+      "sha256": "60fe7dc24a048f2fa0466cb7064ec6738e79d1b579ffce923259bb05ad0a0fa0"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/051.webp",
+      "sha256": "b7d6b7f5889dea2562fdb5bceaccaeac3cccbf48e359f502b8b9dfd7f936805f"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/052.webp",
+      "sha256": "824b0a362f35f6f349874b7d7a1bb78c699332d66d224e1ba02180ed27a0512f"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/053.webp",
+      "sha256": "d938eeb27d9404f9b8325aa18972e1616bab89825ec29921d13e7da5f6d3e4d9"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/054.webp",
+      "sha256": "55b233625209aa29f7ba880a51c4c741d20312db024641259f711941390f22d2"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/055.webp",
+      "sha256": "1eed3152116f398f9a309913ac75fc0f3c206f0ba9a031f285958c51046916bc"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/056.webp",
+      "sha256": "73a914c22a4ae08eb5ca59c813abfade72fb750cf1e524cea9182b609659334f"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/057.webp",
+      "sha256": "6b3a42bc226730c3a44935544017c49c62ef67d68d6980a01a5cc2b49af93927"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/058.webp",
+      "sha256": "d3b3d5cd47fed44a008c0afb4f35b45254b2fcabac439f93dc1f2ec93db3e890"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/059.webp",
+      "sha256": "bfc8abed26efb5463bbdce6223418e7d1aac9536d24809850d022e7f4281d35d"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/060.webp",
+      "sha256": "67638c24adc557e6ed0dc5e687057e94a3724102ffb33569f7b429aa5529b0e0"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/061.webp",
+      "sha256": "6ea2a14c12c75df8b322434fe1cf6f7d11da71365bd601ca36b50ca99f4426ac"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/062.webp",
+      "sha256": "5c6dc94a02c4347f0351b7b5a5ef2d1d872b118ac952dbd055fedcf8b16b52b6"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/063.webp",
+      "sha256": "7a704bcb1e16b1ed82736b5e788566bacbca81674698aed363a1b29fb040bf47"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/064.webp",
+      "sha256": "10ef1a75c41df2debe81dbece0cd98978580e0f10ad17d9160b1d0c7872f0d7f"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/065.webp",
+      "sha256": "8f2be7575b0ec0069ed58fc1ae2c09550930ce7704280ddad175e9994ce3a8a9"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/066.webp",
+      "sha256": "7e48ab8e0977ff007dfd7d168f362ed9f84d6a948bc496a4905c0c1677d98d51"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/067.webp",
+      "sha256": "f22e070c1fb4d0162fbdadef9b927808b951778837bec6f5236bb907868e268f"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/068.webp",
+      "sha256": "d2fbb71553dcee06053efa60e5acb5a5c22d2f521547cb7e5e233e0ea8182046"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/069.webp",
+      "sha256": "1eb9ccfc8d8a2bfba9d14a91fcdb0cde97d97f5b4bd249bc9701e4619d6c695d"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/070.webp",
+      "sha256": "f4dce3483b44ae91206289bab58f148e90b128a691d7a90378b552523e4b43bf"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/071.webp",
+      "sha256": "f55d6a8ece8a157734371f4c0bbf6917b7c24af54959a43193271d784d71e6b6"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/072.webp",
+      "sha256": "a211e343a932a01a699584a2a7627391667e9142ca1da52086facb3561b19ffd"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/073.webp",
+      "sha256": "accab718ce398998a221c7c9fe547af8ef637c52430a7aec6a26e011e73c7f00"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/074.webp",
+      "sha256": "c6459de54c6ef20e044dea391eabe912ca8b09dcaeb893928e95d37d3f400247"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/075.webp",
+      "sha256": "56c031b7443fb35e1516d067e9c3cee6db2f6d73739f7e53d5b098b8d7ef7406"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/076.webp",
+      "sha256": "be19e1f4c21b142b963c0e6f63069476285db54c96e546ba7d81f13d40f91c56"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/077.webp",
+      "sha256": "4afc7de8fc7999c3d8f98ed03bfd7e3f6f0c98b4fd573ef3fb127dd7d66c999b"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/078.webp",
+      "sha256": "2bb9ad0d5d70e6d49f80f759caadc43db8cab254dca4b53d29fed67c679b65d6"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/079.webp",
+      "sha256": "bd0489f349130958c592118999cd7d40917873928cd0d0cb109a5d275112f7b2"
+    },
+    {
+      "path": "public/media/chapa/desktop-native/080.webp",
+      "sha256": "356c189bc449c336d8641e2c80d0813ec691b3aee9fdf17b78ece4a26962f5b3"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/001.webp",
+      "sha256": "b1e6080977b85d00b6abd8e0731ab3679037545dabff1319a7d50ebf44af0cdc"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/002.webp",
+      "sha256": "11b2a358eff96de59635abafdd1f448b644ac4ac871783ce9ef1209433437039"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/003.webp",
+      "sha256": "4db7cf0d07cdb89d98c655a70781e33e8d8634485fe0089daa671b491224bdfc"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/004.webp",
+      "sha256": "6123e7bec99be34f7caa9452b976896bbb507a09a81e95c60065e17291e7217a"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/005.webp",
+      "sha256": "69a46d80ac0c481fb3176eb10dd9059904ca7d99b1db1e6ec00570f7bcb312a5"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/006.webp",
+      "sha256": "3e69f062aad4f87678397e810155bde1d4171cdfcca0b75c46b34d1ec14eb662"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/007.webp",
+      "sha256": "81da974b4ef5104665e34e4aea20c09f767bdfe896c93bc424408ea98684c4b9"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/008.webp",
+      "sha256": "c7374e00714fbbf3897e0085de6caecf12f356eb17c8fad9896d42347eb284df"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/009.webp",
+      "sha256": "24552b791df0858a677364263059d7f4bebf44c5a7b39d5d93f02377afeb9309"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/010.webp",
+      "sha256": "d363f89c9ef23d672b8ea28143a8b9477acafd14fd68e3273b9e9358ba356e70"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/011.webp",
+      "sha256": "a3a86439d61acce7146b12815dc41a34acdb80118a5ec01744e70e51e49b4035"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/012.webp",
+      "sha256": "cf258d2f078f85fcd92ef282fd52189ff5fcfb94b988efd959c4c10bfc4f6836"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/013.webp",
+      "sha256": "64d207248036d1138d88d5c9ee7a14d23f8e38c0055732528c8ff680f3b7b967"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/014.webp",
+      "sha256": "b4aad1d70199738c3ac76551a23f93d15bccd0d98b0c94bc39a4dce1b54077a1"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/015.webp",
+      "sha256": "ccf08ac73bbfac9239690d7fc8b049e57f6c82815f6a6d47bd02adc192170ea5"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/016.webp",
+      "sha256": "fd6639d170a256e060a7311616262ff832c89d92f367f2aa44860cfbacd1104d"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/017.webp",
+      "sha256": "7c4ff11141ca944e76f82295890f41457d2e86b41b6ac8af787a10774821e011"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/018.webp",
+      "sha256": "be9f6f84f2b049151d3d521839a1e53a2818e8c0fca28f31aef2af0f1c87b519"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/019.webp",
+      "sha256": "24414abef41eb612a7a435ba861a181d760fe461af0386f7a12fe40a0fab9801"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/020.webp",
+      "sha256": "44280e78cd60db05e527196f75e1c44592efacdd1c1778727072540143d3e3e1"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/021.webp",
+      "sha256": "2d3352c68d59fb87a46569e7cbc4f3c3edb1c4f41211d11033d12d12625faffc"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/022.webp",
+      "sha256": "1e9a51b1e7e89db980c5b706ecedc66f7cb5ad48a1fff4e43dfe6d9114a3ebba"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/023.webp",
+      "sha256": "23f3897066fbf6ba8ca35ef1464c3ad541eaa86d632f08d6699ae538d2338047"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/024.webp",
+      "sha256": "1c92dca02621d1f76d025146e5f69075f1f1822b3c6e008ddbad95bd35d796dc"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/025.webp",
+      "sha256": "10827e0cde7c5b09e287a37ad50083229a3286ac7c4569dfc32d8b5ae7dce89c"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/026.webp",
+      "sha256": "413bcfafe9ed7256c85217b9484e0d658a7cc28f22f0c8888e4601f169d35c32"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/027.webp",
+      "sha256": "462ca1abea18dcca4dfd250b953f1d4181b02281ad0a0a07fd9ac365611828fc"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/028.webp",
+      "sha256": "15af7ce942b24a50aa804a2b312c1654539f0fa4d7a39e20e219b1857f475a8c"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/029.webp",
+      "sha256": "8841755d2648e63392ccc8a000eaac88f806deaec1cc7f9504f6c32d4501337a"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/030.webp",
+      "sha256": "137f83d06c2301026df9444666f86fdfebab96aff3d0ca96ca1eeb10dd598768"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/031.webp",
+      "sha256": "674fc2b8f047a038b5398d8803b09eabf07bc1147208c72d188eaa9db056381c"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/032.webp",
+      "sha256": "0f00f28148b4d652a5a3187609073b4ba46678cb07184163ae9eb765078567cb"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/033.webp",
+      "sha256": "33e85eb32da10511164bff4bafefed32f987a1b3b095b39e67f6a424c06c692e"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/034.webp",
+      "sha256": "25273aeed8a5823954dcfad151252bdcdfad05e0c5111124b5ec7b9bd19b45d4"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/035.webp",
+      "sha256": "05e2dcef5f1841980d5b5b599ddc846f32ee7e528bd517573854117eda539c4b"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/036.webp",
+      "sha256": "d6be79d0ae4a6bdc248c0e6107212eaf7df8815c0c3fa699927531c9738df52e"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/037.webp",
+      "sha256": "fc1968b0afdd3a185e64a102e0a74c0be23d89dcdbaccacf2e36281a09efe683"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/038.webp",
+      "sha256": "3fff5bcb89eea391e4626a0122bfea42b3e2150fc2f3bf4c24a697e7aa6ecd30"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/039.webp",
+      "sha256": "25c79c1760cf780099ebe3a25f26b9b016309144f9526c103fcab7643d16fb9b"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/040.webp",
+      "sha256": "f56917e460fe454821d346e23042dc108e2630cd5b58b23269f35b70a509880b"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/041.webp",
+      "sha256": "3fd2c5a9ac31e325a83196f2ec0647dad15e474c5548acf06ddf6ffbff11bc53"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/042.webp",
+      "sha256": "db71366cdca12f61048ea1e8ba24c780676a437658a9a4d5cf95de3a00ce7f79"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/043.webp",
+      "sha256": "fe0b8f88c7e8103bb803b9e4273fad8d41b69018f7dd5c8363ff90fc137169cf"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/044.webp",
+      "sha256": "e2ae080fa3f6934186e899ff222f12844570a1b77584618ab36f74e34782be63"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/045.webp",
+      "sha256": "9b4e87eb1adb247074723a5d162c11b8f3f3baeefb761aa7275d4e1d84ce37b4"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/046.webp",
+      "sha256": "f498874c876f0d1400750563e5fe2acb5bc03091b7b681dd9bb1e5045f463488"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/047.webp",
+      "sha256": "4225151470a3c5e824d4355ece17fa7b79cf5a8e59069d644610cc9091f7f826"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/048.webp",
+      "sha256": "bb5708085fadd9145963d332e53518ab929cbb3b50d5a4c933dc014227b34229"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/049.webp",
+      "sha256": "58686fafb96754a17d9a09f7c4f8329bf38bb6a09133962eaaab05d668601f39"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/050.webp",
+      "sha256": "5cce6879be67c424dd09b9bdd29103ebf361e826f2f6404d9bdabe1efdbf2fb1"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/051.webp",
+      "sha256": "659a04cd3803132618e16ef394102c3b2792c57da5e157be17d141b0ea2d3179"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/052.webp",
+      "sha256": "d28b865bc74692f50ae2594f948d14cdb8e6a06de39e851170c1303860be4b02"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/053.webp",
+      "sha256": "ac1cc1211ae67ddaefc79a343d0079a3329f0e2563291cb64ac448c001c3941d"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/054.webp",
+      "sha256": "16729ebf5e1c0f1b706e176539b583d6239e245b87a8874990cb0c8ce06a3493"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/055.webp",
+      "sha256": "7102a88ad1e070095777f75d3da1c2fff7c62f5c3eb8e17baff830b6d5013302"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/056.webp",
+      "sha256": "9c96d560462e38800740020694e99a5ec22cd00c8ee6b4bc2f3d51f8edf60855"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/057.webp",
+      "sha256": "6b9597de3257ec6f9b242f54b43b2c1e547f171d8db7fdd559674fcb107ad5d2"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/058.webp",
+      "sha256": "9ea779d23954bb35bcfb4d94d52cdebf09f81bd75b57e4b7b783d4a7e2a7bcde"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/059.webp",
+      "sha256": "cf07be1a0a69aa90dfc8a174a595b6903fb7c4644f917576e81cd8977c7f0905"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/060.webp",
+      "sha256": "1f7ecf58aa29156fccc29ca78234dba90ed2405c5ba2a190f961fd2e38bc146a"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/061.webp",
+      "sha256": "1f50b363f03af90207c0300b094910b5726d2cfcdb97936f3b7c76c562118ea3"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/062.webp",
+      "sha256": "384d012b0bd2bd7d14c4a42e6aa00d7b927081ec6a5269f090ac42fff86e8486"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/063.webp",
+      "sha256": "473c87b11e36a5d2ba86fde006b2fb08d5b03e56aafb4460e380523dac0ef931"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/064.webp",
+      "sha256": "2f24549b76bcf6fb7e2a766866826ae43ca548853fb9a5fd85510febf5c1c71e"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/065.webp",
+      "sha256": "b058c8e01a91050447af92da29f3b61f1048d0bf85c16b6d64413ea70026f353"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/066.webp",
+      "sha256": "85ade4647b37acdec55d5da4aff8753eaa640e8348cf20541301e2b058295c78"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/067.webp",
+      "sha256": "c8c91b02ea94bc42f4f2f4e8e64d01b61aca95430bb2dc4be16fface13eecbb9"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/068.webp",
+      "sha256": "086a093408a0dd07613dd62751b9ee6a4aa059d151be958adfd730c40d69202e"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/069.webp",
+      "sha256": "f78905b7e6d0bb7abb66236ab10d27ed57ccfcefa0a271ea12909e75f0b6245e"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/070.webp",
+      "sha256": "d2f57173d88bf1c5cb480b3d7df3f1a937eb384cd448a460b0c6394f8e5877aa"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/071.webp",
+      "sha256": "30bb0bee4693feafaf5b88dad313cdf6a6896e7bf0ae2bbf0246d102d6ec4ab7"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/072.webp",
+      "sha256": "e1b1336368250275a2d5b1226837ac2224fb8ae59272ee35e331a7cc53eb146c"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/073.webp",
+      "sha256": "7c1e29b812320b07cdbca4f7e68d9af39104e396784386fec50b02e00cf1c3b9"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/074.webp",
+      "sha256": "84cdd2b913cfe34fa20de8781079e3033145187a5bfab02d23424947440b3b31"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/075.webp",
+      "sha256": "4924eb46b85a45b116b1d942fd35383031ddcff35852fc9c302a8bcb1cbee004"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/076.webp",
+      "sha256": "0b528e0ff4032f29a2eff4af3888470d378c26c2c2d42bb5a72008360431e77e"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/077.webp",
+      "sha256": "d4eda56ebf2118d63ce2b12e9c3c44d407feca4c1eeb28772ba322667ee25e21"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/078.webp",
+      "sha256": "f0fb0ec6efc49a1e8bdfa6c46d6f5905dab56b1803e9e1c7fc56ee88abc8a0fb"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/079.webp",
+      "sha256": "f9920c4f3abc77aee1614f0292ab1ff4c15294767d351a7fd9a8183b1ff173a9"
+    },
+    {
+      "path": "public/media/chapa/mobile-native/080.webp",
+      "sha256": "e6e8a6f7e167bdccf4b5219d6a62fa86077764af9b70c9c914e80775dde3d637"
+    },
+    {
+      "path": "public/robots.txt",
+      "sha256": "d857707b8a16ff71def52f17c4da91ced550ca5fcc9614ed6025feb1244df421"
+    },
+    {
+      "path": "package.json",
+      "sha256": "ed556df1e87f60c0f014a2ee32662ac6f0782db889a961709245252adc37968a"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "a53a3360aede339763cc609ca90e1b59c0d152b6137663825ec80b3034b6c968"
+    },
+    {
+      "path": "next.config.ts",
+      "sha256": "0f26bc33dcd675803c6dd67e8385fcd16c66e98ca43d180ad2eb447db2e08d3c"
+    },
+    {
+      "path": "docs/media-map.json",
+      "sha256": "57e1ca0b682b7f978fd714692b9e0f51476e0a96206a6a2e6fb4d4e014923302"
+    }
+  ],
+  "captures": [
+    {
+      "id": "1440-closing",
+      "path": "review/1440-closing.png",
+      "sha256": "96395c1e08ef98fb94bae9abd43fafda888bc5c9e9bf63252a1348f81acea981",
+      "profile": "desktop",
+      "state": "closing",
+      "viewport": {
+        "width": 1440,
+        "height": 900,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Retomada gastronômica com CTA de retorno ao cardápio. Cena 2, frame 79. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "1440-delivery",
+      "path": "review/1440-delivery.png",
+      "sha256": "a03eeb218638c7bd9728eacccad0f3ae6d5e59fd502d972a1da5d968148b0ab6",
+      "profile": "desktop",
+      "state": "delivery",
+      "viewport": {
+        "width": 1440,
+        "height": 900,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Aviso demonstrativo e botões com feedback local; nenhum pedido enviado. Cena 2, frame 79. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "1440-entry",
+      "path": "review/1440-entry.png",
+      "sha256": "de7530d34478ab1b99cb2f86f3a6f7f15ce4f6163f7815aaf8f72b33668bbc7d",
+      "profile": "desktop",
+      "state": "entry",
+      "viewport": {
+        "width": 1440,
+        "height": 900,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Identidade, título e CTA legíveis; produto focal na área superior/direita; controles separados. Cena 0, frame 0. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "1440-exit",
+      "path": "review/1440-exit.png",
+      "sha256": "baacd8b426400bb9e851b92e2460dce814a0a58194be13f9d70a83134f4da216",
+      "profile": "desktop",
+      "state": "exit",
+      "viewport": {
+        "width": 1440,
+        "height": 900,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Crédito demonstrativo e retorno ao início visíveis; sem contatos de hamburgueria inventados. Cena 2, frame 79. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "1440-menu",
+      "path": "review/1440-menu.png",
+      "sha256": "e8978bc512adaf7c0b788bf975af173a2099293e38d7acd3164b3778e8b54ebb",
+      "profile": "desktop",
+      "state": "menu",
+      "viewport": {
+        "width": 1440,
+        "height": 900,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Cards ilustrativos coerentes com as imagens fornecidas, sem preços ou promoções. Cena 2, frame 79. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "1440-mid-0",
+      "path": "review/1440-mid-0.png",
+      "sha256": "6c334950337c9a1f9be2e89e3d2b772fc4643a2e2ce5ef0aabeacc8627b5b72c",
+      "profile": "desktop",
+      "state": "mid-0",
+      "viewport": {
+        "width": 1440,
+        "height": 900,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 0, frame 45. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "1440-mid-1",
+      "path": "review/1440-mid-1.png",
+      "sha256": "c762372a188a0ea7218a11075c1432a0e3687def673fe38ff32742ba2f6093a1",
+      "profile": "desktop",
+      "state": "mid-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 1, frame 45. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "1440-mid-2",
+      "path": "review/1440-mid-2.png",
+      "sha256": "160ba7b5127b73b7781488f21388ac88a8c12e99c5210aa57417aea27e18dfd1",
+      "profile": "desktop",
+      "state": "mid-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 2, frame 45. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "1440-reduced",
+      "path": "review/1440-reduced.png",
+      "sha256": "5b543f6c9b41c975039f4c44f94c2120e5c52106cc859a0bb8bc906b769de06d",
+      "profile": "desktop",
+      "state": "reduced",
+      "viewport": {
+        "width": 1440,
+        "height": 900,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Cabeçalho compacto e conteúdo estático sem overflow; poster proporcional. Cena estática, frame NA. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "1440-scene-0",
+      "path": "review/1440-scene-0.png",
+      "sha256": "5e869f47dac8dd7b1755859fddbba765d80c0971bd394b375cd751e76c89dca7",
+      "profile": "desktop",
+      "state": "scene-0",
+      "viewport": {
+        "width": 1440,
+        "height": 900,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 0, frame 2. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "1440-scene-1",
+      "path": "review/1440-scene-1.png",
+      "sha256": "a1deea99d4ee5d5fd5d2d4913e235081afc93bdd6aeeaaf9ab96e2748953960f",
+      "profile": "desktop",
+      "state": "scene-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 1, frame 2. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "1440-scene-2",
+      "path": "review/1440-scene-2.png",
+      "sha256": "57206ab3d69af10eb24f2dcabe7b998bd8de99d6d8e5afd4b487cec41f025ed3",
+      "profile": "desktop",
+      "state": "scene-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 2, frame 2. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "1440-signature",
+      "path": "review/1440-signature.png",
+      "sha256": "baacd8b426400bb9e851b92e2460dce814a0a58194be13f9d70a83134f4da216",
+      "profile": "desktop",
+      "state": "signature",
+      "viewport": {
+        "width": 1440,
+        "height": 900,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Assinatura central ZMT com contato da agência separado do cliente. Cena 2, frame 79. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "1440-transition-0.31",
+      "path": "review/1440-transition-0.31.png",
+      "sha256": "cd3148914daa38d1808603477ac492a5c7ce9080ef2ba0fe5a3f0175f820c22e",
+      "profile": "desktop",
+      "state": "transition-0.31",
+      "viewport": {
+        "width": 1440,
+        "height": 900,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 0, frame 73. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "1440-transition-0.325",
+      "path": "review/1440-transition-0.325.png",
+      "sha256": "2a659fb68b71517218bcd79f63ef58ac817911675444d712b40bebdf3589baf5",
+      "profile": "desktop",
+      "state": "transition-0.325",
+      "viewport": {
+        "width": 1440,
+        "height": 900,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 0, frame 77. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "1440-transition-0.33",
+      "path": "review/1440-transition-0.33.png",
+      "sha256": "1a654fe3c3b0cb48fa44ee6b1ca070c8dd67596a55bbc9e1436518b33299ea1f",
+      "profile": "desktop",
+      "state": "transition-0.33",
+      "viewport": {
+        "width": 1440,
+        "height": 900,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 0, frame 78. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "1440-transition-0.34",
+      "path": "review/1440-transition-0.34.png",
+      "sha256": "14436f0d353fe004059da0bb7b627b2c48eba1450c406c10c097dafdb8055ccf",
+      "profile": "desktop",
+      "state": "transition-0.34",
+      "viewport": {
+        "width": 1440,
+        "height": 900,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 1, frame 2. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "1440-transition-0.64",
+      "path": "review/1440-transition-0.64.png",
+      "sha256": "ea572f3b41ab1349f9cda5cb26e67c36d298e357a597587ca8ef6dd0c2272502",
+      "profile": "desktop",
+      "state": "transition-0.64",
+      "viewport": {
+        "width": 1440,
+        "height": 900,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 1, frame 73. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "1440-transition-0.655",
+      "path": "review/1440-transition-0.655.png",
+      "sha256": "7abdf53fb103d28ced6d51ba0950c07098924d20518aadeeb668b7369b5adc32",
+      "profile": "desktop",
+      "state": "transition-0.655",
+      "viewport": {
+        "width": 1440,
+        "height": 900,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 1, frame 76. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "1440-transition-0.665",
+      "path": "review/1440-transition-0.665.png",
+      "sha256": "3e434295b99daaba6d14ad17b23826f4d646808f498e0f8985752a5adbfb63cf",
+      "profile": "desktop",
+      "state": "transition-0.665",
+      "viewport": {
+        "width": 1440,
+        "height": 900,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 1, frame 79. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "1440-transition-0.68",
+      "path": "review/1440-transition-0.68.png",
+      "sha256": "eddd16e57ca9ff33ccf8ba91e106a92e8ccb05813f8ffcc89ce31ddbf5896314",
+      "profile": "desktop",
+      "state": "transition-0.68",
+      "viewport": {
+        "width": 1440,
+        "height": 900,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 2, frame 3. Fonte desktop-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "320-closing",
+      "path": "review/320-closing.png",
+      "sha256": "1dac70c63ebd1b095e1fd1d89cfecd3fe860e46616f27fcda344bf875d4459a4",
+      "profile": "mobile",
+      "state": "closing",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Retomada gastronômica com CTA de retorno ao cardápio. Cena 2, frame 79. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "320-delivery",
+      "path": "review/320-delivery.png",
+      "sha256": "42072b2edafff8f5aef0a4c73474345204e9bbc787bdc540b55af3e146b4710c",
+      "profile": "mobile",
+      "state": "delivery",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Aviso demonstrativo e botões com feedback local; nenhum pedido enviado. Cena 2, frame 79. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "320-entry",
+      "path": "review/320-entry.png",
+      "sha256": "9a7dba82a05a7209dc0900d71a2912cc59d5ba5196a689fbe4ba2730faed013d",
+      "profile": "mobile",
+      "state": "entry",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Identidade, título e CTA legíveis; produto focal na área superior/direita; controles separados. Cena 0, frame 0. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "320-exit",
+      "path": "review/320-exit.png",
+      "sha256": "5f3fde0345783bb20516a535ee7d7f1d1956218bc7e73aa4cc456973b1bceda4",
+      "profile": "mobile",
+      "state": "exit",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Crédito demonstrativo e retorno ao início visíveis; sem contatos de hamburgueria inventados. Cena 2, frame 79. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "320-menu",
+      "path": "review/320-menu.png",
+      "sha256": "6feb64b22aace2c5dca3dc892269b1769d25ab8b82f9eed2dbd1d758dfb2737b",
+      "profile": "mobile",
+      "state": "menu",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Cards ilustrativos coerentes com as imagens fornecidas, sem preços ou promoções. Cena 2, frame 79. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "320-mid-0",
+      "path": "review/320-mid-0.png",
+      "sha256": "1f2d35255342b27e06e033686c96a1367aa4b373362eee94a678f384c990be2b",
+      "profile": "mobile",
+      "state": "mid-0",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 0, frame 45. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "320-mid-1",
+      "path": "review/320-mid-1.png",
+      "sha256": "7adb301c9a9d59693232debb0c4afb5c608a2a48380b721331450896a48bf80d",
+      "profile": "mobile",
+      "state": "mid-1",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 1, frame 45. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "320-mid-2",
+      "path": "review/320-mid-2.png",
+      "sha256": "247bb44f73d843b36e9f255bc793dc543209f0dbff1fbd7e68d5c7cdec437a3f",
+      "profile": "mobile",
+      "state": "mid-2",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 2, frame 45. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "320-reduced",
+      "path": "review/320-reduced.png",
+      "sha256": "8aa5dc0af0d6bef79df95f4be38a432e1338f0294937df3f0a72bf96e5dfd0a1",
+      "profile": "mobile",
+      "state": "reduced",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Cabeçalho compacto e conteúdo estático sem overflow; poster proporcional. Cena estática, frame NA. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "320-scene-0",
+      "path": "review/320-scene-0.png",
+      "sha256": "8332a684454dbe986ca065e4f5b1bb9193189c0dccd54d8e357a2481e0213cf3",
+      "profile": "mobile",
+      "state": "scene-0",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 0, frame 2. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "320-scene-1",
+      "path": "review/320-scene-1.png",
+      "sha256": "d1a2b98341115ede8749a26c951804cf1e7cf8fde70189531e1e99eff03ce7b7",
+      "profile": "mobile",
+      "state": "scene-1",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 1, frame 2. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "320-scene-2",
+      "path": "review/320-scene-2.png",
+      "sha256": "922ce74282bc2fd95f6500f7b5ca0bf77d1b1864c1d1f68f07a7a6b3735b87a6",
+      "profile": "mobile",
+      "state": "scene-2",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 2, frame 2. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "320-signature",
+      "path": "review/320-signature.png",
+      "sha256": "192ce0599f9c0170592c0d41600f0b2419dac99a1ec6fb28e908b3aae9f4c418",
+      "profile": "mobile",
+      "state": "signature",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Assinatura central ZMT com contato da agência separado do cliente. Cena 2, frame 79. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "320-transition-0.31",
+      "path": "review/320-transition-0.31.png",
+      "sha256": "326a9a823055e132ddd4bd72c515a0421b889157df6d21eca233c068e27e171e",
+      "profile": "mobile",
+      "state": "transition-0.31",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 0, frame 73. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "320-transition-0.325",
+      "path": "review/320-transition-0.325.png",
+      "sha256": "edc3fa7b900b28fd34d09e46d3ea663aaf1911c8fdc3366bf081475f0b64d018",
+      "profile": "mobile",
+      "state": "transition-0.325",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 0, frame 77. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "320-transition-0.33",
+      "path": "review/320-transition-0.33.png",
+      "sha256": "f00df9fe89e89b4440294f05b301d5ae2730a612af870e71b0dbd4dbe2d41da8",
+      "profile": "mobile",
+      "state": "transition-0.33",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 0, frame 78. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "320-transition-0.34",
+      "path": "review/320-transition-0.34.png",
+      "sha256": "bfa7f58f17366e2f77f71a74d5fc48d571f70ee04b9e7aeef1cd6b2fe7212988",
+      "profile": "mobile",
+      "state": "transition-0.34",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 1, frame 2. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "320-transition-0.64",
+      "path": "review/320-transition-0.64.png",
+      "sha256": "3cec47935c3722ade43aa6bae34dd36a73e6ca27607a294e3d4314eb0ed540fd",
+      "profile": "mobile",
+      "state": "transition-0.64",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 1, frame 73. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "320-transition-0.655",
+      "path": "review/320-transition-0.655.png",
+      "sha256": "c07e7cea1d718544b92480609e556ad7d7deedc4be6876acae3fdfedd6d933cf",
+      "profile": "mobile",
+      "state": "transition-0.655",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 1, frame 76. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "320-transition-0.665",
+      "path": "review/320-transition-0.665.png",
+      "sha256": "809081cbfde3466213da2436c14c6b0b05aa1b21a1f9d00e8249071640e81032",
+      "profile": "mobile",
+      "state": "transition-0.665",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 1, frame 79. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "320-transition-0.68",
+      "path": "review/320-transition-0.68.png",
+      "sha256": "d9e0c0ba411bf3618f635e8a7d023ba4961ea1841f88159f842c2ec40aad0d02",
+      "profile": "mobile",
+      "state": "transition-0.68",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 2, frame 3. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "390-closing",
+      "path": "review/390-closing.png",
+      "sha256": "9ee26f88db9bf12720436de8c501080b453c8a1a66fcc4e1de36cec46aa9d8cd",
+      "profile": "mobile",
+      "state": "closing",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Retomada gastronômica com CTA de retorno ao cardápio. Cena 2, frame 79. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "390-delivery",
+      "path": "review/390-delivery.png",
+      "sha256": "d06955ed1cc759c8a13409b033ea7b7f45548e8e90b36cf8dbb6b891d803c3e8",
+      "profile": "mobile",
+      "state": "delivery",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Aviso demonstrativo e botões com feedback local; nenhum pedido enviado. Cena 2, frame 79. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "390-entry",
+      "path": "review/390-entry.png",
+      "sha256": "8feb65d9c6d9832360ccbcea8ecd2016ce5467b75e86f5f1efd1f9806dc3ad54",
+      "profile": "mobile",
+      "state": "entry",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Identidade, título e CTA legíveis; produto focal na área superior/direita; controles separados. Cena 0, frame 0. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "390-exit",
+      "path": "review/390-exit.png",
+      "sha256": "ded8ea9bbf7200460edeafb593d81ffbc4f27caba792a3b45ebce12e99811c28",
+      "profile": "mobile",
+      "state": "exit",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Crédito demonstrativo e retorno ao início visíveis; sem contatos de hamburgueria inventados. Cena 2, frame 79. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "390-menu",
+      "path": "review/390-menu.png",
+      "sha256": "bd8b8b9bd7807d2525b47b02690de777cb7fe13431ef854e047d7253f2e9fd70",
+      "profile": "mobile",
+      "state": "menu",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Cards ilustrativos coerentes com as imagens fornecidas, sem preços ou promoções. Cena 2, frame 79. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "390-mid-0",
+      "path": "review/390-mid-0.png",
+      "sha256": "df30813edf8c245e1e3aa45d97440157e0e25660a3c06fe5844021e9601a5101",
+      "profile": "mobile",
+      "state": "mid-0",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 0, frame 45. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "390-mid-1",
+      "path": "review/390-mid-1.png",
+      "sha256": "79b036af979c38caa69439a0e95bd8276047eb528a9c56baf5e7670c9cc4e4a4",
+      "profile": "mobile",
+      "state": "mid-1",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 1, frame 45. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "390-mid-2",
+      "path": "review/390-mid-2.png",
+      "sha256": "8a944fe80a68e0e1c6bb31dc3aad1a99a997e9b8fcad11bc56d3c7b0738b0d6e",
+      "profile": "mobile",
+      "state": "mid-2",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 2, frame 45. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "390-reduced",
+      "path": "review/390-reduced.png",
+      "sha256": "73d27902c7b624073c6d9bebfe39ba8d46e4988cc20c52262203d7981c57c69a",
+      "profile": "mobile",
+      "state": "reduced",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Cabeçalho compacto e conteúdo estático sem overflow; poster proporcional. Cena estática, frame NA. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "390-scene-0",
+      "path": "review/390-scene-0.png",
+      "sha256": "48641d49919880867f73814375bbde0164be8479fd722e16ebaf5176b225c883",
+      "profile": "mobile",
+      "state": "scene-0",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 0, frame 2. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "390-scene-1",
+      "path": "review/390-scene-1.png",
+      "sha256": "64d30adc77e2f72189097a265ae6ef1ec99a11ce4b58ed9e1f29b4d840b0f929",
+      "profile": "mobile",
+      "state": "scene-1",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 1, frame 2. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "390-scene-2",
+      "path": "review/390-scene-2.png",
+      "sha256": "f3697c4909795f2fc460390359de8474bb51a849985cfcdbdfd4394c96d2b88b",
+      "profile": "mobile",
+      "state": "scene-2",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Tomada e texto inspecionados; produto preservado e proporção correta; CTA e descrição sem cortes. Cena 2, frame 2. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "390-signature",
+      "path": "review/390-signature.png",
+      "sha256": "c7196e8b94fd1f395309dae74262158ec2e9b8ed6f0140d8d91d08336659f04a",
+      "profile": "mobile",
+      "state": "signature",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Assinatura central ZMT com contato da agência separado do cliente. Cena 2, frame 79. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "390-transition-0.31",
+      "path": "review/390-transition-0.31.png",
+      "sha256": "c06f9e90d0f4d1fca00cd0361c8f236d97e9901dd9d72e56138069171febbe88",
+      "profile": "mobile",
+      "state": "transition-0.31",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 0, frame 73. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "390-transition-0.325",
+      "path": "review/390-transition-0.325.png",
+      "sha256": "e07c6597527be64f97afa816523c8b1ea9c7bd52982e28c028ae2f5ccffa4457",
+      "profile": "mobile",
+      "state": "transition-0.325",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 0, frame 77. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "390-transition-0.33",
+      "path": "review/390-transition-0.33.png",
+      "sha256": "6e6671c35bf28066ecc12bf69c5945643e3a8d1fc79afc96d2bc71fcf3495c2c",
+      "profile": "mobile",
+      "state": "transition-0.33",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 0, frame 78. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "390-transition-0.34",
+      "path": "review/390-transition-0.34.png",
+      "sha256": "b22c399463c2135be972215ce289ccbf29e602dd8265f6a3a1b14e1e16dfe3b3",
+      "profile": "mobile",
+      "state": "transition-0.34",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 1, frame 2. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "390-transition-0.64",
+      "path": "review/390-transition-0.64.png",
+      "sha256": "720282706c04e73b09d42a9d747aed95174b1503e77c4b238fbc8ea08193d0dd",
+      "profile": "mobile",
+      "state": "transition-0.64",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 1, frame 73. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "390-transition-0.655",
+      "path": "review/390-transition-0.655.png",
+      "sha256": "ebf3b4ed0738dc17e84728cd8b2ccc15c3775149040e182566e6394576d49ac1",
+      "profile": "mobile",
+      "state": "transition-0.655",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 1, frame 76. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "390-transition-0.665",
+      "path": "review/390-transition-0.665.png",
+      "sha256": "13e3a89428961ac030aa45731cbaf69c432a66d8f7763e086c53d6d0e5d2498b",
+      "profile": "mobile",
+      "state": "transition-0.665",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 1, frame 79. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    },
+    {
+      "id": "390-transition-0.68",
+      "path": "review/390-transition-0.68.png",
+      "sha256": "9e357864602b17a793955a304c4461cb0691180344680a795950325c459fa62e",
+      "profile": "mobile",
+      "state": "transition-0.68",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "inspected": true,
+      "observations": "Crossfade inspecionado: continuidade de produto/luz, sem vazios; texto desvanece na troca. Cena 2, frame 3. Fonte mobile-native. Capturas não afetadas pelas últimas mudanças de cabeçalho reduzido foram preservadas por equivalência do estado; entry/exit/reduced recapturados no build final."
+    }
+  ],
+  "checks": [
+    {
+      "id": "first-screen",
+      "profile": "mobile",
+      "status": "PASS",
+      "captureIds": [
+        "320-closing",
+        "320-delivery",
+        "320-entry",
+        "320-exit",
+        "320-menu",
+        "320-mid-0",
+        "320-mid-1",
+        "320-mid-2",
+        "320-reduced",
+        "320-scene-0",
+        "320-scene-1",
+        "320-scene-2",
+        "320-signature",
+        "320-transition-0.31",
+        "320-transition-0.325",
+        "320-transition-0.33",
+        "320-transition-0.34",
+        "320-transition-0.64",
+        "320-transition-0.655",
+        "320-transition-0.665",
+        "320-transition-0.68",
+        "390-closing",
+        "390-delivery",
+        "390-entry",
+        "390-exit",
+        "390-menu",
+        "390-mid-0",
+        "390-mid-1",
+        "390-mid-2",
+        "390-reduced",
+        "390-scene-0",
+        "390-scene-1",
+        "390-scene-2",
+        "390-signature",
+        "390-transition-0.31",
+        "390-transition-0.325",
+        "390-transition-0.33",
+        "390-transition-0.34",
+        "390-transition-0.64",
+        "390-transition-0.655",
+        "390-transition-0.665",
+        "390-transition-0.68"
+      ],
+      "notes": "Proposta e exploração claras nas duas larguras mobile e desktop."
+    },
+    {
+      "id": "framing",
+      "profile": "mobile",
+      "status": "PASS",
+      "captureIds": [
+        "320-closing",
+        "320-delivery",
+        "320-entry",
+        "320-exit",
+        "320-menu",
+        "320-mid-0",
+        "320-mid-1",
+        "320-mid-2",
+        "320-reduced",
+        "320-scene-0",
+        "320-scene-1",
+        "320-scene-2",
+        "320-signature",
+        "320-transition-0.31",
+        "320-transition-0.325",
+        "320-transition-0.33",
+        "320-transition-0.34",
+        "320-transition-0.64",
+        "320-transition-0.655",
+        "320-transition-0.665",
+        "320-transition-0.68",
+        "390-closing",
+        "390-delivery",
+        "390-entry",
+        "390-exit",
+        "390-menu",
+        "390-mid-0",
+        "390-mid-1",
+        "390-mid-2",
+        "390-reduced",
+        "390-scene-0",
+        "390-scene-1",
+        "390-scene-2",
+        "390-signature",
+        "390-transition-0.31",
+        "390-transition-0.325",
+        "390-transition-0.33",
+        "390-transition-0.34",
+        "390-transition-0.64",
+        "390-transition-0.655",
+        "390-transition-0.665",
+        "390-transition-0.68"
+      ],
+      "notes": "Bun/ingredientes/chapa avaliados em início/meio/transições; close já presente nas mídias, sem distorção."
+    },
+    {
+      "id": "typography",
+      "profile": "mobile",
+      "status": "PASS",
+      "captureIds": [
+        "320-closing",
+        "320-delivery",
+        "320-entry",
+        "320-exit",
+        "320-menu",
+        "320-mid-0",
+        "320-mid-1",
+        "320-mid-2",
+        "320-reduced",
+        "320-scene-0",
+        "320-scene-1",
+        "320-scene-2",
+        "320-signature",
+        "320-transition-0.31",
+        "320-transition-0.325",
+        "320-transition-0.33",
+        "320-transition-0.34",
+        "320-transition-0.64",
+        "320-transition-0.655",
+        "320-transition-0.665",
+        "320-transition-0.68",
+        "390-closing",
+        "390-delivery",
+        "390-entry",
+        "390-exit",
+        "390-menu",
+        "390-mid-0",
+        "390-mid-1",
+        "390-mid-2",
+        "390-reduced",
+        "390-scene-0",
+        "390-scene-1",
+        "390-scene-2",
+        "390-signature",
+        "390-transition-0.31",
+        "390-transition-0.325",
+        "390-transition-0.33",
+        "390-transition-0.34",
+        "390-transition-0.64",
+        "390-transition-0.655",
+        "390-transition-0.665",
+        "390-transition-0.68"
+      ],
+      "notes": "Título, descrição e CTA mantidos; espaços explícitos no título e contraste local."
+    },
+    {
+      "id": "transitions",
+      "profile": "mobile",
+      "status": "PASS",
+      "captureIds": [
+        "320-closing",
+        "320-delivery",
+        "320-entry",
+        "320-exit",
+        "320-menu",
+        "320-mid-0",
+        "320-mid-1",
+        "320-mid-2",
+        "320-reduced",
+        "320-scene-0",
+        "320-scene-1",
+        "320-scene-2",
+        "320-signature",
+        "320-transition-0.31",
+        "320-transition-0.325",
+        "320-transition-0.33",
+        "320-transition-0.34",
+        "320-transition-0.64",
+        "320-transition-0.655",
+        "320-transition-0.665",
+        "320-transition-0.68",
+        "390-closing",
+        "390-delivery",
+        "390-entry",
+        "390-exit",
+        "390-menu",
+        "390-mid-0",
+        "390-mid-1",
+        "390-mid-2",
+        "390-reduced",
+        "390-scene-0",
+        "390-scene-1",
+        "390-scene-2",
+        "390-signature",
+        "390-transition-0.31",
+        "390-transition-0.325",
+        "390-transition-0.33",
+        "390-transition-0.34",
+        "390-transition-0.64",
+        "390-transition-0.655",
+        "390-transition-0.665",
+        "390-transition-0.68"
+      ],
+      "notes": "Adjacências .31 a .34 e .64 a .68 observadas em ida e volta. Crossfade sem branco/preto vazio."
+    },
+    {
+      "id": "scroll",
+      "profile": "mobile",
+      "status": "PASS",
+      "captureIds": [
+        "320-closing",
+        "320-delivery",
+        "320-entry",
+        "320-exit",
+        "320-menu",
+        "320-mid-0",
+        "320-mid-1",
+        "320-mid-2",
+        "320-reduced",
+        "320-scene-0",
+        "320-scene-1",
+        "320-scene-2",
+        "320-signature",
+        "320-transition-0.31",
+        "320-transition-0.325",
+        "320-transition-0.33",
+        "320-transition-0.34",
+        "320-transition-0.64",
+        "320-transition-0.655",
+        "320-transition-0.665",
+        "320-transition-0.68",
+        "390-closing",
+        "390-delivery",
+        "390-entry",
+        "390-exit",
+        "390-menu",
+        "390-mid-0",
+        "390-mid-1",
+        "390-mid-2",
+        "390-reduced",
+        "390-scene-0",
+        "390-scene-1",
+        "390-scene-2",
+        "390-signature",
+        "390-transition-0.31",
+        "390-transition-0.325",
+        "390-transition-0.33",
+        "390-transition-0.34",
+        "390-transition-0.64",
+        "390-transition-0.655",
+        "390-transition-0.665",
+        "390-transition-0.68"
+      ],
+      "notes": "Scroll nativo, retorno e convergência; invariantes de altura/orientação e canvas passaram. Medições sob CPU4 têm atraso e não certificam apresentação física.",
+      "dynamicEvidence": {
+        "path": "browser-regression/browser-report.json",
+        "sha256": "7ef2a3a8c6fb78aae1733bcce537f9ce4d2d34e2a5a3571faabb10ae989a5d90"
+      }
+    },
+    {
+      "id": "conversion",
+      "profile": "mobile",
+      "status": "PASS",
+      "captureIds": [
+        "320-closing",
+        "320-delivery",
+        "320-entry",
+        "320-exit",
+        "320-menu",
+        "320-mid-0",
+        "320-mid-1",
+        "320-mid-2",
+        "320-reduced",
+        "320-scene-0",
+        "320-scene-1",
+        "320-scene-2",
+        "320-signature",
+        "320-transition-0.31",
+        "320-transition-0.325",
+        "320-transition-0.33",
+        "320-transition-0.34",
+        "320-transition-0.64",
+        "320-transition-0.655",
+        "320-transition-0.665",
+        "320-transition-0.68",
+        "390-closing",
+        "390-delivery",
+        "390-entry",
+        "390-exit",
+        "390-menu",
+        "390-mid-0",
+        "390-mid-1",
+        "390-mid-2",
+        "390-reduced",
+        "390-scene-0",
+        "390-scene-1",
+        "390-scene-2",
+        "390-signature",
+        "390-transition-0.31",
+        "390-transition-0.325",
+        "390-transition-0.33",
+        "390-transition-0.34",
+        "390-transition-0.64",
+        "390-transition-0.655",
+        "390-transition-0.665",
+        "390-transition-0.68"
+      ],
+      "notes": "Âncoras e botões locais testados; ZMT verificada por href, sem envio de mensagem real."
+    },
+    {
+      "id": "footer",
+      "profile": "mobile",
+      "status": "PASS",
+      "captureIds": [
+        "320-closing",
+        "320-delivery",
+        "320-entry",
+        "320-exit",
+        "320-menu",
+        "320-mid-0",
+        "320-mid-1",
+        "320-mid-2",
+        "320-reduced",
+        "320-scene-0",
+        "320-scene-1",
+        "320-scene-2",
+        "320-signature",
+        "320-transition-0.31",
+        "320-transition-0.325",
+        "320-transition-0.33",
+        "320-transition-0.34",
+        "320-transition-0.64",
+        "320-transition-0.655",
+        "320-transition-0.665",
+        "320-transition-0.68",
+        "390-closing",
+        "390-delivery",
+        "390-entry",
+        "390-exit",
+        "390-menu",
+        "390-mid-0",
+        "390-mid-1",
+        "390-mid-2",
+        "390-reduced",
+        "390-scene-0",
+        "390-scene-1",
+        "390-scene-2",
+        "390-signature",
+        "390-transition-0.31",
+        "390-transition-0.325",
+        "390-transition-0.33",
+        "390-transition-0.34",
+        "390-transition-0.64",
+        "390-transition-0.655",
+        "390-transition-0.665",
+        "390-transition-0.68"
+      ],
+      "notes": "Aviso demonstrativo, ZMT e link funcional presentes; assinatura central separada."
+    },
+    {
+      "id": "responsive-accessibility",
+      "profile": "mobile",
+      "status": "PASS",
+      "captureIds": [
+        "320-closing",
+        "320-delivery",
+        "320-entry",
+        "320-exit",
+        "320-menu",
+        "320-mid-0",
+        "320-mid-1",
+        "320-mid-2",
+        "320-reduced",
+        "320-scene-0",
+        "320-scene-1",
+        "320-scene-2",
+        "320-signature",
+        "320-transition-0.31",
+        "320-transition-0.325",
+        "320-transition-0.33",
+        "320-transition-0.34",
+        "320-transition-0.64",
+        "320-transition-0.655",
+        "320-transition-0.665",
+        "320-transition-0.68",
+        "390-closing",
+        "390-delivery",
+        "390-entry",
+        "390-exit",
+        "390-menu",
+        "390-mid-0",
+        "390-mid-1",
+        "390-mid-2",
+        "390-reduced",
+        "390-scene-0",
+        "390-scene-1",
+        "390-scene-2",
+        "390-signature",
+        "390-transition-0.31",
+        "390-transition-0.325",
+        "390-transition-0.33",
+        "390-transition-0.34",
+        "390-transition-0.64",
+        "390-transition-0.655",
+        "390-transition-0.665",
+        "390-transition-0.68"
+      ],
+      "notes": "Matriz automatizada passou; final reduced-motion sem overflow ou sobreposição de cabeçalho. Limitação de aparelhos físicos explícita."
+    },
+    {
+      "id": "first-screen",
+      "profile": "desktop",
+      "status": "PASS",
+      "captureIds": [
+        "1440-closing",
+        "1440-delivery",
+        "1440-entry",
+        "1440-exit",
+        "1440-menu",
+        "1440-mid-0",
+        "1440-mid-1",
+        "1440-mid-2",
+        "1440-reduced",
+        "1440-scene-0",
+        "1440-scene-1",
+        "1440-scene-2",
+        "1440-signature",
+        "1440-transition-0.31",
+        "1440-transition-0.325",
+        "1440-transition-0.33",
+        "1440-transition-0.34",
+        "1440-transition-0.64",
+        "1440-transition-0.655",
+        "1440-transition-0.665",
+        "1440-transition-0.68"
+      ],
+      "notes": "Proposta e exploração claras nas duas larguras mobile e desktop."
+    },
+    {
+      "id": "framing",
+      "profile": "desktop",
+      "status": "PASS",
+      "captureIds": [
+        "1440-closing",
+        "1440-delivery",
+        "1440-entry",
+        "1440-exit",
+        "1440-menu",
+        "1440-mid-0",
+        "1440-mid-1",
+        "1440-mid-2",
+        "1440-reduced",
+        "1440-scene-0",
+        "1440-scene-1",
+        "1440-scene-2",
+        "1440-signature",
+        "1440-transition-0.31",
+        "1440-transition-0.325",
+        "1440-transition-0.33",
+        "1440-transition-0.34",
+        "1440-transition-0.64",
+        "1440-transition-0.655",
+        "1440-transition-0.665",
+        "1440-transition-0.68"
+      ],
+      "notes": "Bun/ingredientes/chapa avaliados em início/meio/transições; close já presente nas mídias, sem distorção."
+    },
+    {
+      "id": "typography",
+      "profile": "desktop",
+      "status": "PASS",
+      "captureIds": [
+        "1440-closing",
+        "1440-delivery",
+        "1440-entry",
+        "1440-exit",
+        "1440-menu",
+        "1440-mid-0",
+        "1440-mid-1",
+        "1440-mid-2",
+        "1440-reduced",
+        "1440-scene-0",
+        "1440-scene-1",
+        "1440-scene-2",
+        "1440-signature",
+        "1440-transition-0.31",
+        "1440-transition-0.325",
+        "1440-transition-0.33",
+        "1440-transition-0.34",
+        "1440-transition-0.64",
+        "1440-transition-0.655",
+        "1440-transition-0.665",
+        "1440-transition-0.68"
+      ],
+      "notes": "Título, descrição e CTA mantidos; espaços explícitos no título e contraste local."
+    },
+    {
+      "id": "transitions",
+      "profile": "desktop",
+      "status": "PASS",
+      "captureIds": [
+        "1440-closing",
+        "1440-delivery",
+        "1440-entry",
+        "1440-exit",
+        "1440-menu",
+        "1440-mid-0",
+        "1440-mid-1",
+        "1440-mid-2",
+        "1440-reduced",
+        "1440-scene-0",
+        "1440-scene-1",
+        "1440-scene-2",
+        "1440-signature",
+        "1440-transition-0.31",
+        "1440-transition-0.325",
+        "1440-transition-0.33",
+        "1440-transition-0.34",
+        "1440-transition-0.64",
+        "1440-transition-0.655",
+        "1440-transition-0.665",
+        "1440-transition-0.68"
+      ],
+      "notes": "Adjacências .31 a .34 e .64 a .68 observadas em ida e volta. Crossfade sem branco/preto vazio."
+    },
+    {
+      "id": "scroll",
+      "profile": "desktop",
+      "status": "PASS",
+      "captureIds": [
+        "1440-closing",
+        "1440-delivery",
+        "1440-entry",
+        "1440-exit",
+        "1440-menu",
+        "1440-mid-0",
+        "1440-mid-1",
+        "1440-mid-2",
+        "1440-reduced",
+        "1440-scene-0",
+        "1440-scene-1",
+        "1440-scene-2",
+        "1440-signature",
+        "1440-transition-0.31",
+        "1440-transition-0.325",
+        "1440-transition-0.33",
+        "1440-transition-0.34",
+        "1440-transition-0.64",
+        "1440-transition-0.655",
+        "1440-transition-0.665",
+        "1440-transition-0.68"
+      ],
+      "notes": "Scroll nativo, retorno e convergência; invariantes de altura/orientação e canvas passaram. Medições sob CPU4 têm atraso e não certificam apresentação física.",
+      "dynamicEvidence": {
+        "path": "browser-regression/browser-report.json",
+        "sha256": "7ef2a3a8c6fb78aae1733bcce537f9ce4d2d34e2a5a3571faabb10ae989a5d90"
+      }
+    },
+    {
+      "id": "conversion",
+      "profile": "desktop",
+      "status": "PASS",
+      "captureIds": [
+        "1440-closing",
+        "1440-delivery",
+        "1440-entry",
+        "1440-exit",
+        "1440-menu",
+        "1440-mid-0",
+        "1440-mid-1",
+        "1440-mid-2",
+        "1440-reduced",
+        "1440-scene-0",
+        "1440-scene-1",
+        "1440-scene-2",
+        "1440-signature",
+        "1440-transition-0.31",
+        "1440-transition-0.325",
+        "1440-transition-0.33",
+        "1440-transition-0.34",
+        "1440-transition-0.64",
+        "1440-transition-0.655",
+        "1440-transition-0.665",
+        "1440-transition-0.68"
+      ],
+      "notes": "Âncoras e botões locais testados; ZMT verificada por href, sem envio de mensagem real."
+    },
+    {
+      "id": "footer",
+      "profile": "desktop",
+      "status": "PASS",
+      "captureIds": [
+        "1440-closing",
+        "1440-delivery",
+        "1440-entry",
+        "1440-exit",
+        "1440-menu",
+        "1440-mid-0",
+        "1440-mid-1",
+        "1440-mid-2",
+        "1440-reduced",
+        "1440-scene-0",
+        "1440-scene-1",
+        "1440-scene-2",
+        "1440-signature",
+        "1440-transition-0.31",
+        "1440-transition-0.325",
+        "1440-transition-0.33",
+        "1440-transition-0.34",
+        "1440-transition-0.64",
+        "1440-transition-0.655",
+        "1440-transition-0.665",
+        "1440-transition-0.68"
+      ],
+      "notes": "Aviso demonstrativo, ZMT e link funcional presentes; assinatura central separada."
+    },
+    {
+      "id": "responsive-accessibility",
+      "profile": "desktop",
+      "status": "PASS",
+      "captureIds": [
+        "1440-closing",
+        "1440-delivery",
+        "1440-entry",
+        "1440-exit",
+        "1440-menu",
+        "1440-mid-0",
+        "1440-mid-1",
+        "1440-mid-2",
+        "1440-reduced",
+        "1440-scene-0",
+        "1440-scene-1",
+        "1440-scene-2",
+        "1440-signature",
+        "1440-transition-0.31",
+        "1440-transition-0.325",
+        "1440-transition-0.33",
+        "1440-transition-0.34",
+        "1440-transition-0.64",
+        "1440-transition-0.655",
+        "1440-transition-0.665",
+        "1440-transition-0.68"
+      ],
+      "notes": "Matriz automatizada passou; final reduced-motion sem overflow ou sobreposição de cabeçalho. Limitação de aparelhos físicos explícita."
+    }
+  ],
+  "limitations": [
+    {
+      "criterion": "physical-browser-chrome",
+      "status": "PENDING",
+      "reason": "Sem Android físico: barras reais, GPU, toque e pressão de memória não certificados."
+    },
+    {
+      "criterion": "physical-browser-safari-ios",
+      "status": "PENDING",
+      "reason": "Sem iPhone/iPad físico ou Safari iOS; nenhuma equivalência alegada com Chromium."
+    },
+    {
+      "criterion": "slow-network-stress",
+      "status": "UNVERIFIED",
+      "reason": "Injeção artificial de 150ms por quadro produziu atraso elevado; não há garantia de fluidez nesse cenário."
+    }
+  ]
+}
