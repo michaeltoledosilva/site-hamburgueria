@@ -7,7 +7,7 @@ import NextImage from 'next/image';
 import {scenes,framesPerScene,scrollPerScene} from '@/data/scenes';
 import {site} from '@/config/site';
 import {createRenderScheduler} from './renderScheduler';
-import {bitmapGeometry,type BitmapGeometry} from './viewportGeometry';
+import {bitmapGeometry,framePlacement,type BitmapGeometry} from './viewportGeometry';
 import {FrameLoader,frameUrl,type Frame} from './frameLoader';
 gsap.registerPlugin(ScrollTrigger,useGSAP);
 export default function Experience(){
@@ -37,10 +37,10 @@ export default function Experience(){
    const requestDraw=()=>scheduler.request();
    const testQuery=params.has('perf')&&params.has('trial')?new URLSearchParams({trial:params.get('trial')!,qaDelay:params.get('delay')||'0',profile:params.get('profile')||'native'}).toString():'';
    const loader=new FrameLoader(mobile&&matchMedia('(max-aspect-ratio: 1/1)').matches,requestDraw,params.has('perf')&&['2','3','4'].includes(params.get('loads')||'')?Number(params.get('loads')):3,testQuery,mobile,params.has('perf')&&params.get('decode')==='html'?'html':'bitmap',params.has('perf'),!(params.has('perf')&&params.get('transport')==='files'));
-   function paint(frame:Frame,scene:number,alpha:number){const w=surface.width,h=surface.height,scale=Math.max(w/frame.width,h/frame.height),dw=frame.width*scale,dh=frame.height*scale;ctx!.globalAlpha=alpha;ctx!.drawImage(frame.image,(w-dw)*.5,(h-dh)*(mobile?.2:.5),dw,dh);}
+   function paint(frame:Frame,scene:number,alpha:number){const w=surface.width,h=surface.height,p=framePlacement(w,h,frame.width,frame.height,mobile);if(p.contained&&alpha===1){ctx!.globalAlpha=1;ctx!.fillStyle='#100e0c';ctx!.fillRect(0,0,w,h);}ctx!.globalAlpha=alpha;ctx!.drawImage(frame.image,p.x,p.y,p.width,p.height);if(params.has('perf'))surface.dataset.fit=p.contained?'contain':'cover';}
    function draw(){
     if(disposed||simple)return;
-    if(lite){const s=Math.min(lastScene,Math.floor(position)),local=position-s,blend=s<lastScene?gsap.utils.clamp(0,1,(local-.8)/.2):0;const shown=ready.has(s)?s:Math.max(0,...Array.from(ready).filter(i=>i<=s));layers.forEach((layer,i)=>{const opacity=i===shown?1:(i===s+1&&ready.has(i)?blend:0);if(layer.style.opacity!==String(opacity))layer.style.opacity=String(opacity);if(i===shown||i===s+1)layer.style.transform=`translate3d(0,${-local*7}px,0) scale(${1.015+local*.012})`;});surface.dataset.scene=String(s);surface.dataset.frame='0';surface.dataset.targetFrame='0';surface.dataset.engine='lite-css';surface.dataset.posterScene=String(shown);surface.dataset.postersReady=String(ready.size);surface.dataset.loader=JSON.stringify({decodedFrames:ready.size,requests:0,budget:0});return;}
+    if(lite){const s=Math.min(lastScene,Math.floor(position)),local=position-s,blend=s<lastScene?gsap.utils.clamp(0,1,(local-.8)/.2):0;const shown=ready.has(s)?s:Math.max(0,...Array.from(ready).filter(i=>i<=s));layers.forEach((layer,i)=>{const opacity=i===shown?1:(i===s+1&&ready.has(i)?blend:0);if(layer.style.opacity!==String(opacity))layer.style.opacity=String(opacity);if(i===shown||i===s+1)layer.style.transform=mobile&&matchMedia("(max-aspect-ratio: 1/1)").matches?"none":`translate3d(0,${-local*7}px,0) scale(${1.015+local*.012})`;});surface.dataset.scene=String(s);surface.dataset.frame='0';surface.dataset.targetFrame='0';surface.dataset.engine='lite-css';surface.dataset.posterScene=String(shown);surface.dataset.postersReady=String(ready.size);surface.dataset.loader=JSON.stringify({decodedFrames:ready.size,requests:0,budget:0});return;}
     if(params.has('perf'))surface.dataset.loader=JSON.stringify(loader.stats());
     const scene=Math.min(lastScene,Math.floor(position)),local=position-scene,index=frameAt(local),next=Math.min(lastScene,scene+1),blend=scene<lastScene?gsap.utils.clamp(0,1,(local-.87)/.13):0;
     let frame=loader.get(scene,index);if(!frame&&surface.dataset.scene!==String(scene))frame=loader.get(scene,0,0);

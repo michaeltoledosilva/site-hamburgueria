@@ -15,3 +15,10 @@ footer p{display:block;max-width:330px}footer p a{text-decoration:underline;text
 .scene-copy h1,.scene-copy h2,.scene-copy p,.scene-copy .eyebrow,.scene-note,
 .final-scene h2,.final-scene .eyebrow,.final-scene p{ text-shadow:0 2px 4px #000,1px 0 2px #000 }
 .site-header,.cinema-bottom,.skip-animation,.experience-toggle{ text-shadow:0 1px 5px #000 }
+/* Match the initial poster and fallback to the complete portrait canvas frame. */
+@media(max-aspect-ratio:1/1){
+ .experience .scene-backdrop{background-size:contain;background-position:center top;background-repeat:no-repeat;background-color:#100e0c}
+ .experience .lite-picture{inset:0}
+ .experience .lite-picture img{object-fit:contain;object-position:center top;background:#100e0c}
+ .static-mode .static-poster{object-fit:contain}
+}

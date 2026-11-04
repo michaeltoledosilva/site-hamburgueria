@@ -36,3 +36,5 @@ As suítes de navegador usam o Playwright já disponível neste computador e Edg
 Consulte LATENCIA.md para a revisão atual, e ENTREGA.md/PUBLICACAO.md para o histórico inicial. Fonte no GitHub em `michaeltoledosilva/site-hamburgueria`, branch `master`. Prévia noindex; domínio/canonical/sitemap e canais comerciais pendentes. Nenhuma hospedagem é criada automaticamente.
 
 `npm run build` também gera e verifica os pacotes binários a partir dos WebPs existentes. Os arquivos individuais continuam disponíveis como fallback. As cores das mídias são preservadas: o gradiente de escurecimento foi removido; há sombra somente nos textos.
+
+O mobile preserva o quadro vertical completo, sem o recorte adicional do canvas. Consulte ENQUADRAMENTO.md; `node scripts/qa-mobile-framing.mjs` verifica as fontes e os perfis no navegador.

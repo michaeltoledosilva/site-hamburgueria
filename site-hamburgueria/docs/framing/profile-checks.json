@@ -1,0 +1,131 @@
+{
+  "environment": "Edge headless Chromium, emulated viewport; not physical Android/iOS",
+  "rows": [
+    {
+      "width": 320,
+      "height": 568,
+      "scene": 0,
+      "fit": "contain",
+      "source": [
+        "720",
+        "1280"
+      ],
+      "frame": "2",
+      "overflow": false,
+      "desktopRequests": 0,
+      "shade": "none"
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "scene": 1,
+      "fit": "contain",
+      "source": [
+        "720",
+        "1280"
+      ],
+      "frame": "2",
+      "overflow": false,
+      "desktopRequests": 0,
+      "shade": "none"
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "scene": 2,
+      "fit": "contain",
+      "source": [
+        "720",
+        "1280"
+      ],
+      "frame": "2",
+      "overflow": false,
+      "desktopRequests": 0,
+      "shade": "none"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scene": 0,
+      "fit": "contain",
+      "source": [
+        "720",
+        "1280"
+      ],
+      "frame": "2",
+      "overflow": false,
+      "desktopRequests": 0,
+      "shade": "none"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scene": 1,
+      "fit": "contain",
+      "source": [
+        "720",
+        "1280"
+      ],
+      "frame": "2",
+      "overflow": false,
+      "desktopRequests": 0,
+      "shade": "none"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scene": 2,
+      "fit": "contain",
+      "source": [
+        "720",
+        "1280"
+      ],
+      "frame": "0",
+      "overflow": false,
+      "desktopRequests": 0,
+      "shade": "none"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "scene": 0,
+      "fit": "cover",
+      "source": [
+        "1920",
+        "1080"
+      ],
+      "frame": "2",
+      "overflow": false,
+      "desktopRequests": 11,
+      "shade": "none"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "scene": 1,
+      "fit": "cover",
+      "source": [
+        "1920",
+        "1080"
+      ],
+      "frame": "0",
+      "overflow": false,
+      "desktopRequests": 12,
+      "shade": "none"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "scene": 2,
+      "fit": "cover",
+      "source": [
+        "1920",
+        "1080"
+      ],
+      "frame": "2",
+      "overflow": false,
+      "desktopRequests": 19,
+      "shade": "none"
+    }
+  ]
+}

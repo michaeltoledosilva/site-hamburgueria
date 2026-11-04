@@ -1,0 +1,46 @@
+{
+  "buildId": "Pdy7j4aCvxgyh6szSrOQ8",
+  "method": "Lighthouse local loopback, simulated throttling; not physical devices or field measurements. Mobile target 85 not reached in these samples; animation transport unchanged.",
+  "runs": [
+    {
+      "profile": "mobile",
+      "fetchTime": "2026-11-04T00:01:31.534Z",
+      "scores": {
+        "performance": 80,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "lcpMs": 4932.4012999999995,
+      "cls": 0.06593617632642335,
+      "tbtMs": 108
+    },
+    {
+      "profile": "mobile",
+      "fetchTime": "2026-11-04T10:57:39.439Z",
+      "scores": {
+        "performance": 75,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66,
+        "agentic-browsing": 99
+      },
+      "lcpMs": 5668.2124,
+      "cls": 0.06593617632642335,
+      "tbtMs": 198.5
+    },
+    {
+      "profile": "desktop",
+      "fetchTime": "2026-11-04T00:01:52.904Z",
+      "scores": {
+        "performance": 95,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "lcpMs": 1526.9032750000001,
+      "cls": 0.002568882172893494,
+      "tbtMs": 3
+    }
+  ]
+}

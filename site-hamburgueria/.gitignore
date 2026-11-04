@@ -19,3 +19,4 @@ docs/browser-regression/
 docs/latency/*.png
 docs/latency/lighthouse-*.json
 public/media/**/packs/
+docs/framing/lighthouse-*.json

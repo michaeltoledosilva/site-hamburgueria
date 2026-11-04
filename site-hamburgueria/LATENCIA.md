@@ -1,5 +1,7 @@
 # Revisão de latência e cores — BRASA BURGER
 
+> Medições da revisão `4f50011`. O ajuste posterior do recorte mobile está descrito em ENQUADRAMENTO.md; ele mantém as fontes verticais, as cores e o motor de carregamento.
+
 As mídias agora aparecem sem o gradiente de escurecimento. Não foi aplicado aumento artificial de saturação nem nova recompressão: os WebPs existentes e os originais fornecidos foram preservados. A leitura usa sombra nos textos. Hero, chapa, montagem e encerramento foram revisados visualmente em mobile e desktop.
 
 ## Causas corrigidas
